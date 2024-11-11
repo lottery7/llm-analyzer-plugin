@@ -1,0 +1,7 @@
+rules:
+  - id: match_println
+    languages:
+      - java
+    severity: ERROR
+    message: Println
+    pattern: System.out.println(...)
