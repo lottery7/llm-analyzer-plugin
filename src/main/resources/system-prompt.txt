@@ -1,0 +1,14 @@
+Perform the JAVA code analysis and find weaknesses. Use Common Weakness Enumeration (CWE) to identify them. Answer in the following JSON format:
+{
+    "result": [
+        {
+            "region": {
+                "start-line":  NUMBER,
+                "end-line": NUMBER
+            },
+            "CWE": NUMBER,
+            "description": STRING (explain problem in 1 sentence)
+        },
+        ...
+    ]
+}

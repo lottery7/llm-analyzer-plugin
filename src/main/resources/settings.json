@@ -1,0 +1,6 @@
+{
+  "apiKey": "",
+  "baseUrl": "https://api.groq.com/openai/v1/",
+  "model": "llama3-70b-8192",
+  "dockerHost": "tcp://localhost:2375"
+}

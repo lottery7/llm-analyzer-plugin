@@ -48,4 +48,22 @@ tasks {
 
 dependencies {
     implementation("com.google.code.gson:gson:2.11.0")
+
+    compileOnly("org.projectlombok:lombok:1.18.36")
+    annotationProcessor("org.projectlombok:lombok:1.18.36")
+
+    implementation("com.github.docker-java:docker-java:3.4.1") {
+        exclude(group = "org.slf4j", module = "jcl-over-slf4j")
+        exclude(group = "org.slf4j", module = "slf4j-api")
+    }
+
+    implementation("io.github.lambdua:api:0.22.8") {
+        exclude(group = "org.slf4j", module = "slf4j-api")
+    }
+    implementation("io.github.lambdua:client:0.22.8") {
+        exclude(group = "org.slf4j", module = "slf4j-api")
+    }
+    implementation("io.github.lambdua:service:0.22.8") {
+        exclude(group = "org.slf4j", module = "slf4j-api")
+    }
 }

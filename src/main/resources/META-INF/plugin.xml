@@ -5,17 +5,16 @@
 
     <!-- Public plugin name should be written in Title Case.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
-    <name>Llm-analyzer-plugin</name>
+    <name>LLM Analyzer</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">lotterydev</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
          Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+    Perform code analysis with LLM. Or semgrep. Or pvs-studio, if you want it. Be sure to have docker installed.
   ]]></description>
 
     <!-- Product and plugin compatibility requirements.
@@ -25,13 +24,29 @@
     <!-- Extension points defined by the plugin.
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
-
     </extensions>
+
     <actions>
-        <action id="com.lotterydev.plugin.PopUpDialogAction"
-                class="com.lotterydev.plugin.PopUpDialogAction" text="Pop up dialog action"
-                description="Action example">
-            <add-to-group group-id="ToolsMenu" anchor="first"/>
-        </action>
+        <!--        <action id="com.lotterydev.plugin.AnalyzeCodeAction" class="com.lotterydev.plugin.AnalyzeCodeAction"-->
+        <!--                text="Analyze Code with LLM"-->
+        <!--                description="Static code analyzer which uses llm under the hood">-->
+        <!--            <add-to-group group-id="ProjectViewPopupMenu" anchor="before" relative-to-action="AnalyzeMenu"/>-->
+        <!--        </action>-->
+        <group id="AnalyzeCodeWithLLMGroup" text="Analyze Code" popup="true">
+            <add-to-group group-id="ProjectViewPopupMenu" anchor="before" relative-to-action="AnalyzeMenu"/>
+
+            <action id="AnalyzeOption1" class="com.lotterydev.plugin.AnalyzeCodeAction"
+                    text="LLM"
+                    description="Static code analysis with LLM">
+            </action>
+            <action id="AnalyzeOption2" class="com.lotterydev.plugin.AnalyzeCodeAction"
+                    text="Semgrep"
+                    description="Static code analysis with Semgrep">
+            </action>
+            <action id="AnalyzeOption3" class="com.lotterydev.plugin.AnalyzeCodeAction"
+                    text="PVS Studio"
+                    description="Static code analysis with PVS Studio">
+            </action>
+        </group>
     </actions>
 </idea-plugin>
