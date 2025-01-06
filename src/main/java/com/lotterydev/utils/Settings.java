@@ -21,6 +21,9 @@ public class Settings {
     @Getter
     private static final String dockerHost;
 
+    @Getter
+    private static final PvsStudioLicense pvsStudioLicense;
+
     static {
         try (Reader reader = new InputStreamReader(Resources.getResourceInputStream("settings.json"))) {
             Gson gson = new Gson();
@@ -30,6 +33,7 @@ public class Settings {
             baseUrl = config.getBaseUrl();
             model = config.getModel();
             dockerHost = config.getDockerHost();
+            pvsStudioLicense = config.getPvsStudioLicense();
         } catch (Exception e) {
             throw new RuntimeException(
                     "Failed to load or parse configuration file (settings.json): " + e.getMessage(), e);
@@ -43,5 +47,12 @@ public class Settings {
         private String baseUrl;
         private String model;
         private String dockerHost;
+        private PvsStudioLicense pvsStudioLicense;
+    }
+
+    @Data
+    public static class PvsStudioLicense {
+        private String userName;
+        private String licenseKey;
     }
 }

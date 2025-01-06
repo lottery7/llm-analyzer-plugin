@@ -2,6 +2,7 @@ package com.lotterydev.analyzer.impl;
 
 import com.lotterydev.analyzer.AbstractDockerCLIAnalyzer;
 import com.lotterydev.utils.Docker;
+import com.lotterydev.utils.Settings;
 
 import java.io.IOException;
 import java.util.List;
@@ -31,9 +32,9 @@ public class PVSStudioAnalyzer extends AbstractDockerCLIAnalyzer {
         String resultFilename = "pvs-studio-result.json";
         String resultFilePath = String.format("%s/%s", resultsRoot, resultFilename);
 
-        // TODO move license to settings
         return List.of("java", "-jar", "/opt/pvs-studio-java/7.34.87460/pvs-studio.jar",
-                "--license-key", "FREE-FREE-FREE-FREE", "--user-name", "PVS-Studio Free",
+                "--license-key", Settings.getPvsStudioLicense().getLicenseKey(),
+                "--user-name", Settings.getPvsStudioLicense().getUserName(),
                 "-s", projectRoot, "-o", resultFilePath, "-O", "json", "--disable-cache");
     }
 
