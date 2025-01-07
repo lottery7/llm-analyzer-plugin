@@ -2,6 +2,7 @@ package com.lotterydev.analyzer;
 
 import com.github.dockerjava.api.command.CreateContainerResponse;
 import com.github.dockerjava.api.command.WaitContainerResultCallback;
+import com.github.dockerjava.api.exception.NotFoundException;
 import com.github.dockerjava.api.model.Bind;
 import com.github.dockerjava.api.model.HostConfig;
 import com.github.dockerjava.api.model.Volume;
@@ -17,8 +18,8 @@ public abstract class AbstractDockerCLIAnalyzer implements StaticCodeAnalyzer {
 
     @Override
     public void analyzeFile(Path filePath, Path resultsRootPath) {
-        String containerProjectRoot = String.format("/project/%s", filePath.getFileName());
-        String containerResultsRoot = "/results";
+        String containerProjectRoot = String.format("/opt/src/%s", filePath.getFileName());
+        String containerResultsRoot = "/opt/results";
 
         Volume projectVolume = new Volume(containerProjectRoot);
         Bind projectBind = new Bind(filePath.toString(), projectVolume);
@@ -30,12 +31,18 @@ public abstract class AbstractDockerCLIAnalyzer implements StaticCodeAnalyzer {
                 .withBinds(projectBind, resultsBind)
                 .withAutoRemove(true);
 
-        CreateContainerResponse container = Docker.dockerClient()
-                .createContainerCmd(getImageTag())
-                .withWorkingDir("/project")
-                .withHostConfig(hostConfig)
-                .withCmd(getCLICommand(containerProjectRoot, containerResultsRoot))
-                .exec();
+        CreateContainerResponse container;
+        try {
+            container = Docker.dockerClient()
+                    .createContainerCmd(getImageTag())
+                    .withWorkingDir("/project")
+                    .withHostConfig(hostConfig)
+                    .withCmd(getCLICommand(containerProjectRoot, containerResultsRoot))
+                    .exec();
+        } catch (NotFoundException e) {
+            throw new RuntimeException("Cannot find image with tag \"" + getImageTag() +
+                    "\". Please, check README for instructions.");
+        }
 
         Docker.dockerClient().startContainerCmd(container.getId()).exec();
 

@@ -67,9 +67,8 @@ RUN apt-get clean && apt-get autoremove
 
 # Install CodeQL
 USER ${USERNAME}
-ARG CODEQLVER=2.20.1
 RUN cd /tmp && \
-    curl -OL https://github.com/github/codeql-action/releases/download/codeql-bundle-v${CODEQLVER}/codeql-bundle-linux64.tar.gz && \
+    curl -OL https://github.com/github/codeql-action/releases/download/codeql-bundle-v2.20.0/codeql-bundle-linux64.tar.gz && \
     tar -xvf /tmp/codeql-bundle-linux64.tar.gz --directory ${CODEQL_HOME} && \
     rm /tmp/codeql-bundle-linux64.tar.gz
 COPY --chown=${USERNAME}:${USERNAME} scripts /usr/local/scripts

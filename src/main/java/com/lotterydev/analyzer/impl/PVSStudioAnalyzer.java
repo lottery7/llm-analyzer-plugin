@@ -1,30 +1,12 @@
 package com.lotterydev.analyzer.impl;
 
 import com.lotterydev.analyzer.AbstractDockerCLIAnalyzer;
-import com.lotterydev.utils.Docker;
 import com.lotterydev.utils.Settings;
 
-import java.io.IOException;
 import java.util.List;
 
 public class PVSStudioAnalyzer extends AbstractDockerCLIAnalyzer {
-    private static final String imageName = "pvs-studio";
-
-    static {
-        if (!Docker.checkDockerImageExists(imageName)) {
-            try {
-                var ignored = createPVSStudioImage();
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            }
-        }
-    }
-
     public PVSStudioAnalyzer() {
-    }
-
-    private static String createPVSStudioImage() throws IOException {
-        return Docker.createImageFromDockerfile("pvs-studio/Dockerfile", imageName);
     }
 
     @Override
@@ -40,6 +22,6 @@ public class PVSStudioAnalyzer extends AbstractDockerCLIAnalyzer {
 
     @Override
     protected String getImageTag() {
-        return imageName;
+        return "pvs-studio";
     }
 }
