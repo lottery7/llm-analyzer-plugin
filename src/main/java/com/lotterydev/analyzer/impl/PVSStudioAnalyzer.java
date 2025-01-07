@@ -24,7 +24,7 @@ public class PVSStudioAnalyzer extends AbstractDockerCLIAnalyzer {
     }
 
     private static String createPVSStudioImage() throws IOException {
-        return Docker.createImageFromDockerfile("PVS-Studio.Dockerfile", imageName);
+        return Docker.createImageFromDockerfile("pvs-studio/Dockerfile", imageName);
     }
 
     @Override
