@@ -26,9 +26,6 @@ public class LLMAnalyzer implements StaticCodeAnalyzer {
                 .model(Settings.getModel())
                 .messages(messages)
                 .n(1)
-                .topP(0.5)
-                .seed(0)
-                .stream(false)
                 .build();
 
         return service.createChatCompletion(request);
