@@ -55,7 +55,11 @@ The plugin requires a configuration file located at `resources/settings.json` wi
   "apiKey": "<your-api-key>",
   "baseUrl": "<api-base-url>",
   "model": "<LLM-model-name>",
-  "dockerHost": "<docker-server-host>"
+  "dockerHost": "<docker-server-host>",
+  "pvsStudioLicense": {
+     "userName": "<license-username>",
+     "licenseKey": "<license-key>"
+   }
 }
 ```
 
@@ -66,6 +70,7 @@ On Windows, in Docker Desktop you have to go to `Settings -> General` and select
 - **`baseUrl`**: The base URL for the LLM API (default: `groq`).
 - **`model`**: The LLM model to use (default: `llama3-70b-8192`).
 - **`dockerHost`**: The Docker server address for running CLI analyzers. `tcp://localhost:2375` (default) on Windows, `unix:///var/run/docker.sock` on Unix-like.
+- **`pvsStudioLicense`**: Your license for PVS-Studio. Default is a free license which requires you to add comment to the start of each scanned source file. You can see it in **resources/pvs-studio-copyright.txt**.
 
 ## Dependencies
 - **Docker Desktop** or any other Docker host: Required for running CLI tools.
