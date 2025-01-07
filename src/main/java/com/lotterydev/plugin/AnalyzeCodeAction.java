@@ -10,6 +10,7 @@ import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.Messages;
 import com.intellij.openapi.vfs.VirtualFile;
 import com.lotterydev.analyzer.StaticCodeAnalyzer;
+import com.lotterydev.analyzer.impl.CodeQLAnalyzer;
 import com.lotterydev.analyzer.impl.LLMAnalyzer;
 import com.lotterydev.analyzer.impl.PVSStudioAnalyzer;
 import com.lotterydev.analyzer.impl.SemgrepAnalyzer;
@@ -42,19 +43,21 @@ public class AnalyzeCodeAction extends AnAction {
         Project project = Objects.requireNonNull(event.getProject());
         Path projectRootDirectory = Path.of(Objects.requireNonNull(project.getBasePath()));
         Path ideaFolderPath = Path.of(projectRootDirectory.toString(), ".idea");
+        String analyzerName = event.getPresentation().getText();
 
         StaticCodeAnalyzer analyzer;
 
-        switch (event.getPresentation().getText()) {
+        switch (analyzerName) {
             case "LLM" -> analyzer = CodeAnalyzersHolder.llm;
             case "Semgrep" -> analyzer = CodeAnalyzersHolder.semgrep;
-            case "PVS Studio" -> analyzer = CodeAnalyzersHolder.pvsStudio;
-            default -> throw new RuntimeException("Choosed analyzer doesn't exist.");
+            case "PVS-Studio" -> analyzer = CodeAnalyzersHolder.pvsStudio;
+            case "CodeQL" -> analyzer = CodeAnalyzersHolder.codeQL;
+            default -> throw new RuntimeException("Chosen analyzer doesn't exist.");
         }
 
         ProgressManager.getInstance().run(new Task.Backgroundable(
                 project,
-                "Code analysis",
+                String.format("%s execution", analyzerName),
                 false) {
             @Override
             public void run(@NotNull ProgressIndicator indicator) {
@@ -95,5 +98,6 @@ public class AnalyzeCodeAction extends AnAction {
         StaticCodeAnalyzer semgrep = new SemgrepAnalyzer();
         StaticCodeAnalyzer pvsStudio = new PVSStudioAnalyzer();
         StaticCodeAnalyzer llm = new LLMAnalyzer();
+        StaticCodeAnalyzer codeQL = new CodeQLAnalyzer();
     }
 }

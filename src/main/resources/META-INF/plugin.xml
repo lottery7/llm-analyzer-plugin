@@ -44,8 +44,12 @@
                     description="Static code analysis with Semgrep">
             </action>
             <action id="AnalyzeOption3" class="com.lotterydev.plugin.AnalyzeCodeAction"
-                    text="PVS Studio"
-                    description="Static code analysis with PVS Studio">
+                    text="PVS-Studio"
+                    description="Static code analysis with PVS-Studio">
+            </action>
+            <action id="AnalyzeOption4" class="com.lotterydev.plugin.AnalyzeCodeAction"
+                    text="CodeQL"
+                    description="Static code analysis with CodeQL">
             </action>
         </group>
     </actions>
