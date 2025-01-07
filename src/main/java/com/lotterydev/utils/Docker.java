@@ -14,7 +14,7 @@ import java.util.Set;
 public class Docker {
     private static final DockerClientConfig dockerConfig = DefaultDockerClientConfig
             .createDefaultConfigBuilder()
-            .withDockerHost(Settings.getDockerHost())  // or "unix:///var/run/docker.sock" on unix-like systems
+            .withDockerHost(Settings.getDockerHost())
             .build();
 
 
