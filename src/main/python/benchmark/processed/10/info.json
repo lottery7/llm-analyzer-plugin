@@ -1,0 +1,30 @@
+{
+    "327": {
+        "vulnerable": 1,
+        "not_vulnerable": 0
+    },
+    "330": {
+        "vulnerable": 1,
+        "not_vulnerable": 2
+    },
+    "78": {
+        "vulnerable": 0,
+        "not_vulnerable": 2
+    },
+    "22": {
+        "vulnerable": 0,
+        "not_vulnerable": 1
+    },
+    "89": {
+        "vulnerable": 1,
+        "not_vulnerable": 0
+    },
+    "614": {
+        "vulnerable": 0,
+        "not_vulnerable": 1
+    },
+    "79": {
+        "vulnerable": 1,
+        "not_vulnerable": 0
+    }
+}

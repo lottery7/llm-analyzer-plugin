@@ -1,0 +1,46 @@
+{
+    "327": {
+        "vulnerable": 19,
+        "not_vulnerable": 24
+    },
+    "79": {
+        "vulnerable": 53,
+        "not_vulnerable": 37
+    },
+    "90": {
+        "vulnerable": 8,
+        "not_vulnerable": 7
+    },
+    "89": {
+        "vulnerable": 48,
+        "not_vulnerable": 44
+    },
+    "22": {
+        "vulnerable": 24,
+        "not_vulnerable": 30
+    },
+    "328": {
+        "vulnerable": 19,
+        "not_vulnerable": 22
+    },
+    "330": {
+        "vulnerable": 43,
+        "not_vulnerable": 45
+    },
+    "614": {
+        "vulnerable": 6,
+        "not_vulnerable": 5
+    },
+    "78": {
+        "vulnerable": 20,
+        "not_vulnerable": 17
+    },
+    "501": {
+        "vulnerable": 19,
+        "not_vulnerable": 6
+    },
+    "643": {
+        "vulnerable": 1,
+        "not_vulnerable": 3
+    }
+}

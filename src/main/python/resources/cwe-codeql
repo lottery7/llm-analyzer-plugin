@@ -1,0 +1,6860 @@
+<tbody>
+<tr>
+<td>CWE-20</td>
+<td>Java/Kotlin</td>
+<td>java/count-untrusted-data-external-api</td>
+<td>Frequency counts for external APIs that are used with untrusted data</td>
+</tr>
+<tr>
+<td>CWE-20</td>
+<td>Java/Kotlin</td>
+<td>java/overly-large-range</td>
+<td>Overly permissive regular expression range</td>
+</tr>
+<tr>
+<td>CWE-20</td>
+<td>Java/Kotlin</td>
+<td>java/untrusted-data-to-external-api</td>
+<td>Untrusted data passed to external API</td>
+</tr>
+<tr>
+<td>CWE-20</td>
+<td>Java/Kotlin</td>
+<td>java/improper-validation-of-array-construction</td>
+<td>Improper validation of user-provided size used for array construction</td>
+</tr>
+<tr>
+<td>CWE-20</td>
+<td>Java/Kotlin</td>
+<td>java/improper-validation-of-array-construction-code-specified</td>
+<td>Improper validation of code-specified size used for array construction</td>
+</tr>
+<tr>
+<td>CWE-20</td>
+<td>Java/Kotlin</td>
+<td>java/improper-validation-of-array-index</td>
+<td>Improper validation of user-provided array index</td>
+</tr>
+<tr>
+<td>CWE-20</td>
+<td>Java/Kotlin</td>
+<td>java/improper-validation-of-array-index-code-specified</td>
+<td>Improper validation of code-specified array index</td>
+</tr>
+<tr>
+<td>CWE-20</td>
+<td>Java/Kotlin</td>
+<td>java/log4j-injection</td>
+<td>Potential Log4J LDAP JNDI injection (CVE-2021-44228)</td>
+</tr>
+<tr>
+<td>CWE-22</td>
+<td>Java/Kotlin</td>
+<td>java/path-injection</td>
+<td>Uncontrolled data used in path expression</td>
+</tr>
+<tr>
+<td>CWE-22</td>
+<td>Java/Kotlin</td>
+<td>java/zipslip</td>
+<td>Arbitrary file access during archive extraction ("Zip Slip")</td>
+</tr>
+<tr>
+<td>CWE-22</td>
+<td>Java/Kotlin</td>
+<td>java/partial-path-traversal</td>
+<td>Partial path traversal vulnerability</td>
+</tr>
+<tr>
+<td>CWE-22</td>
+<td>Java/Kotlin</td>
+<td>java/partial-path-traversal-from-remote</td>
+<td>Partial path traversal vulnerability from remote</td>
+</tr>
+<tr>
+<td>CWE-22</td>
+<td>Java/Kotlin</td>
+<td>java/openstream-called-on-tainted-url</td>
+<td>openStream called on URLs created from remote source</td>
+</tr>
+<tr>
+<td>CWE-23</td>
+<td>Java/Kotlin</td>
+<td>java/path-injection</td>
+<td>Uncontrolled data used in path expression</td>
+</tr>
+<tr>
+<td>CWE-23</td>
+<td>Java/Kotlin</td>
+<td>java/partial-path-traversal</td>
+<td>Partial path traversal vulnerability</td>
+</tr>
+<tr>
+<td>CWE-23</td>
+<td>Java/Kotlin</td>
+<td>java/partial-path-traversal-from-remote</td>
+<td>Partial path traversal vulnerability from remote</td>
+</tr>
+<tr>
+<td>CWE-36</td>
+<td>Java/Kotlin</td>
+<td>java/path-injection</td>
+<td>Uncontrolled data used in path expression</td>
+</tr>
+<tr>
+<td>CWE-36</td>
+<td>Java/Kotlin</td>
+<td>java/openstream-called-on-tainted-url</td>
+<td>openStream called on URLs created from remote source</td>
+</tr>
+<tr>
+<td>CWE-73</td>
+<td>Java/Kotlin</td>
+<td>java/path-injection</td>
+<td>Uncontrolled data used in path expression</td>
+</tr>
+<tr>
+<td>CWE-73</td>
+<td>Java/Kotlin</td>
+<td>java/file-path-injection</td>
+<td>File Path Injection</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/jndi-injection</td>
+<td>JNDI lookup with user-controlled name</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/xslt-injection</td>
+<td>XSLT transformation with user-controlled stylesheet</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/relative-path-command</td>
+<td>Executing a command with a relative path</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection</td>
+<td>Uncontrolled command line</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/exec-tainted-environment</td>
+<td>Building a command with an injected environment variable</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/concatenated-command-line</td>
+<td>Building a command line with string concatenation</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/android/webview-addjavascriptinterface</td>
+<td>Access Java object methods through JavaScript exposure</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/android/websettings-javascript-enabled</td>
+<td>Android WebView JavaScript settings</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/xss</td>
+<td>Cross-site scripting</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/concatenated-sql-query</td>
+<td>Query built by concatenation with a possibly-untrusted string</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/sql-injection</td>
+<td>Query built from user-controlled sources</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/ldap-injection</td>
+<td>LDAP query built from user-controlled sources</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/android/arbitrary-apk-installation</td>
+<td>Android APK installation</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/groovy-injection</td>
+<td>Groovy Language injection</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-bean-validation</td>
+<td>Insecure Bean Validation</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/jexl-expression-injection</td>
+<td>Expression language injection (JEXL)</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/mvel-expression-injection</td>
+<td>Expression language injection (MVEL)</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/spel-expression-injection</td>
+<td>Expression language injection (Spring)</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/server-side-template-injection</td>
+<td>Server-side template injection</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/netty-http-request-or-response-splitting</td>
+<td>Disabled Netty HTTP header validation</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/http-response-splitting</td>
+<td>HTTP response splitting</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-format-string</td>
+<td>Use of externally-controlled format string</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/xml/xpath-injection</td>
+<td>XPath injection</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/android/unsafe-android-webview-fetch</td>
+<td>Unsafe resource fetching in Android WebView</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/ognl-injection</td>
+<td>OGNL Expression Language statement with user-controlled input</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/log4j-injection</td>
+<td>Potential Log4J LDAP JNDI injection (CVE-2021-44228)</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection-extra</td>
+<td>Command Injection into Runtime.exec() with dangerous command</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection-extra-local</td>
+<td>Command Injection into Runtime.exec() with dangerous command</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection-experimental</td>
+<td>Uncontrolled command line (experimental sinks)</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/mybatis-annotation-sql-injection</td>
+<td>SQL injection in MyBatis annotation</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/mybatis-xml-sql-injection</td>
+<td>SQL injection in MyBatis Mapper XML</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/beanshell-injection</td>
+<td>BeanShell injection</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/android-insecure-dex-loading</td>
+<td>Insecure loading of an Android Dex File</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/jshell-injection</td>
+<td>JShell injection</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/javaee-expression-injection</td>
+<td>Jakarta Expression Language injection</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/jython-injection</td>
+<td>Injection in Jython</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-eval</td>
+<td>Injection in Java Script Engine</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/spring-view-manipulation-implicit</td>
+<td>Spring Implicit View Manipulation</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/spring-view-manipulation</td>
+<td>Spring View Manipulation</td>
+</tr>
+<tr>
+<td>CWE-74</td>
+<td>Java/Kotlin</td>
+<td>java/xquery-injection</td>
+<td>XQuery query built from user-controlled sources</td>
+</tr>
+<tr>
+<td>CWE-77</td>
+<td>Java/Kotlin</td>
+<td>java/relative-path-command</td>
+<td>Executing a command with a relative path</td>
+</tr>
+<tr>
+<td>CWE-77</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection</td>
+<td>Uncontrolled command line</td>
+</tr>
+<tr>
+<td>CWE-77</td>
+<td>Java/Kotlin</td>
+<td>java/exec-tainted-environment</td>
+<td>Building a command with an injected environment variable</td>
+</tr>
+<tr>
+<td>CWE-77</td>
+<td>Java/Kotlin</td>
+<td>java/concatenated-command-line</td>
+<td>Building a command line with string concatenation</td>
+</tr>
+<tr>
+<td>CWE-77</td>
+<td>Java/Kotlin</td>
+<td>java/ognl-injection</td>
+<td>OGNL Expression Language statement with user-controlled input</td>
+</tr>
+<tr>
+<td>CWE-77</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection-extra</td>
+<td>Command Injection into Runtime.exec() with dangerous command</td>
+</tr>
+<tr>
+<td>CWE-77</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection-extra-local</td>
+<td>Command Injection into Runtime.exec() with dangerous command</td>
+</tr>
+<tr>
+<td>CWE-77</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection-experimental</td>
+<td>Uncontrolled command line (experimental sinks)</td>
+</tr>
+<tr>
+<td>CWE-78</td>
+<td>Java/Kotlin</td>
+<td>java/relative-path-command</td>
+<td>Executing a command with a relative path</td>
+</tr>
+<tr>
+<td>CWE-78</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection</td>
+<td>Uncontrolled command line</td>
+</tr>
+<tr>
+<td>CWE-78</td>
+<td>Java/Kotlin</td>
+<td>java/exec-tainted-environment</td>
+<td>Building a command with an injected environment variable</td>
+</tr>
+<tr>
+<td>CWE-78</td>
+<td>Java/Kotlin</td>
+<td>java/concatenated-command-line</td>
+<td>Building a command line with string concatenation</td>
+</tr>
+<tr>
+<td>CWE-78</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection-extra</td>
+<td>Command Injection into Runtime.exec() with dangerous command</td>
+</tr>
+<tr>
+<td>CWE-78</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection-extra-local</td>
+<td>Command Injection into Runtime.exec() with dangerous command</td>
+</tr>
+<tr>
+<td>CWE-78</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection-experimental</td>
+<td>Uncontrolled command line (experimental sinks)</td>
+</tr>
+<tr>
+<td>CWE-79</td>
+<td>Java/Kotlin</td>
+<td>java/android/webview-addjavascriptinterface</td>
+<td>Access Java object methods through JavaScript exposure</td>
+</tr>
+<tr>
+<td>CWE-79</td>
+<td>Java/Kotlin</td>
+<td>java/android/websettings-javascript-enabled</td>
+<td>Android WebView JavaScript settings</td>
+</tr>
+<tr>
+<td>CWE-79</td>
+<td>Java/Kotlin</td>
+<td>java/xss</td>
+<td>Cross-site scripting</td>
+</tr>
+<tr>
+<td>CWE-79</td>
+<td>Java/Kotlin</td>
+<td>java/android/unsafe-android-webview-fetch</td>
+<td>Unsafe resource fetching in Android WebView</td>
+</tr>
+<tr>
+<td>CWE-88</td>
+<td>Java/Kotlin</td>
+<td>java/relative-path-command</td>
+<td>Executing a command with a relative path</td>
+</tr>
+<tr>
+<td>CWE-88</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection</td>
+<td>Uncontrolled command line</td>
+</tr>
+<tr>
+<td>CWE-88</td>
+<td>Java/Kotlin</td>
+<td>java/exec-tainted-environment</td>
+<td>Building a command with an injected environment variable</td>
+</tr>
+<tr>
+<td>CWE-88</td>
+<td>Java/Kotlin</td>
+<td>java/concatenated-command-line</td>
+<td>Building a command line with string concatenation</td>
+</tr>
+<tr>
+<td>CWE-88</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection-experimental</td>
+<td>Uncontrolled command line (experimental sinks)</td>
+</tr>
+<tr>
+<td>CWE-89</td>
+<td>Java/Kotlin</td>
+<td>java/concatenated-sql-query</td>
+<td>Query built by concatenation with a possibly-untrusted string</td>
+</tr>
+<tr>
+<td>CWE-89</td>
+<td>Java/Kotlin</td>
+<td>java/sql-injection</td>
+<td>Query built from user-controlled sources</td>
+</tr>
+<tr>
+<td>CWE-89</td>
+<td>Java/Kotlin</td>
+<td>java/mybatis-annotation-sql-injection</td>
+<td>SQL injection in MyBatis annotation</td>
+</tr>
+<tr>
+<td>CWE-89</td>
+<td>Java/Kotlin</td>
+<td>java/mybatis-xml-sql-injection</td>
+<td>SQL injection in MyBatis Mapper XML</td>
+</tr>
+<tr>
+<td>CWE-90</td>
+<td>Java/Kotlin</td>
+<td>java/ldap-injection</td>
+<td>LDAP query built from user-controlled sources</td>
+</tr>
+<tr>
+<td>CWE-91</td>
+<td>Java/Kotlin</td>
+<td>java/xml/xpath-injection</td>
+<td>XPath injection</td>
+</tr>
+<tr>
+<td>CWE-91</td>
+<td>Java/Kotlin</td>
+<td>java/xquery-injection</td>
+<td>XQuery query built from user-controlled sources</td>
+</tr>
+<tr>
+<td>CWE-93</td>
+<td>Java/Kotlin</td>
+<td>java/netty-http-request-or-response-splitting</td>
+<td>Disabled Netty HTTP header validation</td>
+</tr>
+<tr>
+<td>CWE-93</td>
+<td>Java/Kotlin</td>
+<td>java/http-response-splitting</td>
+<td>HTTP response splitting</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/android/arbitrary-apk-installation</td>
+<td>Android APK installation</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/groovy-injection</td>
+<td>Groovy Language injection</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-bean-validation</td>
+<td>Insecure Bean Validation</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/jexl-expression-injection</td>
+<td>Expression language injection (JEXL)</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/mvel-expression-injection</td>
+<td>Expression language injection (MVEL)</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/spel-expression-injection</td>
+<td>Expression language injection (Spring)</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/server-side-template-injection</td>
+<td>Server-side template injection</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/beanshell-injection</td>
+<td>BeanShell injection</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/android-insecure-dex-loading</td>
+<td>Insecure loading of an Android Dex File</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/jshell-injection</td>
+<td>JShell injection</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/javaee-expression-injection</td>
+<td>Jakarta Expression Language injection</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/jython-injection</td>
+<td>Injection in Jython</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-eval</td>
+<td>Injection in Java Script Engine</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/spring-view-manipulation-implicit</td>
+<td>Spring Implicit View Manipulation</td>
+</tr>
+<tr>
+<td>CWE-94</td>
+<td>Java/Kotlin</td>
+<td>java/spring-view-manipulation</td>
+<td>Spring View Manipulation</td>
+</tr>
+<tr>
+<td>CWE-95</td>
+<td>Java/Kotlin</td>
+<td>java/jython-injection</td>
+<td>Injection in Jython</td>
+</tr>
+<tr>
+<td>CWE-113</td>
+<td>Java/Kotlin</td>
+<td>java/netty-http-request-or-response-splitting</td>
+<td>Disabled Netty HTTP header validation</td>
+</tr>
+<tr>
+<td>CWE-113</td>
+<td>Java/Kotlin</td>
+<td>java/http-response-splitting</td>
+<td>HTTP response splitting</td>
+</tr>
+<tr>
+<td>CWE-116</td>
+<td>Java/Kotlin</td>
+<td>java/log-injection</td>
+<td>Log Injection</td>
+</tr>
+<tr>
+<td>CWE-117</td>
+<td>Java/Kotlin</td>
+<td>java/log-injection</td>
+<td>Log Injection</td>
+</tr>
+<tr>
+<td>CWE-129</td>
+<td>Java/Kotlin</td>
+<td>java/improper-validation-of-array-construction</td>
+<td>Improper validation of user-provided size used for array construction</td>
+</tr>
+<tr>
+<td>CWE-129</td>
+<td>Java/Kotlin</td>
+<td>java/improper-validation-of-array-construction-code-specified</td>
+<td>Improper validation of code-specified size used for array construction</td>
+</tr>
+<tr>
+<td>CWE-129</td>
+<td>Java/Kotlin</td>
+<td>java/improper-validation-of-array-index</td>
+<td>Improper validation of user-provided array index</td>
+</tr>
+<tr>
+<td>CWE-129</td>
+<td>Java/Kotlin</td>
+<td>java/improper-validation-of-array-index-code-specified</td>
+<td>Improper validation of code-specified array index</td>
+</tr>
+<tr>
+<td>CWE-134</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-format-string</td>
+<td>Use of externally-controlled format string</td>
+</tr>
+<tr>
+<td>CWE-185</td>
+<td>Java/Kotlin</td>
+<td>java/permissive-dot-regex</td>
+<td>URL matched by permissive <code>.</code> in a regular expression</td>
+</tr>
+<tr>
+<td>CWE-190</td>
+<td>Java/Kotlin</td>
+<td>java/implicit-cast-in-compound-assignment</td>
+<td>Implicit narrowing conversion in compound assignment</td>
+</tr>
+<tr>
+<td>CWE-190</td>
+<td>Java/Kotlin</td>
+<td>java/integer-multiplication-cast-to-long</td>
+<td>Result of multiplication cast to wider type</td>
+</tr>
+<tr>
+<td>CWE-190</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-arithmetic</td>
+<td>User-controlled data in arithmetic expression</td>
+</tr>
+<tr>
+<td>CWE-190</td>
+<td>Java/Kotlin</td>
+<td>java/uncontrolled-arithmetic</td>
+<td>Uncontrolled data in arithmetic expression</td>
+</tr>
+<tr>
+<td>CWE-190</td>
+<td>Java/Kotlin</td>
+<td>java/extreme-value-arithmetic</td>
+<td>Use of extreme values in arithmetic expression</td>
+</tr>
+<tr>
+<td>CWE-190</td>
+<td>Java/Kotlin</td>
+<td>java/comparison-with-wider-type</td>
+<td>Comparison of narrow type with wide type in loop condition</td>
+</tr>
+<tr>
+<td>CWE-191</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-arithmetic</td>
+<td>User-controlled data in arithmetic expression</td>
+</tr>
+<tr>
+<td>CWE-191</td>
+<td>Java/Kotlin</td>
+<td>java/uncontrolled-arithmetic</td>
+<td>Uncontrolled data in arithmetic expression</td>
+</tr>
+<tr>
+<td>CWE-191</td>
+<td>Java/Kotlin</td>
+<td>java/extreme-value-arithmetic</td>
+<td>Use of extreme values in arithmetic expression</td>
+</tr>
+<tr>
+<td>CWE-193</td>
+<td>Java/Kotlin</td>
+<td>java/index-out-of-bounds</td>
+<td>Array index out of bounds</td>
+</tr>
+<tr>
+<td>CWE-197</td>
+<td>Java/Kotlin</td>
+<td>java/implicit-cast-in-compound-assignment</td>
+<td>Implicit narrowing conversion in compound assignment</td>
+</tr>
+<tr>
+<td>CWE-197</td>
+<td>Java/Kotlin</td>
+<td>java/integer-multiplication-cast-to-long</td>
+<td>Result of multiplication cast to wider type</td>
+</tr>
+<tr>
+<td>CWE-197</td>
+<td>Java/Kotlin</td>
+<td>java/comparison-with-wider-type</td>
+<td>Comparison of narrow type with wide type in loop condition</td>
+</tr>
+<tr>
+<td>CWE-197</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-numeric-cast</td>
+<td>User-controlled data in numeric cast</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-notification</td>
+<td>Exposure of sensitive information to notifications</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-text</td>
+<td>Exposure of sensitive information to UI text views</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/android/websettings-allow-content-access</td>
+<td>Android WebView settings allows access to content links</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/android/websettings-file-access</td>
+<td>Android WebSettings file access</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/local-temp-file-or-directory-information-disclosure</td>
+<td>Local information disclosure in a temporary directory</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/error-message-exposure</td>
+<td>Information exposure through an error message</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/stack-trace-exposure</td>
+<td>Information exposure through a stack trace</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-keyboard-cache</td>
+<td>Android sensitive keyboard cache</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/sensitive-log</td>
+<td>Insertion of sensitive information into log files</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-webview-resource-response</td>
+<td>Insecure Android WebView Resource Response</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/sensitive-android-file-leak</td>
+<td>Leaking sensitive Android file</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/possible-timing-attack-against-signature</td>
+<td>Possible timing attack against signature validation</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/timing-attack-against-headers-value</td>
+<td>Timing attack against header value</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/timing-attack-against-signature</td>
+<td>Timing attack against signature validation</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/server-directory-listing</td>
+<td>Directories and files exposure</td>
+</tr>
+<tr>
+<td>CWE-200</td>
+<td>Java/Kotlin</td>
+<td>java/sensitive-query-with-get</td>
+<td>Sensitive GET Query</td>
+</tr>
+<tr>
+<td>CWE-203</td>
+<td>Java/Kotlin</td>
+<td>java/possible-timing-attack-against-signature</td>
+<td>Possible timing attack against signature validation</td>
+</tr>
+<tr>
+<td>CWE-203</td>
+<td>Java/Kotlin</td>
+<td>java/timing-attack-against-headers-value</td>
+<td>Timing attack against header value</td>
+</tr>
+<tr>
+<td>CWE-203</td>
+<td>Java/Kotlin</td>
+<td>java/timing-attack-against-signature</td>
+<td>Timing attack against signature validation</td>
+</tr>
+<tr>
+<td>CWE-208</td>
+<td>Java/Kotlin</td>
+<td>java/possible-timing-attack-against-signature</td>
+<td>Possible timing attack against signature validation</td>
+</tr>
+<tr>
+<td>CWE-208</td>
+<td>Java/Kotlin</td>
+<td>java/timing-attack-against-headers-value</td>
+<td>Timing attack against header value</td>
+</tr>
+<tr>
+<td>CWE-208</td>
+<td>Java/Kotlin</td>
+<td>java/timing-attack-against-signature</td>
+<td>Timing attack against signature validation</td>
+</tr>
+<tr>
+<td>CWE-209</td>
+<td>Java/Kotlin</td>
+<td>java/error-message-exposure</td>
+<td>Information exposure through an error message</td>
+</tr>
+<tr>
+<td>CWE-209</td>
+<td>Java/Kotlin</td>
+<td>java/stack-trace-exposure</td>
+<td>Information exposure through a stack trace</td>
+</tr>
+<tr>
+<td>CWE-221</td>
+<td>Java/Kotlin</td>
+<td>java/overly-general-catch</td>
+<td>Overly-general catch clause</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/container-interference</td>
+<td>EJB interferes with container operation</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/file-io</td>
+<td>EJB uses file input/output</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/graphics</td>
+<td>EJB uses graphics</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/native-code</td>
+<td>EJB uses native code</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/reflection</td>
+<td>EJB uses reflection</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/security-configuration-access</td>
+<td>EJB accesses security configuration</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/substitution-in-serialization</td>
+<td>EJB uses substitution in serialization</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/socket-or-stream-handler-factory</td>
+<td>EJB sets socket factory or URL stream handler factory</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/server-socket</td>
+<td>EJB uses server socket</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/non-final-static-field</td>
+<td>EJB uses non-final static field</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/synchronization</td>
+<td>EJB uses synchronization</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/this</td>
+<td>EJB uses 'this' as argument or result</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/threads</td>
+<td>EJB uses threads</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/missing-call-to-super-clone</td>
+<td>Missing super clone</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/inconsistent-equals-and-hashcode</td>
+<td>Inconsistent equals and hashCode</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/unreleased-lock</td>
+<td>Unreleased lock</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/missing-super-finalize</td>
+<td>Finalizer inconsistency</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/missing-format-argument</td>
+<td>Missing format argument</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/unused-format-argument</td>
+<td>Unused format argument</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/static-initialization-vector</td>
+<td>Using a static initialization vector for encryption</td>
+</tr>
+<tr>
+<td>CWE-227</td>
+<td>Java/Kotlin</td>
+<td>java/empty-finalizer</td>
+<td>Empty body of finalizer</td>
+</tr>
+<tr>
+<td>CWE-248</td>
+<td>Java/Kotlin</td>
+<td>java/uncaught-number-format-exception</td>
+<td>Missing catch of NumberFormatException</td>
+</tr>
+<tr>
+<td>CWE-248</td>
+<td>Java/Kotlin</td>
+<td>java/uncaught-servlet-exception</td>
+<td>Uncaught Servlet Exception</td>
+</tr>
+<tr>
+<td>CWE-252</td>
+<td>Java/Kotlin</td>
+<td>java/inconsistent-call-on-result</td>
+<td>Inconsistent operation on return value</td>
+</tr>
+<tr>
+<td>CWE-252</td>
+<td>Java/Kotlin</td>
+<td>java/return-value-ignored</td>
+<td>Method result ignored</td>
+</tr>
+<tr>
+<td>CWE-256</td>
+<td>Java/Kotlin</td>
+<td>java/credentials-in-properties</td>
+<td>Cleartext Credentials in Properties File</td>
+</tr>
+<tr>
+<td>CWE-256</td>
+<td>Java/Kotlin</td>
+<td>java/password-in-configuration</td>
+<td>Password in configuration file</td>
+</tr>
+<tr>
+<td>CWE-260</td>
+<td>Java/Kotlin</td>
+<td>java/credentials-in-properties</td>
+<td>Cleartext Credentials in Properties File</td>
+</tr>
+<tr>
+<td>CWE-260</td>
+<td>Java/Kotlin</td>
+<td>java/password-in-configuration</td>
+<td>Password in configuration file</td>
+</tr>
+<tr>
+<td>CWE-266</td>
+<td>Java/Kotlin</td>
+<td>java/android/intent-uri-permission-manipulation</td>
+<td>Intent URI permission manipulation</td>
+</tr>
+<tr>
+<td>CWE-269</td>
+<td>Java/Kotlin</td>
+<td>java/android/intent-uri-permission-manipulation</td>
+<td>Intent URI permission manipulation</td>
+</tr>
+<tr>
+<td>CWE-269</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-cert-trust</td>
+<td>Unsafe certificate trust</td>
+</tr>
+<tr>
+<td>CWE-271</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-cert-trust</td>
+<td>Unsafe certificate trust</td>
+</tr>
+<tr>
+<td>CWE-273</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-cert-trust</td>
+<td>Unsafe certificate trust</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/local-temp-file-or-directory-information-disclosure</td>
+<td>Local information disclosure in a temporary directory</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/android/intent-uri-permission-manipulation</td>
+<td>Intent URI permission manipulation</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-cert-trust</td>
+<td>Unsafe certificate trust</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/android/insecure-local-key-gen</td>
+<td>Insecurely generated keys for local authentication</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/android/insecure-local-authentication</td>
+<td>Insecure local authentication</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-smtp-ssl</td>
+<td>Insecure JavaMail SSL Configuration</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-hostname-verification</td>
+<td>Unsafe hostname verification</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/socket-auth-race-condition</td>
+<td>Race condition in socket authentication</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-basic-auth</td>
+<td>Insecure basic authentication</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-ldap-auth</td>
+<td>Insecure LDAP authentication</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/world-writable-file-read</td>
+<td>Reading from a world writable file</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-api-call</td>
+<td>Hard-coded credential in API call</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-comparison</td>
+<td>Hard-coded credential comparison</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-sensitive-call</td>
+<td>Hard-coded credential in sensitive call</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-password-field</td>
+<td>Hard-coded password field</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/user-controlled-bypass</td>
+<td>User-controlled bypass of sensitive method</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-permissions-check</td>
+<td>User-controlled data used in permissions check</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/maven/non-https-url</td>
+<td>Failure to use HTTPS or SFTP URL in Maven artifact upload/download</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/improper-intent-verification</td>
+<td>Improper verification of intent by broadcast receiver</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/android/incomplete-provider-permissions</td>
+<td>Missing read or write permission in a content provider</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/android/implicitly-exported-component</td>
+<td>Implicitly exported Android component</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/android/implicit-pendingintents</td>
+<td>Use of implicit PendingIntents</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-communication</td>
+<td>Leaking sensitive information through an implicit Intent</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-result-receiver</td>
+<td>Leaking sensitive information through a ResultReceiver</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/android/intent-redirection</td>
+<td>Android Intent redirection</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/ignored-hostname-verification</td>
+<td>Ignored result of hostname verification</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-ldaps-endpoint</td>
+<td>Insecure LDAPS Endpoint Configuration</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/unvalidated-cors-origin-set</td>
+<td>CORS is derived from untrusted input</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/credentials-in-properties</td>
+<td>Cleartext Credentials in Properties File</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/password-in-configuration</td>
+<td>Password in configuration file</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/permissive-dot-regex</td>
+<td>URL matched by permissive <code>.</code> in a regular expression</td>
+</tr>
+<tr>
+<td>CWE-284</td>
+<td>Java/Kotlin</td>
+<td>java/incorrect-url-verification</td>
+<td>Incorrect URL verification</td>
+</tr>
+<tr>
+<td>CWE-285</td>
+<td>Java/Kotlin</td>
+<td>java/local-temp-file-or-directory-information-disclosure</td>
+<td>Local information disclosure in a temporary directory</td>
+</tr>
+<tr>
+<td>CWE-285</td>
+<td>Java/Kotlin</td>
+<td>java/android/intent-uri-permission-manipulation</td>
+<td>Intent URI permission manipulation</td>
+</tr>
+<tr>
+<td>CWE-285</td>
+<td>Java/Kotlin</td>
+<td>java/world-writable-file-read</td>
+<td>Reading from a world writable file</td>
+</tr>
+<tr>
+<td>CWE-285</td>
+<td>Java/Kotlin</td>
+<td>java/android/incomplete-provider-permissions</td>
+<td>Missing read or write permission in a content provider</td>
+</tr>
+<tr>
+<td>CWE-285</td>
+<td>Java/Kotlin</td>
+<td>java/android/implicitly-exported-component</td>
+<td>Implicitly exported Android component</td>
+</tr>
+<tr>
+<td>CWE-285</td>
+<td>Java/Kotlin</td>
+<td>java/android/implicit-pendingintents</td>
+<td>Use of implicit PendingIntents</td>
+</tr>
+<tr>
+<td>CWE-285</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-communication</td>
+<td>Leaking sensitive information through an implicit Intent</td>
+</tr>
+<tr>
+<td>CWE-285</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-result-receiver</td>
+<td>Leaking sensitive information through a ResultReceiver</td>
+</tr>
+<tr>
+<td>CWE-285</td>
+<td>Java/Kotlin</td>
+<td>java/android/intent-redirection</td>
+<td>Android Intent redirection</td>
+</tr>
+<tr>
+<td>CWE-285</td>
+<td>Java/Kotlin</td>
+<td>java/permissive-dot-regex</td>
+<td>URL matched by permissive <code>.</code> in a regular expression</td>
+</tr>
+<tr>
+<td>CWE-285</td>
+<td>Java/Kotlin</td>
+<td>java/incorrect-url-verification</td>
+<td>Incorrect URL verification</td>
+</tr>
+<tr>
+<td>CWE-287</td>
+<td>Java/Kotlin</td>
+<td>java/android/insecure-local-key-gen</td>
+<td>Insecurely generated keys for local authentication</td>
+</tr>
+<tr>
+<td>CWE-287</td>
+<td>Java/Kotlin</td>
+<td>java/android/insecure-local-authentication</td>
+<td>Insecure local authentication</td>
+</tr>
+<tr>
+<td>CWE-287</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-basic-auth</td>
+<td>Insecure basic authentication</td>
+</tr>
+<tr>
+<td>CWE-287</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-ldap-auth</td>
+<td>Insecure LDAP authentication</td>
+</tr>
+<tr>
+<td>CWE-287</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-api-call</td>
+<td>Hard-coded credential in API call</td>
+</tr>
+<tr>
+<td>CWE-287</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-comparison</td>
+<td>Hard-coded credential comparison</td>
+</tr>
+<tr>
+<td>CWE-287</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-sensitive-call</td>
+<td>Hard-coded credential in sensitive call</td>
+</tr>
+<tr>
+<td>CWE-287</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-password-field</td>
+<td>Hard-coded password field</td>
+</tr>
+<tr>
+<td>CWE-287</td>
+<td>Java/Kotlin</td>
+<td>java/user-controlled-bypass</td>
+<td>User-controlled bypass of sensitive method</td>
+</tr>
+<tr>
+<td>CWE-287</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-permissions-check</td>
+<td>User-controlled data used in permissions check</td>
+</tr>
+<tr>
+<td>CWE-287</td>
+<td>Java/Kotlin</td>
+<td>java/credentials-in-properties</td>
+<td>Cleartext Credentials in Properties File</td>
+</tr>
+<tr>
+<td>CWE-287</td>
+<td>Java/Kotlin</td>
+<td>java/password-in-configuration</td>
+<td>Password in configuration file</td>
+</tr>
+<tr>
+<td>CWE-290</td>
+<td>Java/Kotlin</td>
+<td>java/user-controlled-bypass</td>
+<td>User-controlled bypass of sensitive method</td>
+</tr>
+<tr>
+<td>CWE-290</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-permissions-check</td>
+<td>User-controlled data used in permissions check</td>
+</tr>
+<tr>
+<td>CWE-295</td>
+<td>Java/Kotlin</td>
+<td>java/android/missing-certificate-pinning</td>
+<td>Android missing certificate pinning</td>
+</tr>
+<tr>
+<td>CWE-295</td>
+<td>Java/Kotlin</td>
+<td>java/improper-webview-certificate-validation</td>
+<td>Android <code>WebView</code> that accepts all certificates</td>
+</tr>
+<tr>
+<td>CWE-295</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-trustmanager</td>
+<td><code>TrustManager</code> that accepts all certificates</td>
+</tr>
+<tr>
+<td>CWE-295</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-smtp-ssl</td>
+<td>Insecure JavaMail SSL Configuration</td>
+</tr>
+<tr>
+<td>CWE-295</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-hostname-verification</td>
+<td>Unsafe hostname verification</td>
+</tr>
+<tr>
+<td>CWE-295</td>
+<td>Java/Kotlin</td>
+<td>java/jxbrowser/disabled-certificate-validation</td>
+<td>JxBrowser with disabled certificate validation</td>
+</tr>
+<tr>
+<td>CWE-295</td>
+<td>Java/Kotlin</td>
+<td>java/ignored-hostname-verification</td>
+<td>Ignored result of hostname verification</td>
+</tr>
+<tr>
+<td>CWE-295</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-ldaps-endpoint</td>
+<td>Insecure LDAPS Endpoint Configuration</td>
+</tr>
+<tr>
+<td>CWE-295</td>
+<td>Java/Kotlin</td>
+<td>java/disabled-certificate-revocation-checking</td>
+<td>Disabled certificate revocation checking</td>
+</tr>
+<tr>
+<td>CWE-297</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-smtp-ssl</td>
+<td>Insecure JavaMail SSL Configuration</td>
+</tr>
+<tr>
+<td>CWE-297</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-hostname-verification</td>
+<td>Unsafe hostname verification</td>
+</tr>
+<tr>
+<td>CWE-297</td>
+<td>Java/Kotlin</td>
+<td>java/ignored-hostname-verification</td>
+<td>Ignored result of hostname verification</td>
+</tr>
+<tr>
+<td>CWE-297</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-ldaps-endpoint</td>
+<td>Insecure LDAPS Endpoint Configuration</td>
+</tr>
+<tr>
+<td>CWE-299</td>
+<td>Java/Kotlin</td>
+<td>java/disabled-certificate-revocation-checking</td>
+<td>Disabled certificate revocation checking</td>
+</tr>
+<tr>
+<td>CWE-300</td>
+<td>Java/Kotlin</td>
+<td>java/maven/non-https-url</td>
+<td>Failure to use HTTPS or SFTP URL in Maven artifact upload/download</td>
+</tr>
+<tr>
+<td>CWE-311</td>
+<td>Java/Kotlin</td>
+<td>java/android/backup-enabled</td>
+<td>Application backup allowed</td>
+</tr>
+<tr>
+<td>CWE-311</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-database</td>
+<td>Cleartext storage of sensitive information using a local database on Android</td>
+</tr>
+<tr>
+<td>CWE-311</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-filesystem</td>
+<td>Cleartext storage of sensitive information in the Android filesystem</td>
+</tr>
+<tr>
+<td>CWE-311</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-class</td>
+<td>Cleartext storage of sensitive information using storable class</td>
+</tr>
+<tr>
+<td>CWE-311</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-cookie</td>
+<td>Cleartext storage of sensitive information in cookie</td>
+</tr>
+<tr>
+<td>CWE-311</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-properties</td>
+<td>Cleartext storage of sensitive information using 'Properties' class</td>
+</tr>
+<tr>
+<td>CWE-311</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-shared-prefs</td>
+<td>Cleartext storage of sensitive information using <code>SharedPreferences</code> on Android</td>
+</tr>
+<tr>
+<td>CWE-311</td>
+<td>Java/Kotlin</td>
+<td>java/non-https-url</td>
+<td>Failure to use HTTPS URLs</td>
+</tr>
+<tr>
+<td>CWE-311</td>
+<td>Java/Kotlin</td>
+<td>java/non-ssl-connection</td>
+<td>Failure to use SSL</td>
+</tr>
+<tr>
+<td>CWE-311</td>
+<td>Java/Kotlin</td>
+<td>java/non-ssl-socket-factory</td>
+<td>Failure to use SSL socket factories</td>
+</tr>
+<tr>
+<td>CWE-311</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-basic-auth</td>
+<td>Insecure basic authentication</td>
+</tr>
+<tr>
+<td>CWE-311</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-ldap-auth</td>
+<td>Insecure LDAP authentication</td>
+</tr>
+<tr>
+<td>CWE-311</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-cookie</td>
+<td>Failure to use secure cookies</td>
+</tr>
+<tr>
+<td>CWE-311</td>
+<td>Java/Kotlin</td>
+<td>java/maven/non-https-url</td>
+<td>Failure to use HTTPS or SFTP URL in Maven artifact upload/download</td>
+</tr>
+<tr>
+<td>CWE-312</td>
+<td>Java/Kotlin</td>
+<td>java/android/backup-enabled</td>
+<td>Application backup allowed</td>
+</tr>
+<tr>
+<td>CWE-312</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-database</td>
+<td>Cleartext storage of sensitive information using a local database on Android</td>
+</tr>
+<tr>
+<td>CWE-312</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-filesystem</td>
+<td>Cleartext storage of sensitive information in the Android filesystem</td>
+</tr>
+<tr>
+<td>CWE-312</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-class</td>
+<td>Cleartext storage of sensitive information using storable class</td>
+</tr>
+<tr>
+<td>CWE-312</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-cookie</td>
+<td>Cleartext storage of sensitive information in cookie</td>
+</tr>
+<tr>
+<td>CWE-312</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-properties</td>
+<td>Cleartext storage of sensitive information using 'Properties' class</td>
+</tr>
+<tr>
+<td>CWE-312</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-shared-prefs</td>
+<td>Cleartext storage of sensitive information using <code>SharedPreferences</code> on Android</td>
+</tr>
+<tr>
+<td>CWE-313</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-properties</td>
+<td>Cleartext storage of sensitive information using 'Properties' class</td>
+</tr>
+<tr>
+<td>CWE-315</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-cookie</td>
+<td>Cleartext storage of sensitive information in cookie</td>
+</tr>
+<tr>
+<td>CWE-319</td>
+<td>Java/Kotlin</td>
+<td>java/non-https-url</td>
+<td>Failure to use HTTPS URLs</td>
+</tr>
+<tr>
+<td>CWE-319</td>
+<td>Java/Kotlin</td>
+<td>java/non-ssl-connection</td>
+<td>Failure to use SSL</td>
+</tr>
+<tr>
+<td>CWE-319</td>
+<td>Java/Kotlin</td>
+<td>java/non-ssl-socket-factory</td>
+<td>Failure to use SSL socket factories</td>
+</tr>
+<tr>
+<td>CWE-319</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-basic-auth</td>
+<td>Insecure basic authentication</td>
+</tr>
+<tr>
+<td>CWE-319</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-ldap-auth</td>
+<td>Insecure LDAP authentication</td>
+</tr>
+<tr>
+<td>CWE-319</td>
+<td>Java/Kotlin</td>
+<td>java/maven/non-https-url</td>
+<td>Failure to use HTTPS or SFTP URL in Maven artifact upload/download</td>
+</tr>
+<tr>
+<td>CWE-326</td>
+<td>Java/Kotlin</td>
+<td>java/insufficient-key-size</td>
+<td>Use of a cryptographic algorithm with insufficient key size</td>
+</tr>
+<tr>
+<td>CWE-326</td>
+<td>Java/Kotlin</td>
+<td>java/weak-cryptographic-algorithm</td>
+<td>Use of a broken or risky cryptographic algorithm</td>
+</tr>
+<tr>
+<td>CWE-326</td>
+<td>Java/Kotlin</td>
+<td>java/potentially-weak-cryptographic-algorithm</td>
+<td>Use of a potentially broken or risky cryptographic algorithm</td>
+</tr>
+<tr>
+<td>CWE-327</td>
+<td>Java/Kotlin</td>
+<td>java/weak-cryptographic-algorithm</td>
+<td>Use of a broken or risky cryptographic algorithm</td>
+</tr>
+<tr>
+<td>CWE-327</td>
+<td>Java/Kotlin</td>
+<td>java/potentially-weak-cryptographic-algorithm</td>
+<td>Use of a potentially broken or risky cryptographic algorithm</td>
+</tr>
+<tr>
+<td>CWE-327</td>
+<td>Java/Kotlin</td>
+<td>java/rsa-without-oaep</td>
+<td>Use of RSA algorithm without OAEP</td>
+</tr>
+<tr>
+<td>CWE-327</td>
+<td>Java/Kotlin</td>
+<td>java/azure-storage/unsafe-client-side-encryption-in-use</td>
+<td>Unsafe usage of v1 version of Azure Storage client-side encryption (CVE-2022-30187).</td>
+</tr>
+<tr>
+<td>CWE-327</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-tls-version</td>
+<td>Unsafe TLS version</td>
+</tr>
+<tr>
+<td>CWE-327</td>
+<td>Java/Kotlin</td>
+<td>java/hash-without-salt</td>
+<td>Use of a hash function without a salt</td>
+</tr>
+<tr>
+<td>CWE-328</td>
+<td>Java/Kotlin</td>
+<td>java/weak-cryptographic-algorithm</td>
+<td>Use of a broken or risky cryptographic algorithm</td>
+</tr>
+<tr>
+<td>CWE-328</td>
+<td>Java/Kotlin</td>
+<td>java/potentially-weak-cryptographic-algorithm</td>
+<td>Use of a potentially broken or risky cryptographic algorithm</td>
+</tr>
+<tr>
+<td>CWE-329</td>
+<td>Java/Kotlin</td>
+<td>java/static-initialization-vector</td>
+<td>Using a static initialization vector for encryption</td>
+</tr>
+<tr>
+<td>CWE-330</td>
+<td>Java/Kotlin</td>
+<td>java/random-used-once</td>
+<td>Random used only once</td>
+</tr>
+<tr>
+<td>CWE-330</td>
+<td>Java/Kotlin</td>
+<td>java/static-initialization-vector</td>
+<td>Using a static initialization vector for encryption</td>
+</tr>
+<tr>
+<td>CWE-330</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-randomness</td>
+<td>Insecure randomness</td>
+</tr>
+<tr>
+<td>CWE-330</td>
+<td>Java/Kotlin</td>
+<td>java/predictable-seed</td>
+<td>Use of a predictable seed in a secure random number generator</td>
+</tr>
+<tr>
+<td>CWE-330</td>
+<td>Java/Kotlin</td>
+<td>java/jhipster-prng</td>
+<td>Detect JHipster Generator Vulnerability CVE-2019-16303</td>
+</tr>
+<tr>
+<td>CWE-330</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-api-call</td>
+<td>Hard-coded credential in API call</td>
+</tr>
+<tr>
+<td>CWE-330</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-comparison</td>
+<td>Hard-coded credential comparison</td>
+</tr>
+<tr>
+<td>CWE-330</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-sensitive-call</td>
+<td>Hard-coded credential in sensitive call</td>
+</tr>
+<tr>
+<td>CWE-330</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-password-field</td>
+<td>Hard-coded password field</td>
+</tr>
+<tr>
+<td>CWE-335</td>
+<td>Java/Kotlin</td>
+<td>java/random-used-once</td>
+<td>Random used only once</td>
+</tr>
+<tr>
+<td>CWE-335</td>
+<td>Java/Kotlin</td>
+<td>java/predictable-seed</td>
+<td>Use of a predictable seed in a secure random number generator</td>
+</tr>
+<tr>
+<td>CWE-337</td>
+<td>Java/Kotlin</td>
+<td>java/predictable-seed</td>
+<td>Use of a predictable seed in a secure random number generator</td>
+</tr>
+<tr>
+<td>CWE-338</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-randomness</td>
+<td>Insecure randomness</td>
+</tr>
+<tr>
+<td>CWE-338</td>
+<td>Java/Kotlin</td>
+<td>java/jhipster-prng</td>
+<td>Detect JHipster Generator Vulnerability CVE-2019-16303</td>
+</tr>
+<tr>
+<td>CWE-344</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-api-call</td>
+<td>Hard-coded credential in API call</td>
+</tr>
+<tr>
+<td>CWE-344</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-comparison</td>
+<td>Hard-coded credential comparison</td>
+</tr>
+<tr>
+<td>CWE-344</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-sensitive-call</td>
+<td>Hard-coded credential in sensitive call</td>
+</tr>
+<tr>
+<td>CWE-344</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-password-field</td>
+<td>Hard-coded password field</td>
+</tr>
+<tr>
+<td>CWE-345</td>
+<td>Java/Kotlin</td>
+<td>java/non-https-url</td>
+<td>Failure to use HTTPS URLs</td>
+</tr>
+<tr>
+<td>CWE-345</td>
+<td>Java/Kotlin</td>
+<td>java/missing-jwt-signature-check</td>
+<td>Missing JWT signature check</td>
+</tr>
+<tr>
+<td>CWE-345</td>
+<td>Java/Kotlin</td>
+<td>java/spring-disabled-csrf-protection</td>
+<td>Disabled Spring CSRF protection</td>
+</tr>
+<tr>
+<td>CWE-345</td>
+<td>Java/Kotlin</td>
+<td>java/unvalidated-cors-origin-set</td>
+<td>CORS is derived from untrusted input</td>
+</tr>
+<tr>
+<td>CWE-345</td>
+<td>Java/Kotlin</td>
+<td>java/missing-jwt-signature-check-auth0</td>
+<td>Missing JWT signature check</td>
+</tr>
+<tr>
+<td>CWE-345</td>
+<td>Java/Kotlin</td>
+<td>java/ip-address-spoofing</td>
+<td>IP address spoofing</td>
+</tr>
+<tr>
+<td>CWE-345</td>
+<td>Java/Kotlin</td>
+<td>java/jsonp-injection</td>
+<td>JSONP Injection</td>
+</tr>
+<tr>
+<td>CWE-346</td>
+<td>Java/Kotlin</td>
+<td>java/unvalidated-cors-origin-set</td>
+<td>CORS is derived from untrusted input</td>
+</tr>
+<tr>
+<td>CWE-347</td>
+<td>Java/Kotlin</td>
+<td>java/missing-jwt-signature-check</td>
+<td>Missing JWT signature check</td>
+</tr>
+<tr>
+<td>CWE-347</td>
+<td>Java/Kotlin</td>
+<td>java/missing-jwt-signature-check-auth0</td>
+<td>Missing JWT signature check</td>
+</tr>
+<tr>
+<td>CWE-348</td>
+<td>Java/Kotlin</td>
+<td>java/ip-address-spoofing</td>
+<td>IP address spoofing</td>
+</tr>
+<tr>
+<td>CWE-352</td>
+<td>Java/Kotlin</td>
+<td>java/spring-disabled-csrf-protection</td>
+<td>Disabled Spring CSRF protection</td>
+</tr>
+<tr>
+<td>CWE-352</td>
+<td>Java/Kotlin</td>
+<td>java/jsonp-injection</td>
+<td>JSONP Injection</td>
+</tr>
+<tr>
+<td>CWE-362</td>
+<td>Java/Kotlin</td>
+<td>java/toctou-race-condition</td>
+<td>Time-of-check time-of-use race condition</td>
+</tr>
+<tr>
+<td>CWE-362</td>
+<td>Java/Kotlin</td>
+<td>java/socket-auth-race-condition</td>
+<td>Race condition in socket authentication</td>
+</tr>
+<tr>
+<td>CWE-367</td>
+<td>Java/Kotlin</td>
+<td>java/toctou-race-condition</td>
+<td>Time-of-check time-of-use race condition</td>
+</tr>
+<tr>
+<td>CWE-382</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/container-interference</td>
+<td>EJB interferes with container operation</td>
+</tr>
+<tr>
+<td>CWE-382</td>
+<td>Java/Kotlin</td>
+<td>java/jvm-exit</td>
+<td>Forcible JVM termination</td>
+</tr>
+<tr>
+<td>CWE-383</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/threads</td>
+<td>EJB uses threads</td>
+</tr>
+<tr>
+<td>CWE-391</td>
+<td>Java/Kotlin</td>
+<td>java/discarded-exception</td>
+<td>Discarded exception</td>
+</tr>
+<tr>
+<td>CWE-391</td>
+<td>Java/Kotlin</td>
+<td>java/ignored-error-status-of-call</td>
+<td>Ignored error status of call</td>
+</tr>
+<tr>
+<td>CWE-396</td>
+<td>Java/Kotlin</td>
+<td>java/overly-general-catch</td>
+<td>Overly-general catch clause</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/deprecated-call</td>
+<td>Deprecated method or constructor invocation</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/dead-class</td>
+<td>Dead class</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/dead-enum-constant</td>
+<td>Dead enum constant</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/dead-field</td>
+<td>Dead field</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/dead-function</td>
+<td>Dead method</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/lines-of-dead-code</td>
+<td>Lines of dead code in files</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/unused-parameter</td>
+<td>Useless parameter</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/useless-null-check</td>
+<td>Useless null check</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/useless-type-test</td>
+<td>Useless type test</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/useless-upcast</td>
+<td>Useless upcast</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/empty-container</td>
+<td>Container contents are never initialized</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/unused-container</td>
+<td>Container contents are never accessed</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/constant-comparison</td>
+<td>Useless comparison test</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/dereferenced-value-is-always-null</td>
+<td>Dereferenced variable is always null</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/dereferenced-expr-may-be-null</td>
+<td>Dereferenced expression may be null</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/dereferenced-value-may-be-null</td>
+<td>Dereferenced variable may be null</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/empty-synchronized-block</td>
+<td>Empty synchronized block</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/unreachable-catch-clause</td>
+<td>Unreachable catch clause</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/potentially-dangerous-function</td>
+<td>Use of a potentially dangerous function</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/todo-comment</td>
+<td>TODO/FIXME comments</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/unused-reference-type</td>
+<td>Unused classes and interfaces</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/overwritten-assignment-to-local</td>
+<td>Assigned value is overwritten</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/useless-assignment-to-local</td>
+<td>Useless assignment to local variable</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/unused-initialized-local</td>
+<td>Local variable is initialized but not used</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/local-variable-is-never-read</td>
+<td>Unread local variable</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/unused-field</td>
+<td>Unused field</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/unused-label</td>
+<td>Unused label</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/unused-local-variable</td>
+<td>Unused local variable</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/switch-fall-through</td>
+<td>Unterminated switch case</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/redundant-cast</td>
+<td>Unnecessary cast</td>
+</tr>
+<tr>
+<td>CWE-398</td>
+<td>Java/Kotlin</td>
+<td>java/unused-import</td>
+<td>Unnecessary import</td>
+</tr>
+<tr>
+<td>CWE-400</td>
+<td>Java/Kotlin</td>
+<td>java/input-resource-leak</td>
+<td>Potential input resource leak</td>
+</tr>
+<tr>
+<td>CWE-400</td>
+<td>Java/Kotlin</td>
+<td>java/database-resource-leak</td>
+<td>Potential database resource leak</td>
+</tr>
+<tr>
+<td>CWE-400</td>
+<td>Java/Kotlin</td>
+<td>java/output-resource-leak</td>
+<td>Potential output resource leak</td>
+</tr>
+<tr>
+<td>CWE-400</td>
+<td>Java/Kotlin</td>
+<td>java/polynomial-redos</td>
+<td>Polynomial regular expression used on uncontrolled data</td>
+</tr>
+<tr>
+<td>CWE-400</td>
+<td>Java/Kotlin</td>
+<td>java/redos</td>
+<td>Inefficient regular expression</td>
+</tr>
+<tr>
+<td>CWE-400</td>
+<td>Java/Kotlin</td>
+<td>java/regex-injection</td>
+<td>Regular expression injection</td>
+</tr>
+<tr>
+<td>CWE-400</td>
+<td>Java/Kotlin</td>
+<td>java/log4j-injection</td>
+<td>Potential Log4J LDAP JNDI injection (CVE-2021-44228)</td>
+</tr>
+<tr>
+<td>CWE-400</td>
+<td>Java/Kotlin</td>
+<td>java/local-thread-resource-abuse</td>
+<td>Uncontrolled thread resource consumption from local input source</td>
+</tr>
+<tr>
+<td>CWE-400</td>
+<td>Java/Kotlin</td>
+<td>java/thread-resource-abuse</td>
+<td>Uncontrolled thread resource consumption</td>
+</tr>
+<tr>
+<td>CWE-404</td>
+<td>Java/Kotlin</td>
+<td>java/missing-super-finalize</td>
+<td>Finalizer inconsistency</td>
+</tr>
+<tr>
+<td>CWE-404</td>
+<td>Java/Kotlin</td>
+<td>java/input-resource-leak</td>
+<td>Potential input resource leak</td>
+</tr>
+<tr>
+<td>CWE-404</td>
+<td>Java/Kotlin</td>
+<td>java/database-resource-leak</td>
+<td>Potential database resource leak</td>
+</tr>
+<tr>
+<td>CWE-404</td>
+<td>Java/Kotlin</td>
+<td>java/output-resource-leak</td>
+<td>Potential output resource leak</td>
+</tr>
+<tr>
+<td>CWE-404</td>
+<td>Java/Kotlin</td>
+<td>java/empty-finalizer</td>
+<td>Empty body of finalizer</td>
+</tr>
+<tr>
+<td>CWE-404</td>
+<td>Java/Kotlin</td>
+<td>java/disabled-certificate-revocation-checking</td>
+<td>Disabled certificate revocation checking</td>
+</tr>
+<tr>
+<td>CWE-405</td>
+<td>Java/Kotlin</td>
+<td>java/xxe</td>
+<td>Resolving XML external entity in user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-405</td>
+<td>Java/Kotlin</td>
+<td>java/uncontrolled-file-decompression</td>
+<td>Uncontrolled file decompression</td>
+</tr>
+<tr>
+<td>CWE-409</td>
+<td>Java/Kotlin</td>
+<td>java/xxe</td>
+<td>Resolving XML external entity in user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-409</td>
+<td>Java/Kotlin</td>
+<td>java/uncontrolled-file-decompression</td>
+<td>Uncontrolled file decompression</td>
+</tr>
+<tr>
+<td>CWE-413</td>
+<td>Java/Kotlin</td>
+<td>java/unsynchronized-getter</td>
+<td>Inconsistent synchronization of getter and setter</td>
+</tr>
+<tr>
+<td>CWE-420</td>
+<td>Java/Kotlin</td>
+<td>java/socket-auth-race-condition</td>
+<td>Race condition in socket authentication</td>
+</tr>
+<tr>
+<td>CWE-421</td>
+<td>Java/Kotlin</td>
+<td>java/socket-auth-race-condition</td>
+<td>Race condition in socket authentication</td>
+</tr>
+<tr>
+<td>CWE-441</td>
+<td>Java/Kotlin</td>
+<td>java/android/unsafe-content-uri-resolution</td>
+<td>Uncontrolled data used in content resolution</td>
+</tr>
+<tr>
+<td>CWE-441</td>
+<td>Java/Kotlin</td>
+<td>java/ssrf</td>
+<td>Server-side request forgery</td>
+</tr>
+<tr>
+<td>CWE-454</td>
+<td>Java/Kotlin</td>
+<td>java/exec-tainted-environment</td>
+<td>Building a command with an injected environment variable</td>
+</tr>
+<tr>
+<td>CWE-457</td>
+<td>Java/Kotlin</td>
+<td>java/unassigned-field</td>
+<td>Field is never assigned a non-null value</td>
+</tr>
+<tr>
+<td>CWE-459</td>
+<td>Java/Kotlin</td>
+<td>java/missing-super-finalize</td>
+<td>Finalizer inconsistency</td>
+</tr>
+<tr>
+<td>CWE-459</td>
+<td>Java/Kotlin</td>
+<td>java/empty-finalizer</td>
+<td>Empty body of finalizer</td>
+</tr>
+<tr>
+<td>CWE-470</td>
+<td>Java/Kotlin</td>
+<td>java/android/fragment-injection</td>
+<td>Android fragment injection</td>
+</tr>
+<tr>
+<td>CWE-470</td>
+<td>Java/Kotlin</td>
+<td>java/android/fragment-injection-preference-activity</td>
+<td>Android fragment injection in PreferenceActivity</td>
+</tr>
+<tr>
+<td>CWE-470</td>
+<td>Java/Kotlin</td>
+<td>java/android/unsafe-reflection</td>
+<td>Load 3rd party classes or code ('unsafe reflection') without signature check</td>
+</tr>
+<tr>
+<td>CWE-470</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-reflection</td>
+<td>Use of externally-controlled input to select classes or code ('unsafe reflection')</td>
+</tr>
+<tr>
+<td>CWE-476</td>
+<td>Java/Kotlin</td>
+<td>java/dereferenced-value-is-always-null</td>
+<td>Dereferenced variable is always null</td>
+</tr>
+<tr>
+<td>CWE-476</td>
+<td>Java/Kotlin</td>
+<td>java/dereferenced-expr-may-be-null</td>
+<td>Dereferenced expression may be null</td>
+</tr>
+<tr>
+<td>CWE-476</td>
+<td>Java/Kotlin</td>
+<td>java/dereferenced-value-may-be-null</td>
+<td>Dereferenced variable may be null</td>
+</tr>
+<tr>
+<td>CWE-477</td>
+<td>Java/Kotlin</td>
+<td>java/deprecated-call</td>
+<td>Deprecated method or constructor invocation</td>
+</tr>
+<tr>
+<td>CWE-478</td>
+<td>Java/Kotlin</td>
+<td>java/missing-default-in-switch</td>
+<td>Missing default case in switch</td>
+</tr>
+<tr>
+<td>CWE-478</td>
+<td>Java/Kotlin</td>
+<td>java/missing-case-in-switch</td>
+<td>Missing enum case in switch</td>
+</tr>
+<tr>
+<td>CWE-480</td>
+<td>Java/Kotlin</td>
+<td>java/assignment-in-boolean-expression</td>
+<td>Assignment in Boolean expression</td>
+</tr>
+<tr>
+<td>CWE-480</td>
+<td>Java/Kotlin</td>
+<td>java/reference-equality-on-strings</td>
+<td>Reference equality test on strings</td>
+</tr>
+<tr>
+<td>CWE-481</td>
+<td>Java/Kotlin</td>
+<td>java/assignment-in-boolean-expression</td>
+<td>Assignment in Boolean expression</td>
+</tr>
+<tr>
+<td>CWE-484</td>
+<td>Java/Kotlin</td>
+<td>java/switch-fall-through</td>
+<td>Unterminated switch case</td>
+</tr>
+<tr>
+<td>CWE-485</td>
+<td>Java/Kotlin</td>
+<td>java/missing-call-to-super-clone</td>
+<td>Missing super clone</td>
+</tr>
+<tr>
+<td>CWE-485</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-class</td>
+<td>Cleartext storage of sensitive information using storable class</td>
+</tr>
+<tr>
+<td>CWE-485</td>
+<td>Java/Kotlin</td>
+<td>java/android/debuggable-attribute-enabled</td>
+<td>Android debuggable attribute enabled</td>
+</tr>
+<tr>
+<td>CWE-485</td>
+<td>Java/Kotlin</td>
+<td>java/android/webview-debugging-enabled</td>
+<td>Android Webview debugging enabled</td>
+</tr>
+<tr>
+<td>CWE-485</td>
+<td>Java/Kotlin</td>
+<td>java/trust-boundary-violation</td>
+<td>Trust boundary violation</td>
+</tr>
+<tr>
+<td>CWE-485</td>
+<td>Java/Kotlin</td>
+<td>java/android/unsafe-android-webview-fetch</td>
+<td>Unsafe resource fetching in Android WebView</td>
+</tr>
+<tr>
+<td>CWE-485</td>
+<td>Java/Kotlin</td>
+<td>java/abstract-to-concrete-cast</td>
+<td>Cast from abstract to concrete collection</td>
+</tr>
+<tr>
+<td>CWE-485</td>
+<td>Java/Kotlin</td>
+<td>java/internal-representation-exposure</td>
+<td>Exposing internal representation</td>
+</tr>
+<tr>
+<td>CWE-485</td>
+<td>Java/Kotlin</td>
+<td>java/main-method-in-enterprise-bean</td>
+<td>Main Method in Enterprise Java Bean</td>
+</tr>
+<tr>
+<td>CWE-485</td>
+<td>Java/Kotlin</td>
+<td>java/main-method-in-web-components</td>
+<td>Main Method in Java EE Web Components</td>
+</tr>
+<tr>
+<td>CWE-485</td>
+<td>Java/Kotlin</td>
+<td>java/struts-development-mode</td>
+<td>Apache Struts development mode enabled</td>
+</tr>
+<tr>
+<td>CWE-489</td>
+<td>Java/Kotlin</td>
+<td>java/android/debuggable-attribute-enabled</td>
+<td>Android debuggable attribute enabled</td>
+</tr>
+<tr>
+<td>CWE-489</td>
+<td>Java/Kotlin</td>
+<td>java/android/webview-debugging-enabled</td>
+<td>Android Webview debugging enabled</td>
+</tr>
+<tr>
+<td>CWE-489</td>
+<td>Java/Kotlin</td>
+<td>java/main-method-in-enterprise-bean</td>
+<td>Main Method in Enterprise Java Bean</td>
+</tr>
+<tr>
+<td>CWE-489</td>
+<td>Java/Kotlin</td>
+<td>java/main-method-in-web-components</td>
+<td>Main Method in Java EE Web Components</td>
+</tr>
+<tr>
+<td>CWE-489</td>
+<td>Java/Kotlin</td>
+<td>java/struts-development-mode</td>
+<td>Apache Struts development mode enabled</td>
+</tr>
+<tr>
+<td>CWE-494</td>
+<td>Java/Kotlin</td>
+<td>java/maven/non-https-url</td>
+<td>Failure to use HTTPS or SFTP URL in Maven artifact upload/download</td>
+</tr>
+<tr>
+<td>CWE-497</td>
+<td>Java/Kotlin</td>
+<td>java/stack-trace-exposure</td>
+<td>Information exposure through a stack trace</td>
+</tr>
+<tr>
+<td>CWE-499</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-class</td>
+<td>Cleartext storage of sensitive information using storable class</td>
+</tr>
+<tr>
+<td>CWE-501</td>
+<td>Java/Kotlin</td>
+<td>java/trust-boundary-violation</td>
+<td>Trust boundary violation</td>
+</tr>
+<tr>
+<td>CWE-502</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-deserialization</td>
+<td>Deserialization of user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-502</td>
+<td>Java/Kotlin</td>
+<td>java/log4j-injection</td>
+<td>Potential Log4J LDAP JNDI injection (CVE-2021-44228)</td>
+</tr>
+<tr>
+<td>CWE-502</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-deserialization-rmi</td>
+<td>Unsafe deserialization in a remotely callable method.</td>
+</tr>
+<tr>
+<td>CWE-502</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-deserialization-spring-exporter-in-configuration-class</td>
+<td>Unsafe deserialization with Spring's remote service exporters.</td>
+</tr>
+<tr>
+<td>CWE-502</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-deserialization-spring-exporter-in-xml-configuration</td>
+<td>Unsafe deserialization with Spring's remote service exporters.</td>
+</tr>
+<tr>
+<td>CWE-522</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-basic-auth</td>
+<td>Insecure basic authentication</td>
+</tr>
+<tr>
+<td>CWE-522</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-ldap-auth</td>
+<td>Insecure LDAP authentication</td>
+</tr>
+<tr>
+<td>CWE-522</td>
+<td>Java/Kotlin</td>
+<td>java/credentials-in-properties</td>
+<td>Cleartext Credentials in Properties File</td>
+</tr>
+<tr>
+<td>CWE-522</td>
+<td>Java/Kotlin</td>
+<td>java/password-in-configuration</td>
+<td>Password in configuration file</td>
+</tr>
+<tr>
+<td>CWE-524</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-keyboard-cache</td>
+<td>Android sensitive keyboard cache</td>
+</tr>
+<tr>
+<td>CWE-532</td>
+<td>Java/Kotlin</td>
+<td>java/sensitive-log</td>
+<td>Insertion of sensitive information into log files</td>
+</tr>
+<tr>
+<td>CWE-538</td>
+<td>Java/Kotlin</td>
+<td>java/sensitive-log</td>
+<td>Insertion of sensitive information into log files</td>
+</tr>
+<tr>
+<td>CWE-538</td>
+<td>Java/Kotlin</td>
+<td>java/server-directory-listing</td>
+<td>Directories and files exposure</td>
+</tr>
+<tr>
+<td>CWE-543</td>
+<td>Java/Kotlin</td>
+<td>java/lazy-initialization</td>
+<td>Incorrect lazy initialization of a static field</td>
+</tr>
+<tr>
+<td>CWE-546</td>
+<td>Java/Kotlin</td>
+<td>java/todo-comment</td>
+<td>TODO/FIXME comments</td>
+</tr>
+<tr>
+<td>CWE-548</td>
+<td>Java/Kotlin</td>
+<td>java/server-directory-listing</td>
+<td>Directories and files exposure</td>
+</tr>
+<tr>
+<td>CWE-552</td>
+<td>Java/Kotlin</td>
+<td>java/sensitive-log</td>
+<td>Insertion of sensitive information into log files</td>
+</tr>
+<tr>
+<td>CWE-552</td>
+<td>Java/Kotlin</td>
+<td>java/unvalidated-url-forward</td>
+<td>URL forward from a remote source</td>
+</tr>
+<tr>
+<td>CWE-552</td>
+<td>Java/Kotlin</td>
+<td>java/server-directory-listing</td>
+<td>Directories and files exposure</td>
+</tr>
+<tr>
+<td>CWE-555</td>
+<td>Java/Kotlin</td>
+<td>java/credentials-in-properties</td>
+<td>Cleartext Credentials in Properties File</td>
+</tr>
+<tr>
+<td>CWE-555</td>
+<td>Java/Kotlin</td>
+<td>java/password-in-configuration</td>
+<td>Password in configuration file</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/dead-class</td>
+<td>Dead class</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/dead-enum-constant</td>
+<td>Dead enum constant</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/dead-field</td>
+<td>Dead field</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/dead-function</td>
+<td>Dead method</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/lines-of-dead-code</td>
+<td>Lines of dead code in files</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/unused-parameter</td>
+<td>Useless parameter</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/useless-null-check</td>
+<td>Useless null check</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/useless-type-test</td>
+<td>Useless type test</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/useless-upcast</td>
+<td>Useless upcast</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/empty-container</td>
+<td>Container contents are never initialized</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/unused-container</td>
+<td>Container contents are never accessed</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/constant-comparison</td>
+<td>Useless comparison test</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/unreachable-catch-clause</td>
+<td>Unreachable catch clause</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/unused-reference-type</td>
+<td>Unused classes and interfaces</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/useless-assignment-to-local</td>
+<td>Useless assignment to local variable</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/local-variable-is-never-read</td>
+<td>Unread local variable</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/unused-field</td>
+<td>Unused field</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/unused-label</td>
+<td>Unused label</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/redundant-cast</td>
+<td>Unnecessary cast</td>
+</tr>
+<tr>
+<td>CWE-561</td>
+<td>Java/Kotlin</td>
+<td>java/unused-import</td>
+<td>Unnecessary import</td>
+</tr>
+<tr>
+<td>CWE-563</td>
+<td>Java/Kotlin</td>
+<td>java/overwritten-assignment-to-local</td>
+<td>Assigned value is overwritten</td>
+</tr>
+<tr>
+<td>CWE-563</td>
+<td>Java/Kotlin</td>
+<td>java/unused-initialized-local</td>
+<td>Local variable is initialized but not used</td>
+</tr>
+<tr>
+<td>CWE-563</td>
+<td>Java/Kotlin</td>
+<td>java/unused-local-variable</td>
+<td>Unused local variable</td>
+</tr>
+<tr>
+<td>CWE-564</td>
+<td>Java/Kotlin</td>
+<td>java/concatenated-sql-query</td>
+<td>Query built by concatenation with a possibly-untrusted string</td>
+</tr>
+<tr>
+<td>CWE-564</td>
+<td>Java/Kotlin</td>
+<td>java/sql-injection</td>
+<td>Query built from user-controlled sources</td>
+</tr>
+<tr>
+<td>CWE-568</td>
+<td>Java/Kotlin</td>
+<td>java/missing-super-finalize</td>
+<td>Finalizer inconsistency</td>
+</tr>
+<tr>
+<td>CWE-568</td>
+<td>Java/Kotlin</td>
+<td>java/empty-finalizer</td>
+<td>Empty body of finalizer</td>
+</tr>
+<tr>
+<td>CWE-570</td>
+<td>Java/Kotlin</td>
+<td>java/constant-comparison</td>
+<td>Useless comparison test</td>
+</tr>
+<tr>
+<td>CWE-571</td>
+<td>Java/Kotlin</td>
+<td>java/constant-comparison</td>
+<td>Useless comparison test</td>
+</tr>
+<tr>
+<td>CWE-572</td>
+<td>Java/Kotlin</td>
+<td>java/call-to-thread-run</td>
+<td>Direct call to a run() method</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/container-interference</td>
+<td>EJB interferes with container operation</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/file-io</td>
+<td>EJB uses file input/output</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/graphics</td>
+<td>EJB uses graphics</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/native-code</td>
+<td>EJB uses native code</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/reflection</td>
+<td>EJB uses reflection</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/security-configuration-access</td>
+<td>EJB accesses security configuration</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/substitution-in-serialization</td>
+<td>EJB uses substitution in serialization</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/socket-or-stream-handler-factory</td>
+<td>EJB sets socket factory or URL stream handler factory</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/server-socket</td>
+<td>EJB uses server socket</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/non-final-static-field</td>
+<td>EJB uses non-final static field</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/synchronization</td>
+<td>EJB uses synchronization</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/this</td>
+<td>EJB uses 'this' as argument or result</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/threads</td>
+<td>EJB uses threads</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/missing-call-to-super-clone</td>
+<td>Missing super clone</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/inconsistent-equals-and-hashcode</td>
+<td>Inconsistent equals and hashCode</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/unreleased-lock</td>
+<td>Unreleased lock</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/missing-super-finalize</td>
+<td>Finalizer inconsistency</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/missing-format-argument</td>
+<td>Missing format argument</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/unused-format-argument</td>
+<td>Unused format argument</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/static-initialization-vector</td>
+<td>Using a static initialization vector for encryption</td>
+</tr>
+<tr>
+<td>CWE-573</td>
+<td>Java/Kotlin</td>
+<td>java/empty-finalizer</td>
+<td>Empty body of finalizer</td>
+</tr>
+<tr>
+<td>CWE-574</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/synchronization</td>
+<td>EJB uses synchronization</td>
+</tr>
+<tr>
+<td>CWE-575</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/graphics</td>
+<td>EJB uses graphics</td>
+</tr>
+<tr>
+<td>CWE-576</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/file-io</td>
+<td>EJB uses file input/output</td>
+</tr>
+<tr>
+<td>CWE-577</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/socket-or-stream-handler-factory</td>
+<td>EJB sets socket factory or URL stream handler factory</td>
+</tr>
+<tr>
+<td>CWE-577</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/server-socket</td>
+<td>EJB uses server socket</td>
+</tr>
+<tr>
+<td>CWE-578</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/container-interference</td>
+<td>EJB interferes with container operation</td>
+</tr>
+<tr>
+<td>CWE-580</td>
+<td>Java/Kotlin</td>
+<td>java/missing-call-to-super-clone</td>
+<td>Missing super clone</td>
+</tr>
+<tr>
+<td>CWE-581</td>
+<td>Java/Kotlin</td>
+<td>java/inconsistent-equals-and-hashcode</td>
+<td>Inconsistent equals and hashCode</td>
+</tr>
+<tr>
+<td>CWE-582</td>
+<td>Java/Kotlin</td>
+<td>java/static-array</td>
+<td>Array constant vulnerable to change</td>
+</tr>
+<tr>
+<td>CWE-584</td>
+<td>Java/Kotlin</td>
+<td>java/abnormal-finally-completion</td>
+<td>Finally block may not complete normally</td>
+</tr>
+<tr>
+<td>CWE-585</td>
+<td>Java/Kotlin</td>
+<td>java/empty-synchronized-block</td>
+<td>Empty synchronized block</td>
+</tr>
+<tr>
+<td>CWE-592</td>
+<td>Java/Kotlin</td>
+<td>java/user-controlled-bypass</td>
+<td>User-controlled bypass of sensitive method</td>
+</tr>
+<tr>
+<td>CWE-592</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-permissions-check</td>
+<td>User-controlled data used in permissions check</td>
+</tr>
+<tr>
+<td>CWE-595</td>
+<td>Java/Kotlin</td>
+<td>java/reference-equality-with-object</td>
+<td>Reference equality test on java.lang.Object</td>
+</tr>
+<tr>
+<td>CWE-595</td>
+<td>Java/Kotlin</td>
+<td>java/reference-equality-of-boxed-types</td>
+<td>Reference equality test of boxed types</td>
+</tr>
+<tr>
+<td>CWE-595</td>
+<td>Java/Kotlin</td>
+<td>java/reference-equality-on-strings</td>
+<td>Reference equality test on strings</td>
+</tr>
+<tr>
+<td>CWE-597</td>
+<td>Java/Kotlin</td>
+<td>java/reference-equality-on-strings</td>
+<td>Reference equality test on strings</td>
+</tr>
+<tr>
+<td>CWE-598</td>
+<td>Java/Kotlin</td>
+<td>java/sensitive-query-with-get</td>
+<td>Sensitive GET Query</td>
+</tr>
+<tr>
+<td>CWE-600</td>
+<td>Java/Kotlin</td>
+<td>java/uncaught-servlet-exception</td>
+<td>Uncaught Servlet Exception</td>
+</tr>
+<tr>
+<td>CWE-601</td>
+<td>Java/Kotlin</td>
+<td>java/unvalidated-url-redirection</td>
+<td>URL redirection from remote source</td>
+</tr>
+<tr>
+<td>CWE-601</td>
+<td>Java/Kotlin</td>
+<td>java/spring-unvalidated-url-redirection</td>
+<td>Spring url redirection from remote source</td>
+</tr>
+<tr>
+<td>CWE-609</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-double-checked-locking</td>
+<td>Double-checked locking is not thread-safe</td>
+</tr>
+<tr>
+<td>CWE-609</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-double-checked-locking-init-order</td>
+<td>Race condition in double-checked locking object initialization</td>
+</tr>
+<tr>
+<td>CWE-609</td>
+<td>Java/Kotlin</td>
+<td>java/lazy-initialization</td>
+<td>Incorrect lazy initialization of a static field</td>
+</tr>
+<tr>
+<td>CWE-610</td>
+<td>Java/Kotlin</td>
+<td>java/path-injection</td>
+<td>Uncontrolled data used in path expression</td>
+</tr>
+<tr>
+<td>CWE-610</td>
+<td>Java/Kotlin</td>
+<td>java/android/unsafe-content-uri-resolution</td>
+<td>Uncontrolled data used in content resolution</td>
+</tr>
+<tr>
+<td>CWE-610</td>
+<td>Java/Kotlin</td>
+<td>java/android/fragment-injection</td>
+<td>Android fragment injection</td>
+</tr>
+<tr>
+<td>CWE-610</td>
+<td>Java/Kotlin</td>
+<td>java/android/fragment-injection-preference-activity</td>
+<td>Android fragment injection in PreferenceActivity</td>
+</tr>
+<tr>
+<td>CWE-610</td>
+<td>Java/Kotlin</td>
+<td>java/unvalidated-url-redirection</td>
+<td>URL redirection from remote source</td>
+</tr>
+<tr>
+<td>CWE-610</td>
+<td>Java/Kotlin</td>
+<td>java/xxe</td>
+<td>Resolving XML external entity in user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-610</td>
+<td>Java/Kotlin</td>
+<td>java/ssrf</td>
+<td>Server-side request forgery</td>
+</tr>
+<tr>
+<td>CWE-610</td>
+<td>Java/Kotlin</td>
+<td>java/file-path-injection</td>
+<td>File Path Injection</td>
+</tr>
+<tr>
+<td>CWE-610</td>
+<td>Java/Kotlin</td>
+<td>java/android/unsafe-reflection</td>
+<td>Load 3rd party classes or code ('unsafe reflection') without signature check</td>
+</tr>
+<tr>
+<td>CWE-610</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-reflection</td>
+<td>Use of externally-controlled input to select classes or code ('unsafe reflection')</td>
+</tr>
+<tr>
+<td>CWE-610</td>
+<td>Java/Kotlin</td>
+<td>java/spring-unvalidated-url-redirection</td>
+<td>Spring url redirection from remote source</td>
+</tr>
+<tr>
+<td>CWE-611</td>
+<td>Java/Kotlin</td>
+<td>java/xxe</td>
+<td>Resolving XML external entity in user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-614</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-cookie</td>
+<td>Failure to use secure cookies</td>
+</tr>
+<tr>
+<td>CWE-625</td>
+<td>Java/Kotlin</td>
+<td>java/permissive-dot-regex</td>
+<td>URL matched by permissive <code>.</code> in a regular expression</td>
+</tr>
+<tr>
+<td>CWE-628</td>
+<td>Java/Kotlin</td>
+<td>java/missing-format-argument</td>
+<td>Missing format argument</td>
+</tr>
+<tr>
+<td>CWE-628</td>
+<td>Java/Kotlin</td>
+<td>java/unused-format-argument</td>
+<td>Unused format argument</td>
+</tr>
+<tr>
+<td>CWE-642</td>
+<td>Java/Kotlin</td>
+<td>java/path-injection</td>
+<td>Uncontrolled data used in path expression</td>
+</tr>
+<tr>
+<td>CWE-642</td>
+<td>Java/Kotlin</td>
+<td>java/file-path-injection</td>
+<td>File Path Injection</td>
+</tr>
+<tr>
+<td>CWE-643</td>
+<td>Java/Kotlin</td>
+<td>java/xml/xpath-injection</td>
+<td>XPath injection</td>
+</tr>
+<tr>
+<td>CWE-652</td>
+<td>Java/Kotlin</td>
+<td>java/xquery-injection</td>
+<td>XQuery query built from user-controlled sources</td>
+</tr>
+<tr>
+<td>CWE-657</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-api-call</td>
+<td>Hard-coded credential in API call</td>
+</tr>
+<tr>
+<td>CWE-657</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-comparison</td>
+<td>Hard-coded credential comparison</td>
+</tr>
+<tr>
+<td>CWE-657</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-sensitive-call</td>
+<td>Hard-coded credential in sensitive call</td>
+</tr>
+<tr>
+<td>CWE-657</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-password-field</td>
+<td>Hard-coded password field</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/synchronization</td>
+<td>EJB uses synchronization</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/wait-on-condition-interface</td>
+<td>Wait on condition</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/call-to-thread-run</td>
+<td>Direct call to a run() method</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-double-checked-locking</td>
+<td>Double-checked locking is not thread-safe</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-double-checked-locking-init-order</td>
+<td>Race condition in double-checked locking object initialization</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-sync-on-field</td>
+<td>Futile synchronization on field</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/inconsistent-field-synchronization</td>
+<td>Inconsistent synchronization for field</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/lazy-initialization</td>
+<td>Incorrect lazy initialization of a static field</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/non-sync-override</td>
+<td>Non-synchronized override of synchronized method</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/notify-instead-of-notify-all</td>
+<td>notify instead of notifyAll</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/sleep-with-lock-held</td>
+<td>Sleep with lock held</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/sync-on-boxed-types</td>
+<td>Synchronization on boxed types or strings</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/unsynchronized-getter</td>
+<td>Inconsistent synchronization of getter and setter</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/inconsistent-sync-writeobject</td>
+<td>Inconsistent synchronization for writeObject()</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/unreleased-lock</td>
+<td>Unreleased lock</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/wait-with-two-locks</td>
+<td>Wait with two locks held</td>
+</tr>
+<tr>
+<td>CWE-662</td>
+<td>Java/Kotlin</td>
+<td>java/lock-order-inconsistency</td>
+<td>Lock order inconsistency</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/synchronization</td>
+<td>EJB uses synchronization</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/implicit-cast-in-compound-assignment</td>
+<td>Implicit narrowing conversion in compound assignment</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/integer-multiplication-cast-to-long</td>
+<td>Result of multiplication cast to wider type</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/missing-call-to-super-clone</td>
+<td>Missing super clone</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/wait-on-condition-interface</td>
+<td>Wait on condition</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/call-to-thread-run</td>
+<td>Direct call to a run() method</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-double-checked-locking</td>
+<td>Double-checked locking is not thread-safe</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-double-checked-locking-init-order</td>
+<td>Race condition in double-checked locking object initialization</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-sync-on-field</td>
+<td>Futile synchronization on field</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/inconsistent-field-synchronization</td>
+<td>Inconsistent synchronization for field</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/lazy-initialization</td>
+<td>Incorrect lazy initialization of a static field</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/non-sync-override</td>
+<td>Non-synchronized override of synchronized method</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/notify-instead-of-notify-all</td>
+<td>notify instead of notifyAll</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/sleep-with-lock-held</td>
+<td>Sleep with lock held</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/sync-on-boxed-types</td>
+<td>Synchronization on boxed types or strings</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unsynchronized-getter</td>
+<td>Inconsistent synchronization of getter and setter</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/inconsistent-sync-writeobject</td>
+<td>Inconsistent synchronization for writeObject()</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unreleased-lock</td>
+<td>Unreleased lock</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/wait-with-two-locks</td>
+<td>Wait with two locks held</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/missing-super-finalize</td>
+<td>Finalizer inconsistency</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/input-resource-leak</td>
+<td>Potential input resource leak</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/database-resource-leak</td>
+<td>Potential database resource leak</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/output-resource-leak</td>
+<td>Potential output resource leak</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/impossible-array-cast</td>
+<td>Impossible array cast</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/path-injection</td>
+<td>Uncontrolled data used in path expression</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/zipslip</td>
+<td>Arbitrary file access during archive extraction ("Zip Slip")</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/partial-path-traversal</td>
+<td>Partial path traversal vulnerability</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/partial-path-traversal-from-remote</td>
+<td>Partial path traversal vulnerability from remote</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/exec-tainted-environment</td>
+<td>Building a command with an injected environment variable</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/arbitrary-apk-installation</td>
+<td>Android APK installation</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/groovy-injection</td>
+<td>Groovy Language injection</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-bean-validation</td>
+<td>Insecure Bean Validation</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/jexl-expression-injection</td>
+<td>Expression language injection (JEXL)</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/mvel-expression-injection</td>
+<td>Expression language injection (MVEL)</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/spel-expression-injection</td>
+<td>Expression language injection (Spring)</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/server-side-template-injection</td>
+<td>Server-side template injection</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/comparison-with-wider-type</td>
+<td>Comparison of narrow type with wide type in loop condition</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-notification</td>
+<td>Exposure of sensitive information to notifications</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-text</td>
+<td>Exposure of sensitive information to UI text views</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/websettings-allow-content-access</td>
+<td>Android WebView settings allows access to content links</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/websettings-file-access</td>
+<td>Android WebSettings file access</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/local-temp-file-or-directory-information-disclosure</td>
+<td>Local information disclosure in a temporary directory</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/error-message-exposure</td>
+<td>Information exposure through an error message</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/stack-trace-exposure</td>
+<td>Information exposure through a stack trace</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/intent-uri-permission-manipulation</td>
+<td>Intent URI permission manipulation</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-cert-trust</td>
+<td>Unsafe certificate trust</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/insecure-local-key-gen</td>
+<td>Insecurely generated keys for local authentication</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/insecure-local-authentication</td>
+<td>Insecure local authentication</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-smtp-ssl</td>
+<td>Insecure JavaMail SSL Configuration</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-hostname-verification</td>
+<td>Unsafe hostname verification</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/backup-enabled</td>
+<td>Application backup allowed</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-database</td>
+<td>Cleartext storage of sensitive information using a local database on Android</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-filesystem</td>
+<td>Cleartext storage of sensitive information in the Android filesystem</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-class</td>
+<td>Cleartext storage of sensitive information using storable class</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-cookie</td>
+<td>Cleartext storage of sensitive information in cookie</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-properties</td>
+<td>Cleartext storage of sensitive information using 'Properties' class</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-shared-prefs</td>
+<td>Cleartext storage of sensitive information using <code>SharedPreferences</code> on Android</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/socket-auth-race-condition</td>
+<td>Race condition in socket authentication</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/unsafe-content-uri-resolution</td>
+<td>Uncontrolled data used in content resolution</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/fragment-injection</td>
+<td>Android fragment injection</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/fragment-injection-preference-activity</td>
+<td>Android fragment injection in PreferenceActivity</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/debuggable-attribute-enabled</td>
+<td>Android debuggable attribute enabled</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/webview-debugging-enabled</td>
+<td>Android Webview debugging enabled</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/trust-boundary-violation</td>
+<td>Trust boundary violation</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-deserialization</td>
+<td>Deserialization of user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-basic-auth</td>
+<td>Insecure basic authentication</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-ldap-auth</td>
+<td>Insecure LDAP authentication</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-keyboard-cache</td>
+<td>Android sensitive keyboard cache</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/sensitive-log</td>
+<td>Insertion of sensitive information into log files</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unvalidated-url-forward</td>
+<td>URL forward from a remote source</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unvalidated-url-redirection</td>
+<td>URL redirection from remote source</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/xxe</td>
+<td>Resolving XML external entity in user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-numeric-cast</td>
+<td>User-controlled data in numeric cast</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/polynomial-redos</td>
+<td>Polynomial regular expression used on uncontrolled data</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/redos</td>
+<td>Inefficient regular expression</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/regex-injection</td>
+<td>Regular expression injection</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/world-writable-file-read</td>
+<td>Reading from a world writable file</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/unsafe-android-webview-fetch</td>
+<td>Unsafe resource fetching in Android WebView</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-api-call</td>
+<td>Hard-coded credential in API call</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-comparison</td>
+<td>Hard-coded credential comparison</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-sensitive-call</td>
+<td>Hard-coded credential in sensitive call</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-password-field</td>
+<td>Hard-coded password field</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/user-controlled-bypass</td>
+<td>User-controlled bypass of sensitive method</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-permissions-check</td>
+<td>User-controlled data used in permissions check</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/maven/non-https-url</td>
+<td>Failure to use HTTPS or SFTP URL in Maven artifact upload/download</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/lock-order-inconsistency</td>
+<td>Lock order inconsistency</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/ssrf</td>
+<td>Server-side request forgery</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/improper-intent-verification</td>
+<td>Improper verification of intent by broadcast receiver</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/incomplete-provider-permissions</td>
+<td>Missing read or write permission in a content provider</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/implicitly-exported-component</td>
+<td>Implicitly exported Android component</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/implicit-pendingintents</td>
+<td>Use of implicit PendingIntents</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-communication</td>
+<td>Leaking sensitive information through an implicit Intent</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-result-receiver</td>
+<td>Leaking sensitive information through a ResultReceiver</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/intent-redirection</td>
+<td>Android Intent redirection</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/empty-finalizer</td>
+<td>Empty body of finalizer</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unassigned-field</td>
+<td>Field is never assigned a non-null value</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/overly-general-catch</td>
+<td>Overly-general catch clause</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/abstract-to-concrete-cast</td>
+<td>Cast from abstract to concrete collection</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/internal-representation-exposure</td>
+<td>Exposing internal representation</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/static-array</td>
+<td>Array constant vulnerable to change</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/log4j-injection</td>
+<td>Potential Log4J LDAP JNDI injection (CVE-2021-44228)</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/openstream-called-on-tainted-url</td>
+<td>openStream called on URLs created from remote source</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/file-path-injection</td>
+<td>File Path Injection</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/beanshell-injection</td>
+<td>BeanShell injection</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android-insecure-dex-loading</td>
+<td>Insecure loading of an Android Dex File</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/jshell-injection</td>
+<td>JShell injection</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/javaee-expression-injection</td>
+<td>Jakarta Expression Language injection</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/jython-injection</td>
+<td>Injection in Jython</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-eval</td>
+<td>Injection in Java Script Engine</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/spring-view-manipulation-implicit</td>
+<td>Spring Implicit View Manipulation</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/spring-view-manipulation</td>
+<td>Spring View Manipulation</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-webview-resource-response</td>
+<td>Insecure Android WebView Resource Response</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/sensitive-android-file-leak</td>
+<td>Leaking sensitive Android file</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/possible-timing-attack-against-signature</td>
+<td>Possible timing attack against signature validation</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/timing-attack-against-headers-value</td>
+<td>Timing attack against header value</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/timing-attack-against-signature</td>
+<td>Timing attack against signature validation</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/ignored-hostname-verification</td>
+<td>Ignored result of hostname verification</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-ldaps-endpoint</td>
+<td>Insecure LDAPS Endpoint Configuration</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/disabled-certificate-revocation-checking</td>
+<td>Disabled certificate revocation checking</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unvalidated-cors-origin-set</td>
+<td>CORS is derived from untrusted input</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/local-thread-resource-abuse</td>
+<td>Uncontrolled thread resource consumption from local input source</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/thread-resource-abuse</td>
+<td>Uncontrolled thread resource consumption</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/android/unsafe-reflection</td>
+<td>Load 3rd party classes or code ('unsafe reflection') without signature check</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-reflection</td>
+<td>Use of externally-controlled input to select classes or code ('unsafe reflection')</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/main-method-in-enterprise-bean</td>
+<td>Main Method in Enterprise Java Bean</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/main-method-in-web-components</td>
+<td>Main Method in Java EE Web Components</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/struts-development-mode</td>
+<td>Apache Struts development mode enabled</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-deserialization-rmi</td>
+<td>Unsafe deserialization in a remotely callable method.</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-deserialization-spring-exporter-in-configuration-class</td>
+<td>Unsafe deserialization with Spring's remote service exporters.</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-deserialization-spring-exporter-in-xml-configuration</td>
+<td>Unsafe deserialization with Spring's remote service exporters.</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/uncontrolled-file-decompression</td>
+<td>Uncontrolled file decompression</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/server-directory-listing</td>
+<td>Directories and files exposure</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/credentials-in-properties</td>
+<td>Cleartext Credentials in Properties File</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/password-in-configuration</td>
+<td>Password in configuration file</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/sensitive-query-with-get</td>
+<td>Sensitive GET Query</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/spring-unvalidated-url-redirection</td>
+<td>Spring url redirection from remote source</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/permissive-dot-regex</td>
+<td>URL matched by permissive <code>.</code> in a regular expression</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-rmi-jmx-server-initialization</td>
+<td>InsecureRmiJmxAuthenticationEnvironment</td>
+</tr>
+<tr>
+<td>CWE-664</td>
+<td>Java/Kotlin</td>
+<td>java/incorrect-url-verification</td>
+<td>Incorrect URL verification</td>
+</tr>
+<tr>
+<td>CWE-665</td>
+<td>Java/Kotlin</td>
+<td>java/exec-tainted-environment</td>
+<td>Building a command with an injected environment variable</td>
+</tr>
+<tr>
+<td>CWE-665</td>
+<td>Java/Kotlin</td>
+<td>java/unassigned-field</td>
+<td>Field is never assigned a non-null value</td>
+</tr>
+<tr>
+<td>CWE-665</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-rmi-jmx-server-initialization</td>
+<td>InsecureRmiJmxAuthenticationEnvironment</td>
+</tr>
+<tr>
+<td>CWE-667</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-double-checked-locking</td>
+<td>Double-checked locking is not thread-safe</td>
+</tr>
+<tr>
+<td>CWE-667</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-double-checked-locking-init-order</td>
+<td>Race condition in double-checked locking object initialization</td>
+</tr>
+<tr>
+<td>CWE-667</td>
+<td>Java/Kotlin</td>
+<td>java/lazy-initialization</td>
+<td>Incorrect lazy initialization of a static field</td>
+</tr>
+<tr>
+<td>CWE-667</td>
+<td>Java/Kotlin</td>
+<td>java/sleep-with-lock-held</td>
+<td>Sleep with lock held</td>
+</tr>
+<tr>
+<td>CWE-667</td>
+<td>Java/Kotlin</td>
+<td>java/unsynchronized-getter</td>
+<td>Inconsistent synchronization of getter and setter</td>
+</tr>
+<tr>
+<td>CWE-667</td>
+<td>Java/Kotlin</td>
+<td>java/unreleased-lock</td>
+<td>Unreleased lock</td>
+</tr>
+<tr>
+<td>CWE-667</td>
+<td>Java/Kotlin</td>
+<td>java/wait-with-two-locks</td>
+<td>Wait with two locks held</td>
+</tr>
+<tr>
+<td>CWE-667</td>
+<td>Java/Kotlin</td>
+<td>java/lock-order-inconsistency</td>
+<td>Lock order inconsistency</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/path-injection</td>
+<td>Uncontrolled data used in path expression</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/zipslip</td>
+<td>Arbitrary file access during archive extraction ("Zip Slip")</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/partial-path-traversal</td>
+<td>Partial path traversal vulnerability</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/partial-path-traversal-from-remote</td>
+<td>Partial path traversal vulnerability from remote</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-notification</td>
+<td>Exposure of sensitive information to notifications</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-text</td>
+<td>Exposure of sensitive information to UI text views</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/android/websettings-allow-content-access</td>
+<td>Android WebView settings allows access to content links</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/android/websettings-file-access</td>
+<td>Android WebSettings file access</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/local-temp-file-or-directory-information-disclosure</td>
+<td>Local information disclosure in a temporary directory</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/error-message-exposure</td>
+<td>Information exposure through an error message</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/stack-trace-exposure</td>
+<td>Information exposure through a stack trace</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-basic-auth</td>
+<td>Insecure basic authentication</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-ldap-auth</td>
+<td>Insecure LDAP authentication</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-keyboard-cache</td>
+<td>Android sensitive keyboard cache</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/sensitive-log</td>
+<td>Insertion of sensitive information into log files</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/unvalidated-url-forward</td>
+<td>URL forward from a remote source</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/world-writable-file-read</td>
+<td>Reading from a world writable file</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/android/implicit-pendingintents</td>
+<td>Use of implicit PendingIntents</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-communication</td>
+<td>Leaking sensitive information through an implicit Intent</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-result-receiver</td>
+<td>Leaking sensitive information through a ResultReceiver</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/static-array</td>
+<td>Array constant vulnerable to change</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/openstream-called-on-tainted-url</td>
+<td>openStream called on URLs created from remote source</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/file-path-injection</td>
+<td>File Path Injection</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-webview-resource-response</td>
+<td>Insecure Android WebView Resource Response</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/sensitive-android-file-leak</td>
+<td>Leaking sensitive Android file</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/possible-timing-attack-against-signature</td>
+<td>Possible timing attack against signature validation</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/timing-attack-against-headers-value</td>
+<td>Timing attack against header value</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/timing-attack-against-signature</td>
+<td>Timing attack against signature validation</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/server-directory-listing</td>
+<td>Directories and files exposure</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/credentials-in-properties</td>
+<td>Cleartext Credentials in Properties File</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/password-in-configuration</td>
+<td>Password in configuration file</td>
+</tr>
+<tr>
+<td>CWE-668</td>
+<td>Java/Kotlin</td>
+<td>java/sensitive-query-with-get</td>
+<td>Sensitive GET Query</td>
+</tr>
+<tr>
+<td>CWE-669</td>
+<td>Java/Kotlin</td>
+<td>java/xxe</td>
+<td>Resolving XML external entity in user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-669</td>
+<td>Java/Kotlin</td>
+<td>java/maven/non-https-url</td>
+<td>Failure to use HTTPS or SFTP URL in Maven artifact upload/download</td>
+</tr>
+<tr>
+<td>CWE-670</td>
+<td>Java/Kotlin</td>
+<td>java/whitespace-contradicts-precedence</td>
+<td>Whitespace contradicts operator precedence</td>
+</tr>
+<tr>
+<td>CWE-670</td>
+<td>Java/Kotlin</td>
+<td>java/assignment-in-boolean-expression</td>
+<td>Assignment in Boolean expression</td>
+</tr>
+<tr>
+<td>CWE-670</td>
+<td>Java/Kotlin</td>
+<td>java/reference-equality-on-strings</td>
+<td>Reference equality test on strings</td>
+</tr>
+<tr>
+<td>CWE-670</td>
+<td>Java/Kotlin</td>
+<td>java/switch-fall-through</td>
+<td>Unterminated switch case</td>
+</tr>
+<tr>
+<td>CWE-671</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-api-call</td>
+<td>Hard-coded credential in API call</td>
+</tr>
+<tr>
+<td>CWE-671</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-comparison</td>
+<td>Hard-coded credential comparison</td>
+</tr>
+<tr>
+<td>CWE-671</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-sensitive-call</td>
+<td>Hard-coded credential in sensitive call</td>
+</tr>
+<tr>
+<td>CWE-671</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-password-field</td>
+<td>Hard-coded password field</td>
+</tr>
+<tr>
+<td>CWE-674</td>
+<td>Java/Kotlin</td>
+<td>java/xxe</td>
+<td>Resolving XML external entity in user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-675</td>
+<td>Java/Kotlin</td>
+<td>java/unreleased-lock</td>
+<td>Unreleased lock</td>
+</tr>
+<tr>
+<td>CWE-676</td>
+<td>Java/Kotlin</td>
+<td>java/potentially-dangerous-function</td>
+<td>Use of a potentially dangerous function</td>
+</tr>
+<tr>
+<td>CWE-681</td>
+<td>Java/Kotlin</td>
+<td>java/implicit-cast-in-compound-assignment</td>
+<td>Implicit narrowing conversion in compound assignment</td>
+</tr>
+<tr>
+<td>CWE-681</td>
+<td>Java/Kotlin</td>
+<td>java/integer-multiplication-cast-to-long</td>
+<td>Result of multiplication cast to wider type</td>
+</tr>
+<tr>
+<td>CWE-681</td>
+<td>Java/Kotlin</td>
+<td>java/comparison-with-wider-type</td>
+<td>Comparison of narrow type with wide type in loop condition</td>
+</tr>
+<tr>
+<td>CWE-681</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-numeric-cast</td>
+<td>User-controlled data in numeric cast</td>
+</tr>
+<tr>
+<td>CWE-682</td>
+<td>Java/Kotlin</td>
+<td>java/implicit-cast-in-compound-assignment</td>
+<td>Implicit narrowing conversion in compound assignment</td>
+</tr>
+<tr>
+<td>CWE-682</td>
+<td>Java/Kotlin</td>
+<td>java/integer-multiplication-cast-to-long</td>
+<td>Result of multiplication cast to wider type</td>
+</tr>
+<tr>
+<td>CWE-682</td>
+<td>Java/Kotlin</td>
+<td>java/index-out-of-bounds</td>
+<td>Array index out of bounds</td>
+</tr>
+<tr>
+<td>CWE-682</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-arithmetic</td>
+<td>User-controlled data in arithmetic expression</td>
+</tr>
+<tr>
+<td>CWE-682</td>
+<td>Java/Kotlin</td>
+<td>java/uncontrolled-arithmetic</td>
+<td>Uncontrolled data in arithmetic expression</td>
+</tr>
+<tr>
+<td>CWE-682</td>
+<td>Java/Kotlin</td>
+<td>java/extreme-value-arithmetic</td>
+<td>Use of extreme values in arithmetic expression</td>
+</tr>
+<tr>
+<td>CWE-682</td>
+<td>Java/Kotlin</td>
+<td>java/comparison-with-wider-type</td>
+<td>Comparison of narrow type with wide type in loop condition</td>
+</tr>
+<tr>
+<td>CWE-685</td>
+<td>Java/Kotlin</td>
+<td>java/missing-format-argument</td>
+<td>Missing format argument</td>
+</tr>
+<tr>
+<td>CWE-685</td>
+<td>Java/Kotlin</td>
+<td>java/unused-format-argument</td>
+<td>Unused format argument</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/container-interference</td>
+<td>EJB interferes with container operation</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/synchronization</td>
+<td>EJB uses synchronization</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/whitespace-contradicts-precedence</td>
+<td>Whitespace contradicts operator precedence</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/assignment-in-boolean-expression</td>
+<td>Assignment in Boolean expression</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/reference-equality-on-strings</td>
+<td>Reference equality test on strings</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/wait-on-condition-interface</td>
+<td>Wait on condition</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/call-to-thread-run</td>
+<td>Direct call to a run() method</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-double-checked-locking</td>
+<td>Double-checked locking is not thread-safe</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-double-checked-locking-init-order</td>
+<td>Race condition in double-checked locking object initialization</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-sync-on-field</td>
+<td>Futile synchronization on field</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/inconsistent-field-synchronization</td>
+<td>Inconsistent synchronization for field</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/lazy-initialization</td>
+<td>Incorrect lazy initialization of a static field</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/non-sync-override</td>
+<td>Non-synchronized override of synchronized method</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/notify-instead-of-notify-all</td>
+<td>notify instead of notifyAll</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/sleep-with-lock-held</td>
+<td>Sleep with lock held</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/sync-on-boxed-types</td>
+<td>Synchronization on boxed types or strings</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/unsynchronized-getter</td>
+<td>Inconsistent synchronization of getter and setter</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/inconsistent-sync-writeobject</td>
+<td>Inconsistent synchronization for writeObject()</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/unreleased-lock</td>
+<td>Unreleased lock</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/wait-with-two-locks</td>
+<td>Wait with two locks held</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/non-short-circuit-evaluation</td>
+<td>Dangerous non-short-circuit logic</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/constant-loop-condition</td>
+<td>Constant loop condition</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/android/arbitrary-apk-installation</td>
+<td>Android APK installation</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/groovy-injection</td>
+<td>Groovy Language injection</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-bean-validation</td>
+<td>Insecure Bean Validation</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/jexl-expression-injection</td>
+<td>Expression language injection (JEXL)</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/mvel-expression-injection</td>
+<td>Expression language injection (MVEL)</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/spel-expression-injection</td>
+<td>Expression language injection (Spring)</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/server-side-template-injection</td>
+<td>Server-side template injection</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/toctou-race-condition</td>
+<td>Time-of-check time-of-use race condition</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/socket-auth-race-condition</td>
+<td>Race condition in socket authentication</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/xxe</td>
+<td>Resolving XML external entity in user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/android/unsafe-android-webview-fetch</td>
+<td>Unsafe resource fetching in Android WebView</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/lock-order-inconsistency</td>
+<td>Lock order inconsistency</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/unreachable-exit-in-loop</td>
+<td>Loop with unreachable exit condition</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/switch-fall-through</td>
+<td>Unterminated switch case</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/overly-general-catch</td>
+<td>Overly-general catch clause</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/uncaught-number-format-exception</td>
+<td>Missing catch of NumberFormatException</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/jvm-exit</td>
+<td>Forcible JVM termination</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/abnormal-finally-completion</td>
+<td>Finally block may not complete normally</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/beanshell-injection</td>
+<td>BeanShell injection</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/android-insecure-dex-loading</td>
+<td>Insecure loading of an Android Dex File</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/jshell-injection</td>
+<td>JShell injection</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/javaee-expression-injection</td>
+<td>Jakarta Expression Language injection</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/jython-injection</td>
+<td>Injection in Jython</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-eval</td>
+<td>Injection in Java Script Engine</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/spring-view-manipulation-implicit</td>
+<td>Spring Implicit View Manipulation</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/spring-view-manipulation</td>
+<td>Spring View Manipulation</td>
+</tr>
+<tr>
+<td>CWE-691</td>
+<td>Java/Kotlin</td>
+<td>java/uncaught-servlet-exception</td>
+<td>Uncaught Servlet Exception</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/count-untrusted-data-external-api</td>
+<td>Frequency counts for external APIs that are used with untrusted data</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/overly-large-range</td>
+<td>Overly permissive regular expression range</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/untrusted-data-to-external-api</td>
+<td>Untrusted data passed to external API</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/improper-validation-of-array-construction</td>
+<td>Improper validation of user-provided size used for array construction</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/improper-validation-of-array-construction-code-specified</td>
+<td>Improper validation of code-specified size used for array construction</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/improper-validation-of-array-index</td>
+<td>Improper validation of user-provided array index</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/improper-validation-of-array-index-code-specified</td>
+<td>Improper validation of code-specified array index</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/local-temp-file-or-directory-information-disclosure</td>
+<td>Local information disclosure in a temporary directory</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/android/intent-uri-permission-manipulation</td>
+<td>Intent URI permission manipulation</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-cert-trust</td>
+<td>Unsafe certificate trust</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/android/insecure-local-key-gen</td>
+<td>Insecurely generated keys for local authentication</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/android/insecure-local-authentication</td>
+<td>Insecure local authentication</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/android/missing-certificate-pinning</td>
+<td>Android missing certificate pinning</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/improper-webview-certificate-validation</td>
+<td>Android <code>WebView</code> that accepts all certificates</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-trustmanager</td>
+<td><code>TrustManager</code> that accepts all certificates</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-smtp-ssl</td>
+<td>Insecure JavaMail SSL Configuration</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-hostname-verification</td>
+<td>Unsafe hostname verification</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/android/backup-enabled</td>
+<td>Application backup allowed</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-database</td>
+<td>Cleartext storage of sensitive information using a local database on Android</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-filesystem</td>
+<td>Cleartext storage of sensitive information in the Android filesystem</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-class</td>
+<td>Cleartext storage of sensitive information using storable class</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-cookie</td>
+<td>Cleartext storage of sensitive information in cookie</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-properties</td>
+<td>Cleartext storage of sensitive information using 'Properties' class</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-shared-prefs</td>
+<td>Cleartext storage of sensitive information using <code>SharedPreferences</code> on Android</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/non-https-url</td>
+<td>Failure to use HTTPS URLs</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/non-ssl-connection</td>
+<td>Failure to use SSL</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/non-ssl-socket-factory</td>
+<td>Failure to use SSL socket factories</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/insufficient-key-size</td>
+<td>Use of a cryptographic algorithm with insufficient key size</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/weak-cryptographic-algorithm</td>
+<td>Use of a broken or risky cryptographic algorithm</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/potentially-weak-cryptographic-algorithm</td>
+<td>Use of a potentially broken or risky cryptographic algorithm</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/missing-jwt-signature-check</td>
+<td>Missing JWT signature check</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/spring-disabled-csrf-protection</td>
+<td>Disabled Spring CSRF protection</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/socket-auth-race-condition</td>
+<td>Race condition in socket authentication</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-basic-auth</td>
+<td>Insecure basic authentication</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-ldap-auth</td>
+<td>Insecure LDAP authentication</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-cookie</td>
+<td>Failure to use secure cookies</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/world-writable-file-read</td>
+<td>Reading from a world writable file</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/rsa-without-oaep</td>
+<td>Use of RSA algorithm without OAEP</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-api-call</td>
+<td>Hard-coded credential in API call</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-comparison</td>
+<td>Hard-coded credential comparison</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-sensitive-call</td>
+<td>Hard-coded credential in sensitive call</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-password-field</td>
+<td>Hard-coded password field</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/user-controlled-bypass</td>
+<td>User-controlled bypass of sensitive method</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-permissions-check</td>
+<td>User-controlled data used in permissions check</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/maven/non-https-url</td>
+<td>Failure to use HTTPS or SFTP URL in Maven artifact upload/download</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/improper-intent-verification</td>
+<td>Improper verification of intent by broadcast receiver</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/android/incomplete-provider-permissions</td>
+<td>Missing read or write permission in a content provider</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/android/implicitly-exported-component</td>
+<td>Implicitly exported Android component</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/android/implicit-pendingintents</td>
+<td>Use of implicit PendingIntents</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-communication</td>
+<td>Leaking sensitive information through an implicit Intent</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-result-receiver</td>
+<td>Leaking sensitive information through a ResultReceiver</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/android/intent-redirection</td>
+<td>Android Intent redirection</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/log4j-injection</td>
+<td>Potential Log4J LDAP JNDI injection (CVE-2021-44228)</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/jxbrowser/disabled-certificate-validation</td>
+<td>JxBrowser with disabled certificate validation</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/ignored-hostname-verification</td>
+<td>Ignored result of hostname verification</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-ldaps-endpoint</td>
+<td>Insecure LDAPS Endpoint Configuration</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/disabled-certificate-revocation-checking</td>
+<td>Disabled certificate revocation checking</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/azure-storage/unsafe-client-side-encryption-in-use</td>
+<td>Unsafe usage of v1 version of Azure Storage client-side encryption (CVE-2022-30187).</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-tls-version</td>
+<td>Unsafe TLS version</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/unvalidated-cors-origin-set</td>
+<td>CORS is derived from untrusted input</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/missing-jwt-signature-check-auth0</td>
+<td>Missing JWT signature check</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/ip-address-spoofing</td>
+<td>IP address spoofing</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/jsonp-injection</td>
+<td>JSONP Injection</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/credentials-in-properties</td>
+<td>Cleartext Credentials in Properties File</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/password-in-configuration</td>
+<td>Password in configuration file</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/permissive-dot-regex</td>
+<td>URL matched by permissive <code>.</code> in a regular expression</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/hash-without-salt</td>
+<td>Use of a hash function without a salt</td>
+</tr>
+<tr>
+<td>CWE-693</td>
+<td>Java/Kotlin</td>
+<td>java/incorrect-url-verification</td>
+<td>Incorrect URL verification</td>
+</tr>
+<tr>
+<td>CWE-695</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/file-io</td>
+<td>EJB uses file input/output</td>
+</tr>
+<tr>
+<td>CWE-695</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/graphics</td>
+<td>EJB uses graphics</td>
+</tr>
+<tr>
+<td>CWE-695</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/synchronization</td>
+<td>EJB uses synchronization</td>
+</tr>
+<tr>
+<td>CWE-695</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/threads</td>
+<td>EJB uses threads</td>
+</tr>
+<tr>
+<td>CWE-697</td>
+<td>Java/Kotlin</td>
+<td>java/missing-default-in-switch</td>
+<td>Missing default case in switch</td>
+</tr>
+<tr>
+<td>CWE-697</td>
+<td>Java/Kotlin</td>
+<td>java/reference-equality-with-object</td>
+<td>Reference equality test on java.lang.Object</td>
+</tr>
+<tr>
+<td>CWE-697</td>
+<td>Java/Kotlin</td>
+<td>java/reference-equality-of-boxed-types</td>
+<td>Reference equality test of boxed types</td>
+</tr>
+<tr>
+<td>CWE-697</td>
+<td>Java/Kotlin</td>
+<td>java/reference-equality-on-strings</td>
+<td>Reference equality test on strings</td>
+</tr>
+<tr>
+<td>CWE-697</td>
+<td>Java/Kotlin</td>
+<td>java/missing-case-in-switch</td>
+<td>Missing enum case in switch</td>
+</tr>
+<tr>
+<td>CWE-697</td>
+<td>Java/Kotlin</td>
+<td>java/permissive-dot-regex</td>
+<td>URL matched by permissive <code>.</code> in a regular expression</td>
+</tr>
+<tr>
+<td>CWE-703</td>
+<td>Java/Kotlin</td>
+<td>java/inconsistent-call-on-result</td>
+<td>Inconsistent operation on return value</td>
+</tr>
+<tr>
+<td>CWE-703</td>
+<td>Java/Kotlin</td>
+<td>java/return-value-ignored</td>
+<td>Method result ignored</td>
+</tr>
+<tr>
+<td>CWE-703</td>
+<td>Java/Kotlin</td>
+<td>java/error-message-exposure</td>
+<td>Information exposure through an error message</td>
+</tr>
+<tr>
+<td>CWE-703</td>
+<td>Java/Kotlin</td>
+<td>java/stack-trace-exposure</td>
+<td>Information exposure through a stack trace</td>
+</tr>
+<tr>
+<td>CWE-703</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-cert-trust</td>
+<td>Unsafe certificate trust</td>
+</tr>
+<tr>
+<td>CWE-703</td>
+<td>Java/Kotlin</td>
+<td>java/discarded-exception</td>
+<td>Discarded exception</td>
+</tr>
+<tr>
+<td>CWE-703</td>
+<td>Java/Kotlin</td>
+<td>java/overly-general-catch</td>
+<td>Overly-general catch clause</td>
+</tr>
+<tr>
+<td>CWE-703</td>
+<td>Java/Kotlin</td>
+<td>java/ignored-error-status-of-call</td>
+<td>Ignored error status of call</td>
+</tr>
+<tr>
+<td>CWE-703</td>
+<td>Java/Kotlin</td>
+<td>java/uncaught-number-format-exception</td>
+<td>Missing catch of NumberFormatException</td>
+</tr>
+<tr>
+<td>CWE-703</td>
+<td>Java/Kotlin</td>
+<td>java/uncaught-servlet-exception</td>
+<td>Uncaught Servlet Exception</td>
+</tr>
+<tr>
+<td>CWE-703</td>
+<td>Java/Kotlin</td>
+<td>java/android/nfe-local-android-dos</td>
+<td>Local Android DoS Caused By NumberFormatException</td>
+</tr>
+<tr>
+<td>CWE-704</td>
+<td>Java/Kotlin</td>
+<td>java/implicit-cast-in-compound-assignment</td>
+<td>Implicit narrowing conversion in compound assignment</td>
+</tr>
+<tr>
+<td>CWE-704</td>
+<td>Java/Kotlin</td>
+<td>java/integer-multiplication-cast-to-long</td>
+<td>Result of multiplication cast to wider type</td>
+</tr>
+<tr>
+<td>CWE-704</td>
+<td>Java/Kotlin</td>
+<td>java/impossible-array-cast</td>
+<td>Impossible array cast</td>
+</tr>
+<tr>
+<td>CWE-704</td>
+<td>Java/Kotlin</td>
+<td>java/comparison-with-wider-type</td>
+<td>Comparison of narrow type with wide type in loop condition</td>
+</tr>
+<tr>
+<td>CWE-704</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-numeric-cast</td>
+<td>User-controlled data in numeric cast</td>
+</tr>
+<tr>
+<td>CWE-705</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/container-interference</td>
+<td>EJB interferes with container operation</td>
+</tr>
+<tr>
+<td>CWE-705</td>
+<td>Java/Kotlin</td>
+<td>java/overly-general-catch</td>
+<td>Overly-general catch clause</td>
+</tr>
+<tr>
+<td>CWE-705</td>
+<td>Java/Kotlin</td>
+<td>java/uncaught-number-format-exception</td>
+<td>Missing catch of NumberFormatException</td>
+</tr>
+<tr>
+<td>CWE-705</td>
+<td>Java/Kotlin</td>
+<td>java/jvm-exit</td>
+<td>Forcible JVM termination</td>
+</tr>
+<tr>
+<td>CWE-705</td>
+<td>Java/Kotlin</td>
+<td>java/abnormal-finally-completion</td>
+<td>Finally block may not complete normally</td>
+</tr>
+<tr>
+<td>CWE-705</td>
+<td>Java/Kotlin</td>
+<td>java/uncaught-servlet-exception</td>
+<td>Uncaught Servlet Exception</td>
+</tr>
+<tr>
+<td>CWE-706</td>
+<td>Java/Kotlin</td>
+<td>java/path-injection</td>
+<td>Uncontrolled data used in path expression</td>
+</tr>
+<tr>
+<td>CWE-706</td>
+<td>Java/Kotlin</td>
+<td>java/zipslip</td>
+<td>Arbitrary file access during archive extraction ("Zip Slip")</td>
+</tr>
+<tr>
+<td>CWE-706</td>
+<td>Java/Kotlin</td>
+<td>java/partial-path-traversal</td>
+<td>Partial path traversal vulnerability</td>
+</tr>
+<tr>
+<td>CWE-706</td>
+<td>Java/Kotlin</td>
+<td>java/partial-path-traversal-from-remote</td>
+<td>Partial path traversal vulnerability from remote</td>
+</tr>
+<tr>
+<td>CWE-706</td>
+<td>Java/Kotlin</td>
+<td>java/xxe</td>
+<td>Resolving XML external entity in user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-706</td>
+<td>Java/Kotlin</td>
+<td>java/openstream-called-on-tainted-url</td>
+<td>openStream called on URLs created from remote source</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/jndi-injection</td>
+<td>JNDI lookup with user-controlled name</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/xslt-injection</td>
+<td>XSLT transformation with user-controlled stylesheet</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/relative-path-command</td>
+<td>Executing a command with a relative path</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection</td>
+<td>Uncontrolled command line</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/exec-tainted-environment</td>
+<td>Building a command with an injected environment variable</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/concatenated-command-line</td>
+<td>Building a command line with string concatenation</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/android/webview-addjavascriptinterface</td>
+<td>Access Java object methods through JavaScript exposure</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/android/websettings-javascript-enabled</td>
+<td>Android WebView JavaScript settings</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/xss</td>
+<td>Cross-site scripting</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/concatenated-sql-query</td>
+<td>Query built by concatenation with a possibly-untrusted string</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/sql-injection</td>
+<td>Query built from user-controlled sources</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/ldap-injection</td>
+<td>LDAP query built from user-controlled sources</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/android/arbitrary-apk-installation</td>
+<td>Android APK installation</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/groovy-injection</td>
+<td>Groovy Language injection</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-bean-validation</td>
+<td>Insecure Bean Validation</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/jexl-expression-injection</td>
+<td>Expression language injection (JEXL)</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/mvel-expression-injection</td>
+<td>Expression language injection (MVEL)</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/spel-expression-injection</td>
+<td>Expression language injection (Spring)</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/server-side-template-injection</td>
+<td>Server-side template injection</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/netty-http-request-or-response-splitting</td>
+<td>Disabled Netty HTTP header validation</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/http-response-splitting</td>
+<td>HTTP response splitting</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/log-injection</td>
+<td>Log Injection</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-format-string</td>
+<td>Use of externally-controlled format string</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/xml/xpath-injection</td>
+<td>XPath injection</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/android/unsafe-android-webview-fetch</td>
+<td>Unsafe resource fetching in Android WebView</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/ognl-injection</td>
+<td>OGNL Expression Language statement with user-controlled input</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/log4j-injection</td>
+<td>Potential Log4J LDAP JNDI injection (CVE-2021-44228)</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection-extra</td>
+<td>Command Injection into Runtime.exec() with dangerous command</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection-extra-local</td>
+<td>Command Injection into Runtime.exec() with dangerous command</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/command-line-injection-experimental</td>
+<td>Uncontrolled command line (experimental sinks)</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/mybatis-annotation-sql-injection</td>
+<td>SQL injection in MyBatis annotation</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/mybatis-xml-sql-injection</td>
+<td>SQL injection in MyBatis Mapper XML</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/beanshell-injection</td>
+<td>BeanShell injection</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/android-insecure-dex-loading</td>
+<td>Insecure loading of an Android Dex File</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/jshell-injection</td>
+<td>JShell injection</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/javaee-expression-injection</td>
+<td>Jakarta Expression Language injection</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/jython-injection</td>
+<td>Injection in Jython</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-eval</td>
+<td>Injection in Java Script Engine</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/spring-view-manipulation-implicit</td>
+<td>Spring Implicit View Manipulation</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/spring-view-manipulation</td>
+<td>Spring View Manipulation</td>
+</tr>
+<tr>
+<td>CWE-707</td>
+<td>Java/Kotlin</td>
+<td>java/xquery-injection</td>
+<td>XQuery query built from user-controlled sources</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/deprecated-call</td>
+<td>Deprecated method or constructor invocation</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/dead-class</td>
+<td>Dead class</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/dead-enum-constant</td>
+<td>Dead enum constant</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/dead-field</td>
+<td>Dead field</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/dead-function</td>
+<td>Dead method</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/lines-of-dead-code</td>
+<td>Lines of dead code in files</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/unused-parameter</td>
+<td>Useless parameter</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/container-interference</td>
+<td>EJB interferes with container operation</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/file-io</td>
+<td>EJB uses file input/output</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/graphics</td>
+<td>EJB uses graphics</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/native-code</td>
+<td>EJB uses native code</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/reflection</td>
+<td>EJB uses reflection</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/security-configuration-access</td>
+<td>EJB accesses security configuration</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/substitution-in-serialization</td>
+<td>EJB uses substitution in serialization</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/socket-or-stream-handler-factory</td>
+<td>EJB sets socket factory or URL stream handler factory</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/server-socket</td>
+<td>EJB uses server socket</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/non-final-static-field</td>
+<td>EJB uses non-final static field</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/synchronization</td>
+<td>EJB uses synchronization</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/this</td>
+<td>EJB uses 'this' as argument or result</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/threads</td>
+<td>EJB uses threads</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/useless-null-check</td>
+<td>Useless null check</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/useless-type-test</td>
+<td>Useless type test</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/useless-upcast</td>
+<td>Useless upcast</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/missing-call-to-super-clone</td>
+<td>Missing super clone</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/empty-container</td>
+<td>Container contents are never initialized</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/unused-container</td>
+<td>Container contents are never accessed</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/inconsistent-equals-and-hashcode</td>
+<td>Inconsistent equals and hashCode</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/constant-comparison</td>
+<td>Useless comparison test</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/unreleased-lock</td>
+<td>Unreleased lock</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/missing-super-finalize</td>
+<td>Finalizer inconsistency</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/missing-format-argument</td>
+<td>Missing format argument</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/unused-format-argument</td>
+<td>Unused format argument</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/dereferenced-value-is-always-null</td>
+<td>Dereferenced variable is always null</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/dereferenced-expr-may-be-null</td>
+<td>Dereferenced expression may be null</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/dereferenced-value-may-be-null</td>
+<td>Dereferenced variable may be null</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/empty-synchronized-block</td>
+<td>Empty synchronized block</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/unreachable-catch-clause</td>
+<td>Unreachable catch clause</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/static-initialization-vector</td>
+<td>Using a static initialization vector for encryption</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/potentially-dangerous-function</td>
+<td>Use of a potentially dangerous function</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-api-call</td>
+<td>Hard-coded credential in API call</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-comparison</td>
+<td>Hard-coded credential comparison</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-sensitive-call</td>
+<td>Hard-coded credential in sensitive call</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-password-field</td>
+<td>Hard-coded password field</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/todo-comment</td>
+<td>TODO/FIXME comments</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/unused-reference-type</td>
+<td>Unused classes and interfaces</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/overwritten-assignment-to-local</td>
+<td>Assigned value is overwritten</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/useless-assignment-to-local</td>
+<td>Useless assignment to local variable</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/empty-finalizer</td>
+<td>Empty body of finalizer</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/unused-initialized-local</td>
+<td>Local variable is initialized but not used</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/local-variable-is-never-read</td>
+<td>Unread local variable</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/unused-field</td>
+<td>Unused field</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/unused-label</td>
+<td>Unused label</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/unused-local-variable</td>
+<td>Unused local variable</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/switch-fall-through</td>
+<td>Unterminated switch case</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/redundant-cast</td>
+<td>Unnecessary cast</td>
+</tr>
+<tr>
+<td>CWE-710</td>
+<td>Java/Kotlin</td>
+<td>java/unused-import</td>
+<td>Unnecessary import</td>
+</tr>
+<tr>
+<td>CWE-732</td>
+<td>Java/Kotlin</td>
+<td>java/local-temp-file-or-directory-information-disclosure</td>
+<td>Local information disclosure in a temporary directory</td>
+</tr>
+<tr>
+<td>CWE-732</td>
+<td>Java/Kotlin</td>
+<td>java/world-writable-file-read</td>
+<td>Reading from a world writable file</td>
+</tr>
+<tr>
+<td>CWE-749</td>
+<td>Java/Kotlin</td>
+<td>java/android/unsafe-android-webview-fetch</td>
+<td>Unsafe resource fetching in Android WebView</td>
+</tr>
+<tr>
+<td>CWE-754</td>
+<td>Java/Kotlin</td>
+<td>java/inconsistent-call-on-result</td>
+<td>Inconsistent operation on return value</td>
+</tr>
+<tr>
+<td>CWE-754</td>
+<td>Java/Kotlin</td>
+<td>java/return-value-ignored</td>
+<td>Method result ignored</td>
+</tr>
+<tr>
+<td>CWE-754</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-cert-trust</td>
+<td>Unsafe certificate trust</td>
+</tr>
+<tr>
+<td>CWE-755</td>
+<td>Java/Kotlin</td>
+<td>java/error-message-exposure</td>
+<td>Information exposure through an error message</td>
+</tr>
+<tr>
+<td>CWE-755</td>
+<td>Java/Kotlin</td>
+<td>java/stack-trace-exposure</td>
+<td>Information exposure through a stack trace</td>
+</tr>
+<tr>
+<td>CWE-755</td>
+<td>Java/Kotlin</td>
+<td>java/overly-general-catch</td>
+<td>Overly-general catch clause</td>
+</tr>
+<tr>
+<td>CWE-755</td>
+<td>Java/Kotlin</td>
+<td>java/android/nfe-local-android-dos</td>
+<td>Local Android DoS Caused By NumberFormatException</td>
+</tr>
+<tr>
+<td>CWE-759</td>
+<td>Java/Kotlin</td>
+<td>java/hash-without-salt</td>
+<td>Use of a hash function without a salt</td>
+</tr>
+<tr>
+<td>CWE-764</td>
+<td>Java/Kotlin</td>
+<td>java/unreleased-lock</td>
+<td>Unreleased lock</td>
+</tr>
+<tr>
+<td>CWE-772</td>
+<td>Java/Kotlin</td>
+<td>java/input-resource-leak</td>
+<td>Potential input resource leak</td>
+</tr>
+<tr>
+<td>CWE-772</td>
+<td>Java/Kotlin</td>
+<td>java/database-resource-leak</td>
+<td>Potential database resource leak</td>
+</tr>
+<tr>
+<td>CWE-772</td>
+<td>Java/Kotlin</td>
+<td>java/output-resource-leak</td>
+<td>Potential output resource leak</td>
+</tr>
+<tr>
+<td>CWE-776</td>
+<td>Java/Kotlin</td>
+<td>java/xxe</td>
+<td>Resolving XML external entity in user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-780</td>
+<td>Java/Kotlin</td>
+<td>java/rsa-without-oaep</td>
+<td>Use of RSA algorithm without OAEP</td>
+</tr>
+<tr>
+<td>CWE-783</td>
+<td>Java/Kotlin</td>
+<td>java/whitespace-contradicts-precedence</td>
+<td>Whitespace contradicts operator precedence</td>
+</tr>
+<tr>
+<td>CWE-798</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-api-call</td>
+<td>Hard-coded credential in API call</td>
+</tr>
+<tr>
+<td>CWE-798</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-comparison</td>
+<td>Hard-coded credential comparison</td>
+</tr>
+<tr>
+<td>CWE-798</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-credential-sensitive-call</td>
+<td>Hard-coded credential in sensitive call</td>
+</tr>
+<tr>
+<td>CWE-798</td>
+<td>Java/Kotlin</td>
+<td>java/hardcoded-password-field</td>
+<td>Hard-coded password field</td>
+</tr>
+<tr>
+<td>CWE-807</td>
+<td>Java/Kotlin</td>
+<td>java/user-controlled-bypass</td>
+<td>User-controlled bypass of sensitive method</td>
+</tr>
+<tr>
+<td>CWE-807</td>
+<td>Java/Kotlin</td>
+<td>java/tainted-permissions-check</td>
+<td>User-controlled data used in permissions check</td>
+</tr>
+<tr>
+<td>CWE-820</td>
+<td>Java/Kotlin</td>
+<td>java/lazy-initialization</td>
+<td>Incorrect lazy initialization of a static field</td>
+</tr>
+<tr>
+<td>CWE-820</td>
+<td>Java/Kotlin</td>
+<td>java/non-sync-override</td>
+<td>Non-synchronized override of synchronized method</td>
+</tr>
+<tr>
+<td>CWE-821</td>
+<td>Java/Kotlin</td>
+<td>java/ejb/synchronization</td>
+<td>EJB uses synchronization</td>
+</tr>
+<tr>
+<td>CWE-821</td>
+<td>Java/Kotlin</td>
+<td>java/call-to-thread-run</td>
+<td>Direct call to a run() method</td>
+</tr>
+<tr>
+<td>CWE-827</td>
+<td>Java/Kotlin</td>
+<td>java/xxe</td>
+<td>Resolving XML external entity in user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-829</td>
+<td>Java/Kotlin</td>
+<td>java/xxe</td>
+<td>Resolving XML external entity in user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-829</td>
+<td>Java/Kotlin</td>
+<td>java/maven/non-https-url</td>
+<td>Failure to use HTTPS or SFTP URL in Maven artifact upload/download</td>
+</tr>
+<tr>
+<td>CWE-833</td>
+<td>Java/Kotlin</td>
+<td>java/sleep-with-lock-held</td>
+<td>Sleep with lock held</td>
+</tr>
+<tr>
+<td>CWE-833</td>
+<td>Java/Kotlin</td>
+<td>java/unreleased-lock</td>
+<td>Unreleased lock</td>
+</tr>
+<tr>
+<td>CWE-833</td>
+<td>Java/Kotlin</td>
+<td>java/wait-with-two-locks</td>
+<td>Wait with two locks held</td>
+</tr>
+<tr>
+<td>CWE-833</td>
+<td>Java/Kotlin</td>
+<td>java/lock-order-inconsistency</td>
+<td>Lock order inconsistency</td>
+</tr>
+<tr>
+<td>CWE-834</td>
+<td>Java/Kotlin</td>
+<td>java/constant-loop-condition</td>
+<td>Constant loop condition</td>
+</tr>
+<tr>
+<td>CWE-834</td>
+<td>Java/Kotlin</td>
+<td>java/xxe</td>
+<td>Resolving XML external entity in user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-834</td>
+<td>Java/Kotlin</td>
+<td>java/unreachable-exit-in-loop</td>
+<td>Loop with unreachable exit condition</td>
+</tr>
+<tr>
+<td>CWE-835</td>
+<td>Java/Kotlin</td>
+<td>java/constant-loop-condition</td>
+<td>Constant loop condition</td>
+</tr>
+<tr>
+<td>CWE-835</td>
+<td>Java/Kotlin</td>
+<td>java/unreachable-exit-in-loop</td>
+<td>Loop with unreachable exit condition</td>
+</tr>
+<tr>
+<td>CWE-862</td>
+<td>Java/Kotlin</td>
+<td>java/incorrect-url-verification</td>
+<td>Incorrect URL verification</td>
+</tr>
+<tr>
+<td>CWE-863</td>
+<td>Java/Kotlin</td>
+<td>java/permissive-dot-regex</td>
+<td>URL matched by permissive <code>.</code> in a regular expression</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/android/arbitrary-apk-installation</td>
+<td>Android APK installation</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/groovy-injection</td>
+<td>Groovy Language injection</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-bean-validation</td>
+<td>Insecure Bean Validation</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/jexl-expression-injection</td>
+<td>Expression language injection (JEXL)</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/mvel-expression-injection</td>
+<td>Expression language injection (MVEL)</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/spel-expression-injection</td>
+<td>Expression language injection (Spring)</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/server-side-template-injection</td>
+<td>Server-side template injection</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/android/fragment-injection</td>
+<td>Android fragment injection</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/android/fragment-injection-preference-activity</td>
+<td>Android fragment injection in PreferenceActivity</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-deserialization</td>
+<td>Deserialization of user-controlled data</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/log4j-injection</td>
+<td>Potential Log4J LDAP JNDI injection (CVE-2021-44228)</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/beanshell-injection</td>
+<td>BeanShell injection</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/android-insecure-dex-loading</td>
+<td>Insecure loading of an Android Dex File</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/jshell-injection</td>
+<td>JShell injection</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/javaee-expression-injection</td>
+<td>Jakarta Expression Language injection</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/jython-injection</td>
+<td>Injection in Jython</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-eval</td>
+<td>Injection in Java Script Engine</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/spring-view-manipulation-implicit</td>
+<td>Spring Implicit View Manipulation</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/spring-view-manipulation</td>
+<td>Spring View Manipulation</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/android/unsafe-reflection</td>
+<td>Load 3rd party classes or code ('unsafe reflection') without signature check</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-reflection</td>
+<td>Use of externally-controlled input to select classes or code ('unsafe reflection')</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-deserialization-rmi</td>
+<td>Unsafe deserialization in a remotely callable method.</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-deserialization-spring-exporter-in-configuration-class</td>
+<td>Unsafe deserialization with Spring's remote service exporters.</td>
+</tr>
+<tr>
+<td>CWE-913</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-deserialization-spring-exporter-in-xml-configuration</td>
+<td>Unsafe deserialization with Spring's remote service exporters.</td>
+</tr>
+<tr>
+<td>CWE-916</td>
+<td>Java/Kotlin</td>
+<td>java/hash-without-salt</td>
+<td>Use of a hash function without a salt</td>
+</tr>
+<tr>
+<td>CWE-917</td>
+<td>Java/Kotlin</td>
+<td>java/ognl-injection</td>
+<td>OGNL Expression Language statement with user-controlled input</td>
+</tr>
+<tr>
+<td>CWE-918</td>
+<td>Java/Kotlin</td>
+<td>java/ssrf</td>
+<td>Server-side request forgery</td>
+</tr>
+<tr>
+<td>CWE-922</td>
+<td>Java/Kotlin</td>
+<td>java/android/backup-enabled</td>
+<td>Application backup allowed</td>
+</tr>
+<tr>
+<td>CWE-922</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-database</td>
+<td>Cleartext storage of sensitive information using a local database on Android</td>
+</tr>
+<tr>
+<td>CWE-922</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-filesystem</td>
+<td>Cleartext storage of sensitive information in the Android filesystem</td>
+</tr>
+<tr>
+<td>CWE-922</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-class</td>
+<td>Cleartext storage of sensitive information using storable class</td>
+</tr>
+<tr>
+<td>CWE-922</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-cookie</td>
+<td>Cleartext storage of sensitive information in cookie</td>
+</tr>
+<tr>
+<td>CWE-922</td>
+<td>Java/Kotlin</td>
+<td>java/cleartext-storage-in-properties</td>
+<td>Cleartext storage of sensitive information using 'Properties' class</td>
+</tr>
+<tr>
+<td>CWE-922</td>
+<td>Java/Kotlin</td>
+<td>java/android/cleartext-storage-shared-prefs</td>
+<td>Cleartext storage of sensitive information using <code>SharedPreferences</code> on Android</td>
+</tr>
+<tr>
+<td>CWE-923</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-smtp-ssl</td>
+<td>Insecure JavaMail SSL Configuration</td>
+</tr>
+<tr>
+<td>CWE-923</td>
+<td>Java/Kotlin</td>
+<td>java/unsafe-hostname-verification</td>
+<td>Unsafe hostname verification</td>
+</tr>
+<tr>
+<td>CWE-923</td>
+<td>Java/Kotlin</td>
+<td>java/socket-auth-race-condition</td>
+<td>Race condition in socket authentication</td>
+</tr>
+<tr>
+<td>CWE-923</td>
+<td>Java/Kotlin</td>
+<td>java/maven/non-https-url</td>
+<td>Failure to use HTTPS or SFTP URL in Maven artifact upload/download</td>
+</tr>
+<tr>
+<td>CWE-923</td>
+<td>Java/Kotlin</td>
+<td>java/improper-intent-verification</td>
+<td>Improper verification of intent by broadcast receiver</td>
+</tr>
+<tr>
+<td>CWE-923</td>
+<td>Java/Kotlin</td>
+<td>java/android/intent-redirection</td>
+<td>Android Intent redirection</td>
+</tr>
+<tr>
+<td>CWE-923</td>
+<td>Java/Kotlin</td>
+<td>java/ignored-hostname-verification</td>
+<td>Ignored result of hostname verification</td>
+</tr>
+<tr>
+<td>CWE-923</td>
+<td>Java/Kotlin</td>
+<td>java/insecure-ldaps-endpoint</td>
+<td>Insecure LDAPS Endpoint Configuration</td>
+</tr>
+<tr>
+<td>CWE-925</td>
+<td>Java/Kotlin</td>
+<td>java/improper-intent-verification</td>
+<td>Improper verification of intent by broadcast receiver</td>
+</tr>
+<tr>
+<td>CWE-926</td>
+<td>Java/Kotlin</td>
+<td>java/android/intent-uri-permission-manipulation</td>
+<td>Intent URI permission manipulation</td>
+</tr>
+<tr>
+<td>CWE-926</td>
+<td>Java/Kotlin</td>
+<td>java/android/incomplete-provider-permissions</td>
+<td>Missing read or write permission in a content provider</td>
+</tr>
+<tr>
+<td>CWE-926</td>
+<td>Java/Kotlin</td>
+<td>java/android/implicitly-exported-component</td>
+<td>Implicitly exported Android component</td>
+</tr>
+<tr>
+<td>CWE-926</td>
+<td>Java/Kotlin</td>
+<td>java/android/intent-redirection</td>
+<td>Android Intent redirection</td>
+</tr>
+<tr>
+<td>CWE-927</td>
+<td>Java/Kotlin</td>
+<td>java/android/implicit-pendingintents</td>
+<td>Use of implicit PendingIntents</td>
+</tr>
+<tr>
+<td>CWE-927</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-communication</td>
+<td>Leaking sensitive information through an implicit Intent</td>
+</tr>
+<tr>
+<td>CWE-927</td>
+<td>Java/Kotlin</td>
+<td>java/android/sensitive-result-receiver</td>
+<td>Leaking sensitive information through a ResultReceiver</td>
+</tr>
+<tr>
+<td>CWE-939</td>
+<td>Java/Kotlin</td>
+<td>java/incorrect-url-verification</td>
+<td>Incorrect URL verification</td>
+</tr>
+<tr>
+<td>CWE-940</td>
+<td>Java/Kotlin</td>
+<td>java/android/intent-redirection</td>
+<td>Android Intent redirection</td>
+</tr>
+<tr>
+<td>CWE-943</td>
+<td>Java/Kotlin</td>
+<td>java/concatenated-sql-query</td>
+<td>Query built by concatenation with a possibly-untrusted string</td>
+</tr>
+<tr>
+<td>CWE-943</td>
+<td>Java/Kotlin</td>
+<td>java/sql-injection</td>
+<td>Query built from user-controlled sources</td>
+</tr>
+<tr>
+<td>CWE-943</td>
+<td>Java/Kotlin</td>
+<td>java/ldap-injection</td>
+<td>LDAP query built from user-controlled sources</td>
+</tr>
+<tr>
+<td>CWE-943</td>
+<td>Java/Kotlin</td>
+<td>java/xml/xpath-injection</td>
+<td>XPath injection</td>
+</tr>
+<tr>
+<td>CWE-943</td>
+<td>Java/Kotlin</td>
+<td>java/mybatis-annotation-sql-injection</td>
+<td>SQL injection in MyBatis annotation</td>
+</tr>
+<tr>
+<td>CWE-943</td>
+<td>Java/Kotlin</td>
+<td>java/mybatis-xml-sql-injection</td>
+<td>SQL injection in MyBatis Mapper XML</td>
+</tr>
+<tr>
+<td>CWE-943</td>
+<td>Java/Kotlin</td>
+<td>java/xquery-injection</td>
+<td>XQuery query built from user-controlled sources</td>
+</tr>
+<tr>
+<td>CWE-1004</td>
+<td>Java/Kotlin</td>
+<td>java/tomcat-disabled-httponly</td>
+<td>Tomcat config disables 'HttpOnly' flag (XSS risk)</td>
+</tr>
+<tr>
+<td>CWE-1004</td>
+<td>Java/Kotlin</td>
+<td>java/sensitive-cookie-not-httponly</td>
+<td>Sensitive cookies without the HttpOnly response header set</td>
+</tr>
+<tr>
+<td>CWE-1104</td>
+<td>Java/Kotlin</td>
+<td>java/maven/dependency-upon-bintray</td>
+<td>Depending upon JCenter/Bintray as an artifact repository</td>
+</tr>
+<tr>
+<td>CWE-1204</td>
+<td>Java/Kotlin</td>
+<td>java/static-initialization-vector</td>
+<td>Using a static initialization vector for encryption</td>
+</tr>
+<tr>
+<td>CWE-1333</td>
+<td>Java/Kotlin</td>
+<td>java/polynomial-redos</td>
+<td>Polynomial regular expression used on uncontrolled data</td>
+</tr>
+<tr>
+<td>CWE-1333</td>
+<td>Java/Kotlin</td>
+<td>java/redos</td>
+<td>Inefficient regular expression</td>
+</tr>
+<tr>
+<td>CWE-1336</td>
+<td>Java/Kotlin</td>
+<td>java/server-side-template-injection</td>
+<td>Server-side template injection</td>
+</tr>
+</tbody>

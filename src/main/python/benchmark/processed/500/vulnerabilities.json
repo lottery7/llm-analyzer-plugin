@@ -1,0 +1,3502 @@
+{
+    "BenchmarkTest00005.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 5,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest00014.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 14,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00021.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 21,
+        "vulnerability": true,
+        "cwe": 90
+    },
+    "BenchmarkTest00024.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 24,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest00032.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 32,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest00033.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 33,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest00040.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 40,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest00041.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 41,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00049.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 49,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00052.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 52,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest00053.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 53,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest00056.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 56,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest00069.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 69,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest00079.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 79,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest00088.java": {
+        "benchmark_version": "1.2",
+        "category": "securecookie",
+        "test_number": 88,
+        "vulnerability": false,
+        "cwe": 614
+    },
+    "BenchmarkTest00093.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 93,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest00096.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 96,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00103.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 103,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest00105.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 105,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest00109.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 109,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest00111.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 111,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest00113.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 113,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest00130.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 130,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest00132.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 132,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest00137.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 137,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest00141.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 141,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest00143.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 143,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest00144.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 144,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00147.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 147,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00155.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 155,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00160.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 160,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest00164.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 164,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest00167.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 167,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest00171.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 171,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest00188.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 188,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00190.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 190,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest00195.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 195,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest00212.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 212,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest00219.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 219,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest00224.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 224,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest00227.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 227,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest00240.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 240,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest00241.java": {
+        "benchmark_version": "1.2",
+        "category": "securecookie",
+        "test_number": 241,
+        "vulnerability": true,
+        "cwe": 614
+    },
+    "BenchmarkTest00242.java": {
+        "benchmark_version": "1.2",
+        "category": "securecookie",
+        "test_number": 242,
+        "vulnerability": false,
+        "cwe": 614
+    },
+    "BenchmarkTest00244.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 244,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00252.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 252,
+        "vulnerability": false,
+        "cwe": 501
+    },
+    "BenchmarkTest00263.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 263,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest00264.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 264,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest00266.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 266,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest00267.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 267,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest00275.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 275,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00290.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 290,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00294.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 294,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest00309.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 309,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest00312.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 312,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00321.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 321,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest00322.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 322,
+        "vulnerability": false,
+        "cwe": 501
+    },
+    "BenchmarkTest00325.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 325,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest00329.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 329,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest00330.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 330,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest00344.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 344,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest00345.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 345,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest00347.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 347,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest00352.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 352,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest00365.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 365,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest00366.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 366,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest00373.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 373,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest00376.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 376,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00394.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 394,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00401.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 401,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest00403.java": {
+        "benchmark_version": "1.2",
+        "category": "securecookie",
+        "test_number": 403,
+        "vulnerability": true,
+        "cwe": 614
+    },
+    "BenchmarkTest00410.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 410,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest00413.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 413,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00417.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 417,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00421.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 421,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00422.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 422,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00432.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 432,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest00438.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 438,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest00449.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 449,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest00450.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 450,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest00454.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 454,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest00455.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 455,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest00468.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 468,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00471.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 471,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00473.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 473,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00476.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 476,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00484.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 484,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest00485.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 485,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest00488.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 488,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest00495.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 495,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest00506.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 506,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00510.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 510,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest00511.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 511,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest00523.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 523,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest00531.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 531,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest00536.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 536,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest00542.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 542,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00543.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 543,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00544.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 544,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00551.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 551,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00552.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 552,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00564.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 564,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest00582.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 582,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00599.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 599,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest00604.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 604,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest00617.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 617,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest00618.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 618,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest00625.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 625,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest00646.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 646,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00647.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 647,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00650.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 650,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00651.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 651,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00665.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 665,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00670.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 670,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest00676.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 676,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest00680.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 680,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest00692.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 692,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest00695.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 695,
+        "vulnerability": true,
+        "cwe": 90
+    },
+    "BenchmarkTest00698.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 698,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest00701.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 701,
+        "vulnerability": false,
+        "cwe": 90
+    },
+    "BenchmarkTest00704.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 704,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest00705.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 705,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest00706.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 706,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest00716.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 716,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00725.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 725,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00728.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 728,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00729.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 729,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00733.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 733,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest00735.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 735,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest00744.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 744,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00748.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 748,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00754.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 754,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest00758.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 758,
+        "vulnerability": false,
+        "cwe": 501
+    },
+    "BenchmarkTest00764.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 764,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest00766.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 766,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest00768.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 768,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest00778.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 778,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest00783.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 783,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest00788.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 788,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest00791.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 791,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest00793.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 793,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest00801.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 801,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00809.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 809,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00811.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 811,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest00815.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 815,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest00832.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 832,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00833.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 833,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest00835.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 835,
+        "vulnerability": false,
+        "cwe": 501
+    },
+    "BenchmarkTest00842.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 842,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest00853.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 853,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest00854.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 854,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest00855.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 855,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest00857.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 857,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest00858.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 858,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest00864.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 864,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest00865.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 865,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest00877.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 877,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest00878.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 878,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest00880.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 880,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00882.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 882,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00888.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 888,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00892.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 892,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00894.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 894,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest00905.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 905,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest00916.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 916,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00919.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 919,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest00922.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 922,
+        "vulnerability": false,
+        "cwe": 501
+    },
+    "BenchmarkTest00942.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 942,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest00949.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 949,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest00950.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 950,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest00963.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 963,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest00964.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 964,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest00977.java": {
+        "benchmark_version": "1.2",
+        "category": "securecookie",
+        "test_number": 977,
+        "vulnerability": true,
+        "cwe": 614
+    },
+    "BenchmarkTest00980.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 980,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest00998.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 998,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01000.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1000,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01002.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1002,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01005.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1005,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01006.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1006,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01020.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1020,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest01023.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 1023,
+        "vulnerability": true,
+        "cwe": 90
+    },
+    "BenchmarkTest01025.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1025,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest01036.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1036,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest01039.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 1039,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest01042.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 1042,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest01045.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 1045,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest01047.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1047,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01057.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1057,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01060.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1060,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01063.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1063,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01083.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1083,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01086.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1086,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest01088.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1088,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01093.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1093,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01094.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1094,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01096.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1096,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest01097.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1097,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01103.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1103,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest01108.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1108,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest01112.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1112,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest01113.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1113,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest01114.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1114,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest01119.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1119,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01131.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1131,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01132.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1132,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01147.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1147,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest01149.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1149,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest01151.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1151,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest01155.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1155,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest01162.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1162,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01165.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 1165,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest01167.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 1167,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest01171.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1171,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01172.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1172,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01184.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1184,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01189.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 1189,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest01195.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1195,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01213.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1213,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest01216.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1216,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest01224.java": {
+        "benchmark_version": "1.2",
+        "category": "xpathi",
+        "test_number": 1224,
+        "vulnerability": true,
+        "cwe": 643
+    },
+    "BenchmarkTest01225.java": {
+        "benchmark_version": "1.2",
+        "category": "xpathi",
+        "test_number": 1225,
+        "vulnerability": false,
+        "cwe": 643
+    },
+    "BenchmarkTest01226.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1226,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest01234.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1234,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest01236.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1236,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest01238.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1238,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest01241.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 1241,
+        "vulnerability": true,
+        "cwe": 90
+    },
+    "BenchmarkTest01254.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1254,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01255.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1255,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest01261.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1261,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01262.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1262,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01275.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1275,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01284.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1284,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01291.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1291,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01297.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1297,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01311.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1311,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01336.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1336,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest01349.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1349,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01356.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1356,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01358.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1358,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01368.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1368,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01369.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1369,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01375.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 1375,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest01391.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1391,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01399.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1399,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest01400.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1400,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest01402.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 1402,
+        "vulnerability": false,
+        "cwe": 90
+    },
+    "BenchmarkTest01404.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1404,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest01416.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 1416,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest01420.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1420,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest01440.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 1440,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest01450.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1450,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01458.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 1458,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest01459.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1459,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest01462.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1462,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01463.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1463,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01479.java": {
+        "benchmark_version": "1.2",
+        "category": "xpathi",
+        "test_number": 1479,
+        "vulnerability": false,
+        "cwe": 643
+    },
+    "BenchmarkTest01483.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1483,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest01488.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1488,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest01489.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1489,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest01491.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 1491,
+        "vulnerability": false,
+        "cwe": 90
+    },
+    "BenchmarkTest01501.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 1501,
+        "vulnerability": true,
+        "cwe": 90
+    },
+    "BenchmarkTest01511.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1511,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01512.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1512,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01514.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1514,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest01520.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1520,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01524.java": {
+        "benchmark_version": "1.2",
+        "category": "securecookie",
+        "test_number": 1524,
+        "vulnerability": false,
+        "cwe": 614
+    },
+    "BenchmarkTest01525.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1525,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01530.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 1530,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest01533.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 1533,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest01534.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1534,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01536.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1536,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01537.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1537,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01547.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 1547,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest01548.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 1548,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest01549.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 1549,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest01550.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 1550,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest01553.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1553,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest01554.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1554,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01560.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1560,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01568.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 1568,
+        "vulnerability": true,
+        "cwe": 90
+    },
+    "BenchmarkTest01573.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1573,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest01588.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1588,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest01598.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1598,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01601.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 1601,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest01609.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 1609,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest01613.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1613,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01619.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 1619,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest01620.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1620,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01621.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1621,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01625.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1625,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01628.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1628,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest01629.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1629,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest01639.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1639,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest01643.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1643,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest01648.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1648,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01662.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1662,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01671.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1671,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest01673.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 1673,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest01676.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1676,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01683.java": {
+        "benchmark_version": "1.2",
+        "category": "securecookie",
+        "test_number": 1683,
+        "vulnerability": true,
+        "cwe": 614
+    },
+    "BenchmarkTest01684.java": {
+        "benchmark_version": "1.2",
+        "category": "securecookie",
+        "test_number": 1684,
+        "vulnerability": false,
+        "cwe": 614
+    },
+    "BenchmarkTest01692.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 1692,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest01694.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1694,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01695.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1695,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01696.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1696,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01703.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1703,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01711.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 1711,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest01716.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1716,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01717.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1717,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest01726.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1726,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01739.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1739,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest01751.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1751,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest01752.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1752,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest01753.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 1753,
+        "vulnerability": false,
+        "cwe": 90
+    },
+    "BenchmarkTest01763.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 1763,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest01770.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1770,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest01775.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1775,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest01777.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1777,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest01783.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1783,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01801.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1801,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01808.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1808,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest01815.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1815,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest01817.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1817,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest01818.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1818,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest01821.java": {
+        "benchmark_version": "1.2",
+        "category": "xpathi",
+        "test_number": 1821,
+        "vulnerability": false,
+        "cwe": 643
+    },
+    "BenchmarkTest01835.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1835,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest01844.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 1844,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest01851.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 1851,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest01858.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1858,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01869.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1869,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest01872.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 1872,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest01878.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1878,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest01900.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1900,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest01906.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1906,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest01917.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1917,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest01923.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 1923,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest01929.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 1929,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest01930.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1930,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest01941.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 1941,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest01942.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 1942,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest01955.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 1955,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest01957.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 1957,
+        "vulnerability": false,
+        "cwe": 501
+    },
+    "BenchmarkTest01960.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 1960,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest01963.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1963,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01971.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 1971,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest01978.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1978,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest01982.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 1982,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest01986.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1986,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest01988.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 1988,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest01994.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 1994,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest01999.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 1999,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02000.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2000,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02005.java": {
+        "benchmark_version": "1.2",
+        "category": "securecookie",
+        "test_number": 2005,
+        "vulnerability": true,
+        "cwe": 614
+    },
+    "BenchmarkTest02009.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2009,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest02010.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2010,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest02014.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2014,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest02025.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 2025,
+        "vulnerability": false,
+        "cwe": 90
+    },
+    "BenchmarkTest02039.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2039,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02040.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2040,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02045.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2045,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest02053.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2053,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest02057.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2057,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02076.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2076,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest02078.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2078,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest02079.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2079,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest02082.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2082,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest02088.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2088,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest02093.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2093,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02099.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2099,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest02101.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 2101,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest02107.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2107,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest02108.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2108,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest02111.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2111,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest02113.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2113,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest02116.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 2116,
+        "vulnerability": false,
+        "cwe": 90
+    },
+    "BenchmarkTest02125.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2125,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest02130.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2130,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02134.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2134,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02146.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2146,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest02151.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2151,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest02152.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2152,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest02169.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2169,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest02173.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2173,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02186.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2186,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest02188.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2188,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02191.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 2191,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest02200.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2200,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest02205.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2205,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest02214.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 2214,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest02230.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2230,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02231.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2231,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest02232.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2232,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02234.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2234,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02237.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2237,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest02241.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2241,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02249.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2249,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest02253.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2253,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest02256.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2256,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest02261.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 2261,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest02266.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2266,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02267.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2267,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02280.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2280,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02285.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2285,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02286.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2286,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest02292.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 2292,
+        "vulnerability": true,
+        "cwe": 327
+    },
+    "BenchmarkTest02298.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 2298,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest02299.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 2299,
+        "vulnerability": true,
+        "cwe": 90
+    },
+    "BenchmarkTest02303.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2303,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest02306.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 2306,
+        "vulnerability": true,
+        "cwe": 90
+    },
+    "BenchmarkTest02311.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 2311,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest02312.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 2312,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest02321.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2321,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02326.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2326,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02332.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2332,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02342.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2342,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest02344.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2344,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest02350.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2350,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest02352.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 2352,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest02353.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2353,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02356.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2356,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest02357.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2357,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest02365.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2365,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02371.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 2371,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest02382.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2382,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest02389.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 2389,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest02390.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 2390,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest02392.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 2392,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest02395.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2395,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02396.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2396,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02405.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2405,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02414.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2414,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest02422.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2422,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02423.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2423,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02431.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2431,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest02434.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2434,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest02449.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2449,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest02450.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2450,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02460.java": {
+        "benchmark_version": "1.2",
+        "category": "crypto",
+        "test_number": 2460,
+        "vulnerability": false,
+        "cwe": 327
+    },
+    "BenchmarkTest02466.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2466,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest02467.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2467,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest02469.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2469,
+        "vulnerability": true,
+        "cwe": 22
+    },
+    "BenchmarkTest02471.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2471,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest02487.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2487,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02493.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2493,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02501.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2501,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02502.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2502,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02503.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2503,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02507.java": {
+        "benchmark_version": "1.2",
+        "category": "securecookie",
+        "test_number": 2507,
+        "vulnerability": true,
+        "cwe": 614
+    },
+    "BenchmarkTest02508.java": {
+        "benchmark_version": "1.2",
+        "category": "securecookie",
+        "test_number": 2508,
+        "vulnerability": false,
+        "cwe": 614
+    },
+    "BenchmarkTest02509.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2509,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest02511.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2511,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest02515.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2515,
+        "vulnerability": true,
+        "cwe": 78
+    },
+    "BenchmarkTest02518.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2518,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest02527.java": {
+        "benchmark_version": "1.2",
+        "category": "trustbound",
+        "test_number": 2527,
+        "vulnerability": true,
+        "cwe": 501
+    },
+    "BenchmarkTest02534.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2534,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest02540.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2540,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02544.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2544,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02546.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2546,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02554.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2554,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest02558.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2558,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest02571.java": {
+        "benchmark_version": "1.2",
+        "category": "ldapi",
+        "test_number": 2571,
+        "vulnerability": false,
+        "cwe": 90
+    },
+    "BenchmarkTest02576.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 2576,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest02577.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 2577,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest02582.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2582,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02593.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2593,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest02597.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2597,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02599.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2599,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest02600.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2600,
+        "vulnerability": true,
+        "cwe": 79
+    },
+    "BenchmarkTest02602.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2602,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02603.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2603,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02621.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2621,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest02631.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2631,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02632.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2632,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest02639.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2639,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02649.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2649,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest02655.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2655,
+        "vulnerability": true,
+        "cwe": 89
+    },
+    "BenchmarkTest02664.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2664,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest02666.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2666,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest02667.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2667,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest02669.java": {
+        "benchmark_version": "1.2",
+        "category": "pathtraver",
+        "test_number": 2669,
+        "vulnerability": false,
+        "cwe": 22
+    },
+    "BenchmarkTest02671.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 2671,
+        "vulnerability": true,
+        "cwe": 328
+    },
+    "BenchmarkTest02672.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 2672,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest02673.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 2673,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest02676.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 2676,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest02678.java": {
+        "benchmark_version": "1.2",
+        "category": "hash",
+        "test_number": 2678,
+        "vulnerability": false,
+        "cwe": 328
+    },
+    "BenchmarkTest02686.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2686,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest02689.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2689,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest02690.java": {
+        "benchmark_version": "1.2",
+        "category": "xss",
+        "test_number": 2690,
+        "vulnerability": false,
+        "cwe": 79
+    },
+    "BenchmarkTest02697.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2697,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest02698.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2698,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest02699.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2699,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest02703.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2703,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02705.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2705,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02707.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2707,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02708.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2708,
+        "vulnerability": true,
+        "cwe": 330
+    },
+    "BenchmarkTest02714.java": {
+        "benchmark_version": "1.2",
+        "category": "cmdi",
+        "test_number": 2714,
+        "vulnerability": false,
+        "cwe": 78
+    },
+    "BenchmarkTest02716.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2716,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest02721.java": {
+        "benchmark_version": "1.2",
+        "category": "weakrand",
+        "test_number": 2721,
+        "vulnerability": false,
+        "cwe": 330
+    },
+    "BenchmarkTest02731.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2731,
+        "vulnerability": false,
+        "cwe": 89
+    },
+    "BenchmarkTest02734.java": {
+        "benchmark_version": "1.2",
+        "category": "sqli",
+        "test_number": 2734,
+        "vulnerability": false,
+        "cwe": 89
+    }
+}
