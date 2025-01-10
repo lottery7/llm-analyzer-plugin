@@ -20,23 +20,19 @@ The plugin allows you to analyze code files directly from the Project View using
    ```
    git clone <repository-url>
    ```
-2. Create all required docker images:
+2. Install required docker images:
+   - For CodeQL (**3.79gb**):
    ```
-   # Go to docker folder
-   cd docker
-
-   # Go to the image folder
-   cd <image-name>
-
-   # Build the image
-   docker build -t <image-name> .
+   docker build -t codeql docker/codeql
    ```
-   Repeat it for every folder. You can see that we don't have semgrep folder - it is because semgrep image will be downloaded automatically.
-
+   - For Semgrep (**580mb**):
+   ```
+   docker pull semgrep/semgrep:latest
+   ```
+   Semgrep image may also be downloaded automatically when you use it in the first time.
 3. Build and install the plugin:
    - Open the project in IntelliJ IDEA.
    - Set configuration variables (see below)
-   - Build the project using the IntelliJ IDEA plugin development tools.
 
 ## Usage
 1. Click "Run Plugin" in your IDE.
