@@ -12,6 +12,8 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class LLMAnalyzer implements StaticCodeAnalyzer {
     private static final OpenAiService service = new OpenAiService(
@@ -40,6 +42,17 @@ public class LLMAnalyzer implements StaticCodeAnalyzer {
         return String.format("Here's the code to analyze:\n```\n%s\n```", code);
     }
 
+    private static String parseJsonPart(String content) {
+        String regex = "\\{.*\\}";
+        Matcher matcher = Pattern.compile(regex, Pattern.DOTALL).matcher(content);
+
+        if (!matcher.find()) {
+            throw new RuntimeException("Couldn't find JSON in LLM response.");
+        }
+
+        return matcher.group();
+    }
+
     @Override
     public void analyzeFile(Path filePath, Path resultsRootPath) throws IOException {
         Path resultFilePath = resultsRootPath.resolve("llm-result.json");
@@ -50,8 +63,9 @@ public class LLMAnalyzer implements StaticCodeAnalyzer {
         var chatResponse = getChatCompletion(List.of(systemMessage, userMessage));
 
         String responseContent = chatResponse.getChoices().get(0).getMessage().getContent();
+        String jsonPart = parseJsonPart(responseContent);
 
-        Files.writeString(resultFilePath, responseContent);
+        Files.writeString(resultFilePath, jsonPart);
     }
 
 }
