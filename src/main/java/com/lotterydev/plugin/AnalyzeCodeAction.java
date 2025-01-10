@@ -12,7 +12,6 @@ import com.intellij.openapi.vfs.VirtualFile;
 import com.lotterydev.analyzer.StaticCodeAnalyzer;
 import com.lotterydev.analyzer.impl.CodeQLAnalyzer;
 import com.lotterydev.analyzer.impl.LLMAnalyzer;
-import com.lotterydev.analyzer.impl.PVSStudioAnalyzer;
 import com.lotterydev.analyzer.impl.SemgrepAnalyzer;
 import org.jetbrains.annotations.NotNull;
 
@@ -50,7 +49,6 @@ public class AnalyzeCodeAction extends AnAction {
         switch (analyzerName) {
             case "LLM" -> analyzer = CodeAnalyzersHolder.llm;
             case "Semgrep" -> analyzer = CodeAnalyzersHolder.semgrep;
-            case "PVS-Studio" -> analyzer = CodeAnalyzersHolder.pvsStudio;
             case "CodeQL" -> analyzer = CodeAnalyzersHolder.codeQL;
             default -> throw new RuntimeException("Chosen analyzer doesn't exist.");
         }
@@ -96,7 +94,6 @@ public class AnalyzeCodeAction extends AnAction {
 
     private interface CodeAnalyzersHolder {
         StaticCodeAnalyzer semgrep = new SemgrepAnalyzer();
-        StaticCodeAnalyzer pvsStudio = new PVSStudioAnalyzer();
         StaticCodeAnalyzer llm = new LLMAnalyzer();
         StaticCodeAnalyzer codeQL = new CodeQLAnalyzer();
     }

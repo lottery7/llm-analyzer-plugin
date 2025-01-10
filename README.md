@@ -3,16 +3,14 @@
 This IntelliJ IDEA plugin provides seamless integration with powerful code analyzers:
 - **Large Language Models (LLM)**
 - **Semgrep**
-- **PVS-Studio**
 - **CodeQL** (only with `--build-mode=none`)
 
 The plugin allows you to analyze code files directly from the Project View using these tools. It simplifies the setup process by leveraging Docker for running CLI-based analyzers and supports customizable configurations.
 
 ## Features
-- **Code Analysis Options**: Analyze code with LLM, Semgrep, or PVS-Studio by right-clicking on any file in the Project View and selecting:
+- **Code Analysis Options**: Analyze code with LLM, Semgrep, or CodeQL by right-clicking on any file in the Project View and selecting:
   - `Analyze Code -> LLM`
   - `Analyze Code -> Semgrep`
-  - `Analyze Code -> PVS-Studio`
   - `Analyze Code -> CodeQL`
 - **Docker Integration**: Use Docker to run CLI versions of code analysis tools.
 - **Flexible Configurations**: Easily configure API keys, model settings, and Docker hosts via a JSON configuration file.
@@ -55,11 +53,7 @@ The plugin requires a configuration file located at `resources/settings.json` wi
   "apiKey": "<your-api-key>",
   "baseUrl": "<api-base-url>",
   "model": "<LLM-model-name>",
-  "dockerHost": "<docker-server-host>",
-  "pvsStudioLicense": {
-     "userName": "<license-username>",
-     "licenseKey": "<license-key>"
-   }
+  "dockerHost": "<docker-server-host>"
 }
 ```
 
@@ -70,7 +64,6 @@ On Windows, in Docker Desktop you have to go to `Settings -> General` and select
 - **`baseUrl`**: The base URL for the LLM API (default: `groq`).
 - **`model`**: The LLM model to use (default: `llama3-70b-8192`).
 - **`dockerHost`**: The Docker server address for running CLI analyzers. `tcp://localhost:2375` (default) on Windows, `unix:///var/run/docker.sock` on Unix-like.
-- **`pvsStudioLicense`**: Your license for PVS-Studio. Default is a free license which requires you to add comment to the start of each scanned source file. You can see it in **resources/pvs-studio-copyright.txt**.
 
 ## Dependencies
 - **Docker Desktop** or any other Docker host: Required for running CLI tools.
