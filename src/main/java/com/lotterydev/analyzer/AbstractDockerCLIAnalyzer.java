@@ -35,7 +35,7 @@ public abstract class AbstractDockerCLIAnalyzer implements StaticCodeAnalyzer {
         try {
             container = Docker.dockerClient()
                     .createContainerCmd(getImageTag())
-                    .withWorkingDir("/project")
+                    .withWorkingDir("/project")  // TODO replace or remove
                     .withHostConfig(hostConfig)
                     .withCmd(getCLICommand(containerProjectRoot, containerResultsRoot))
                     .exec();

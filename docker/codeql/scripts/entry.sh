@@ -149,8 +149,8 @@ do_analyze() {
     fi
     print_yellow "\nRunning the Security and Quality rules on the project..."
     QUERIES="$1"
-    print_blue   "DEBUG: codeql database analyze --format=${OUTPUT_FORMAT} --output=${output_file} ${results_dir}/codeql-db ${LANGUAGE}-${QUERIES}.qls"
-    codeql database analyze --format=${OUTPUT_FORMAT} --output=${output_file} ${results_dir}/codeql-db ${LANGUAGE}-${QUERIES}.qls
+    print_blue   "DEBUG: codeql database analyze --format=${OUTPUT_FORMAT} --output=${output_file} --ram=8192 --threads=4 ${results_dir}/codeql-db ${LANGUAGE}-${QUERIES}.qls"
+    codeql database analyze --format=${OUTPUT_FORMAT} --output=${output_file} --ram=8192 --threads=4 ${results_dir}/codeql-db ${LANGUAGE}-${QUERIES}.qls
     if [ $? -eq 0 ]
     then
         print_green "\nQuery execution successful" 
