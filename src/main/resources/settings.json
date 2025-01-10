@@ -1,10 +1,6 @@
 {
   "apiKey": "",
-  "baseUrl": "https://api.groq.com/openai/v1/",
-  "model": "llama3-70b-8192",
-  "dockerHost": "tcp://localhost:2375",
-  "pvsStudioLicense": {
-    "userName": "PVS-Studio Free",
-    "licenseKey": "FREE-FREE-FREE-FREE"
-  }
+  "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai/",
+  "model": "gemini-2.0-flash-exp",
+  "dockerHost": "tcp://localhost:2375"
 }

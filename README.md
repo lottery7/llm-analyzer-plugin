@@ -52,7 +52,7 @@ The plugin requires a configuration file located at `resources/settings.json` wi
 {
   "apiKey": "<your-api-key>",
   "baseUrl": "<api-base-url>",
-  "model": "<LLM-model-name>",
+  "model": "<llm-model-name>",
   "dockerHost": "<docker-server-host>"
 }
 ```
@@ -61,8 +61,8 @@ On Windows, in Docker Desktop you have to go to `Settings -> General` and select
 
 ### Parameters
 - **`apiKey`**: Your API key for accessing LLM services.
-- **`baseUrl`**: The base URL for the LLM API (default: `groq`).
-- **`model`**: The LLM model to use (default: `llama3-70b-8192`).
+- **`baseUrl`**: The base URL for the LLM API (default is **Gemini API URL**).
+- **`model`**: The LLM model to use (default is **Gemini 2.0 Flash**).
 - **`dockerHost`**: The Docker server address for running CLI analyzers. `tcp://localhost:2375` (default) on Windows, `unix:///var/run/docker.sock` on Unix-like.
 
 ## Dependencies
