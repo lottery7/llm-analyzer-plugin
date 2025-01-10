@@ -36,8 +36,8 @@
             <add-to-group group-id="ProjectViewPopupMenu" anchor="before" relative-to-action="AnalyzeMenu"/>
 
             <action id="AnalyzeOption1" class="com.lotterydev.plugin.AnalyzeCodeAction"
-                    text="LLM"
-                    description="Static code analysis with LLM">
+                    text="Large Language Model"
+                    description="Static code analysis with Large Language Model">
             </action>
             <action id="AnalyzeOption2" class="com.lotterydev.plugin.AnalyzeCodeAction"
                     text="Semgrep"

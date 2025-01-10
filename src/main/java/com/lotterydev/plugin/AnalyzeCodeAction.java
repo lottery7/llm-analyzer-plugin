@@ -47,7 +47,7 @@ public class AnalyzeCodeAction extends AnAction {
         StaticCodeAnalyzer analyzer;
 
         switch (analyzerName) {
-            case "LLM" -> analyzer = CodeAnalyzersHolder.llm;
+            case "Large Language Model" -> analyzer = CodeAnalyzersHolder.llm;
             case "Semgrep" -> analyzer = CodeAnalyzersHolder.semgrep;
             case "CodeQL" -> analyzer = CodeAnalyzersHolder.codeQL;
             default -> throw new RuntimeException("Chosen analyzer doesn't exist.");
