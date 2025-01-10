@@ -1,6 +1,7 @@
 {
   "apiKey": "",
   "baseUrl": "https://generativelanguage.googleapis.com/v1beta/openai/",
+  "timeoutSeconds": 100,
   "model": "gemini-2.0-flash-exp",
   "dockerHost": "tcp://localhost:2375"
 }

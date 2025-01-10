@@ -11,6 +11,8 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.time.Duration;
+import java.time.temporal.ChronoUnit;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -18,6 +20,7 @@ import java.util.regex.Pattern;
 public class LLMAnalyzer implements StaticCodeAnalyzer {
     private static final OpenAiService service = new OpenAiService(
             Settings.getApiKey(),
+            Duration.of(Settings.getTimeoutSeconds(), ChronoUnit.SECONDS),
             Settings.getBaseUrl());
 
     public LLMAnalyzer() {
