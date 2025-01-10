@@ -39,7 +39,7 @@ public class LLMAnalyzer implements StaticCodeAnalyzer {
     }
 
     public static String getUserPrompt(String code) {
-        return String.format("Here's the code to analyze:\n```\n%s\n```", code);
+        return String.format("Here's the code to analyze:\n```java\n%s\n```", code);
     }
 
     private static String parseJsonPart(String content) {
