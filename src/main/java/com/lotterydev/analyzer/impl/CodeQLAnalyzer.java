@@ -9,6 +9,11 @@ public class CodeQLAnalyzer extends AbstractDockerCLIAnalyzer {
     }
 
     @Override
+    public String getName() {
+        return "CodeQL";
+    }
+
+    @Override
     protected List<String> getCLICommand(String projectRoot, String resultsRoot) {
         return List.of("security", "--language", "java", "--override");
     }

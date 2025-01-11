@@ -9,6 +9,11 @@ public class SemgrepAnalyzer extends AbstractDockerCLIAnalyzer {
     }
 
     @Override
+    public String getName() {
+        return "Semgrep";
+    }
+
+    @Override
     protected List<String> getCLICommand(String projectRoot, String resultsRoot) {
         String outputFilename = "semgrep-result.json";
         String outputFilePath = String.format("%s/%s", resultsRoot, outputFilename);

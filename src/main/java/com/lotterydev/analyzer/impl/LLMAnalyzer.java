@@ -57,6 +57,11 @@ public class LLMAnalyzer implements StaticCodeAnalyzer {
     }
 
     @Override
+    public String getName() {
+        return "Large Language Model";
+    }
+
+    @Override
     public void analyzeFile(Path filePath, Path resultsRootPath) throws IOException {
         Path resultFilePath = resultsRootPath.resolve("llm-result.json");
 
