@@ -1,4 +1,4 @@
-package com.lotterydev.plugin;
+package com.lotterydev.plugin.actions;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
