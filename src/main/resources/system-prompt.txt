@@ -9,7 +9,6 @@ class Finding(BaseModel):
     description: str
 
 class Result(BaseModel):
-    tool: str = "llm"
     findings: list[Finding]
 
 RETURN: Result
