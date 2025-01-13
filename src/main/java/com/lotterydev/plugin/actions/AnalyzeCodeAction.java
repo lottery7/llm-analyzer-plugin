@@ -105,9 +105,9 @@ public class AnalyzeCodeAction extends AnAction {
                     Content content = Objects.requireNonNull(toolWindow).getContentManager().getContent(0);
 
 
-                    Path resultsFilePath = Paths.get(projectRootDirectory.toString(), ".idea", "semgrep-results.json");
+                    Path resultsFilePath = Paths.get(projectRootDirectory.toString(), ".idea", "codeql-results.sarif");
 
-                    List<Finding> findings = Parsers.parseSemgrep(resultsFilePath);
+                    List<Finding> findings = Parsers.parseCodeQL(resultsFilePath);
                     ResultsTableModel tableModel = new ResultsTableModel(findings);
                     ResultsTable table = new ResultsTable(tableModel);
                     ResultsComponent resultsComponent = new ResultsComponent(table);

@@ -5,6 +5,7 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSyntaxException;
 import com.google.gson.reflect.TypeToken;
+import com.lotterydev.schemas.CodeQLFinding;
 import com.lotterydev.schemas.Finding;
 import com.lotterydev.schemas.LLMFinding;
 import com.lotterydev.schemas.SemgrepFinding;
@@ -51,6 +52,31 @@ public class Parsers {
 
             return semgrepFindings == null ? new ArrayList<>() :
                     semgrepFindings.stream().map(SemgrepFinding::toFinding).toList();
+
+        } catch (IOException | JsonSyntaxException e) {
+            e.printStackTrace();
+            return List.of(Finding.builder().description("Error loading results: " + e.getMessage()).build());
+        }
+    }
+
+    public static List<Finding> parseCodeQL(Path filePath) {
+        try {
+            Misc.reloadFileFromDisk(filePath);
+
+            String rawJson = new String(Files.readAllBytes(filePath));
+
+            Gson gson = new Gson();
+            JsonArray results = gson.fromJson(rawJson, JsonObject.class)
+                    .getAsJsonArray("runs").get(0)
+                    .getAsJsonObject()
+                    .getAsJsonArray("results");
+            // @formatter:off
+            Type codeQLFindingsType = new TypeToken<List<CodeQLFinding>>() {}.getType();
+            // @formatter:on
+            List<CodeQLFinding> codeQLFindings = gson.fromJson(results, codeQLFindingsType);
+
+            return codeQLFindings == null ? new ArrayList<>() :
+                    codeQLFindings.stream().flatMap(codeQLFinding -> codeQLFinding.toFindings().stream()).toList();
 
         } catch (IOException | JsonSyntaxException e) {
             e.printStackTrace();

@@ -25,8 +25,8 @@ public class ResultsToolWindowFactory implements ToolWindowFactory, DumbAware {
 
         Alarm alarm = new Alarm(Alarm.ThreadToUse.SWING_THREAD);
         alarm.addRequest(() -> {
-            Path resultsPath = Paths.get(project.getBasePath(), ".idea", "semgrep-results.json");
-            List<Finding> findings = Parsers.parseSemgrep(resultsPath);
+            Path resultsPath = Paths.get(project.getBasePath(), ".idea", "codeql-results.sarif");
+            List<Finding> findings = Parsers.parseCodeQL(resultsPath);
 
 
             ResultsTableModel tableModel = new ResultsTableModel(findings);
