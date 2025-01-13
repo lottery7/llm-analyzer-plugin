@@ -25,7 +25,7 @@ public class ResultsToolWindowFactory implements ToolWindowFactory, DumbAware {
 
         Alarm alarm = new Alarm(Alarm.ThreadToUse.SWING_THREAD);
         alarm.addRequest(() -> {
-            Path resultsPath = Paths.get(project.getBasePath(), ".idea", "llm-result.json");
+            Path resultsPath = Paths.get(project.getBasePath(), ".idea", "llm-results.json");
 
             List<Finding> findings = Parsers.parseLLM(resultsPath);
 

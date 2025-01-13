@@ -105,7 +105,7 @@ public class AnalyzeCodeAction extends AnAction {
                     Content content = Objects.requireNonNull(toolWindow).getContentManager().getContent(0);
 
 
-                    Path resultsFilePath = Paths.get(projectRootDirectory.toString(), ".idea", "llm-result.json");
+                    Path resultsFilePath = Paths.get(projectRootDirectory.toString(), ".idea", "llm-results.json");
 
                     List<Finding> findings = Parsers.parseLLM(resultsFilePath);
                     ResultsTableModel tableModel = new ResultsTableModel(findings);

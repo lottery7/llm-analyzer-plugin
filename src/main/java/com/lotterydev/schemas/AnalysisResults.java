@@ -5,7 +5,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class AnalysisResult {
+public class AnalysisResults {
     private final String tool;
     private final List<Finding> findings;
 }

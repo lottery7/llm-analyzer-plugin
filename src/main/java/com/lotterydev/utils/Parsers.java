@@ -2,7 +2,7 @@ package com.lotterydev.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
-import com.lotterydev.schemas.AnalysisResult;
+import com.lotterydev.schemas.AnalysisResults;
 import com.lotterydev.schemas.Finding;
 
 import java.io.IOException;
@@ -17,7 +17,7 @@ public class Parsers {
             Misc.reloadFileFromDisk(filePath);
             String json = new String(Files.readAllBytes(filePath));
             Gson gson = new Gson();
-            AnalysisResult analysisResult = gson.fromJson(json, AnalysisResult.class);
+            AnalysisResults analysisResult = gson.fromJson(json, AnalysisResults.class);
             return analysisResult.getFindings() != null ? analysisResult.getFindings() : new ArrayList<>();
         } catch (IOException | JsonSyntaxException e) {
             e.printStackTrace();

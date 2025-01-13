@@ -63,7 +63,7 @@ public class LLMAnalyzer implements StaticCodeAnalyzer {
 
     @Override
     public void analyzeFile(Path filePath, Path resultsRootPath) throws IOException {
-        Path resultFilePath = resultsRootPath.resolve("llm-result.json");
+        Path resultsFilePath = resultsRootPath.resolve("llm-results.json");
 
         ChatMessage systemMessage = new SystemMessage(getSystemPrompt());
         ChatMessage userMessage = new UserMessage(getUserPrompt(Misc.getCodeFromFile(filePath)));
@@ -73,7 +73,7 @@ public class LLMAnalyzer implements StaticCodeAnalyzer {
         String responseContent = chatResponse.getChoices().get(0).getMessage().getContent();
         String jsonPart = parseJsonPart(responseContent);
 
-        Files.writeString(resultFilePath, jsonPart);
+        Files.writeString(resultsFilePath, jsonPart);
     }
 
 }
