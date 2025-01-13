@@ -11,7 +11,7 @@ public class ResultsTableModel extends DefaultTableModel {
     public ResultsTableModel(List<Finding> findings) {
         String[][] tableData = findings.stream()
                 .map(f -> new String[]{
-                        "CWE-" + f.getCwe(),
+                        f.getRule(),
                         "Lines " + f.getStartLineNumber() + "-" + f.getEndLineNumber(),
                         f.getDescription()
                 })
