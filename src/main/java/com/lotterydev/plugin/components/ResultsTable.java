@@ -11,8 +11,12 @@ public class ResultsTable extends JBTable {
         super(tableModel);
 
         for (int i = 0; i < 2; i++) {
-            int width = calculateMaxWidth(i);
-            setColumnWidth(i, width);
+            TableColumn column = getColumnModel().getColumn(i);
+            column.setMinWidth(60);
+            column.setMaxWidth(280);
+
+            int width = calculateMaxWidth(i) + 20;
+            column.setPreferredWidth(width);
         }
 
         setFillsViewportHeight(true);
@@ -20,7 +24,7 @@ public class ResultsTable extends JBTable {
     }
 
     private int calculateMaxWidth(int columnIndex) {
-        int maxWidth = 60;
+        int maxWidth = 0;
         for (int row = 0; row < getRowCount(); row++) {
             Object value = getValueAt(row, columnIndex);
             if (value != null) {
@@ -29,13 +33,6 @@ public class ResultsTable extends JBTable {
                 maxWidth = Math.max(maxWidth, width);
             }
         }
-        return maxWidth + 20;
-    }
-
-    private void setColumnWidth(int columnIndex, int width) {
-        TableColumn column = getColumnModel().getColumn(columnIndex);
-        column.setPreferredWidth(width);
-        column.setMaxWidth(width);
-        column.setMinWidth(width);
+        return maxWidth;
     }
 }
