@@ -4,8 +4,8 @@ Use the following JSON schema:
 
 class Finding(BaseModel):
     cwe: int
-    start_line_number: int
-    end_line_number: int
+    startLineNumber: int
+    endLineNumber: int
     description: str
 
 class Result(BaseModel):
