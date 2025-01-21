@@ -19,6 +19,7 @@ The plugin allows you to analyze code files directly from the Project View using
 1. Clone the repository:
    ```
    git clone <repository-url>
+   cd llm-analyzer-plugin
    ```
 2. Install required docker images:
    - For CodeQL (**3.79gb**):
