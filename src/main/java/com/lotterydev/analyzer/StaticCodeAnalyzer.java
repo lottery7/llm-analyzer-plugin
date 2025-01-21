@@ -1,6 +1,6 @@
 package com.lotterydev.analyzer;
 
-import com.lotterydev.parsers.FindingsParser;
+import com.lotterydev.parser.FindingsParser;
 
 import java.nio.file.Path;
 

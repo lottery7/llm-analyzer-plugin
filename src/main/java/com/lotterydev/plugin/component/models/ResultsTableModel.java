@@ -1,6 +1,6 @@
-package com.lotterydev.plugin.components.models;
+package com.lotterydev.plugin.component.models;
 
-import com.lotterydev.schemas.Finding;
+import com.lotterydev.schema.Finding;
 
 import javax.swing.table.DefaultTableModel;
 import java.util.List;

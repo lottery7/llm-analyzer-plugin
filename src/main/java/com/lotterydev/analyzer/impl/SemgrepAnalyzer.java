@@ -1,7 +1,7 @@
 package com.lotterydev.analyzer.impl;
 
 import com.lotterydev.analyzer.AbstractDockerCLIAnalyzer;
-import com.lotterydev.parsers.FindingsParser;
+import com.lotterydev.parser.FindingsParser;
 import lombok.RequiredArgsConstructor;
 
 import java.util.List;

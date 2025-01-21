@@ -1,6 +1,6 @@
-package com.lotterydev.parsers;
+package com.lotterydev.parser;
 
-import com.lotterydev.schemas.Finding;
+import com.lotterydev.schema.Finding;
 
 import java.nio.file.Path;
 import java.util.List;

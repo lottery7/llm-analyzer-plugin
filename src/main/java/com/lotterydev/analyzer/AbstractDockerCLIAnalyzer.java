@@ -6,7 +6,7 @@ import com.github.dockerjava.api.exception.NotFoundException;
 import com.github.dockerjava.api.model.Bind;
 import com.github.dockerjava.api.model.HostConfig;
 import com.github.dockerjava.api.model.Volume;
-import com.lotterydev.utils.Docker;
+import com.lotterydev.util.Docker;
 
 import java.nio.file.Path;
 import java.util.List;

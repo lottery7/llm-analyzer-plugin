@@ -1,10 +1,10 @@
 package com.lotterydev.analyzer.impl;
 
 import com.lotterydev.analyzer.StaticCodeAnalyzer;
-import com.lotterydev.parsers.FindingsParser;
-import com.lotterydev.utils.Misc;
-import com.lotterydev.utils.Resources;
-import com.lotterydev.utils.Settings;
+import com.lotterydev.parser.FindingsParser;
+import com.lotterydev.util.Misc;
+import com.lotterydev.util.Resources;
+import com.lotterydev.util.Settings;
 import com.theokanning.openai.completion.chat.*;
 import com.theokanning.openai.service.OpenAiService;
 import lombok.RequiredArgsConstructor;

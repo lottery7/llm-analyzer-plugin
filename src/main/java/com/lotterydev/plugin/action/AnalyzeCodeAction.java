@@ -1,4 +1,4 @@
-package com.lotterydev.plugin.actions;
+package com.lotterydev.plugin.action;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
@@ -15,7 +15,7 @@ import com.intellij.openapi.wm.ToolWindowManager;
 import com.intellij.ui.content.Content;
 import com.lotterydev.analyzer.AnalyzersService;
 import com.lotterydev.analyzer.StaticCodeAnalyzer;
-import com.lotterydev.plugin.components.ResultsComponent;
+import com.lotterydev.plugin.component.ResultsComponent;
 import org.jetbrains.annotations.NotNull;
 
 import java.nio.file.Path;

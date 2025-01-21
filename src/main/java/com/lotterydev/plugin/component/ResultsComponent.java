@@ -1,4 +1,4 @@
-package com.lotterydev.plugin.components;
+package com.lotterydev.plugin.component;
 
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.project.Project;
@@ -6,7 +6,7 @@ import com.intellij.openapi.ui.ComboBox;
 import com.intellij.ui.components.JBScrollPane;
 import com.lotterydev.analyzer.AnalyzersService;
 import com.lotterydev.analyzer.StaticCodeAnalyzer;
-import com.lotterydev.plugin.components.models.ResultsTableModel;
+import com.lotterydev.plugin.component.models.ResultsTableModel;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.*;

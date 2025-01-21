@@ -1,11 +1,11 @@
-package com.lotterydev.parsers.impl;
+package com.lotterydev.parser.impl;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
-import com.lotterydev.parsers.AbstractReloadingFindingsParser;
-import com.lotterydev.schemas.Finding;
-import com.lotterydev.schemas.LLMFinding;
+import com.lotterydev.parser.AbstractReloadingFindingsParser;
+import com.lotterydev.schema.Finding;
+import com.lotterydev.schema.LLMFinding;
 import org.jetbrains.annotations.Nullable;
 
 import java.lang.reflect.Type;

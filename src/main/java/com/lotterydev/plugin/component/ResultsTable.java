@@ -1,7 +1,7 @@
-package com.lotterydev.plugin.components;
+package com.lotterydev.plugin.component;
 
 import com.intellij.ui.table.JBTable;
-import com.lotterydev.plugin.components.models.ResultsTableModel;
+import com.lotterydev.plugin.component.models.ResultsTableModel;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.table.TableColumn;

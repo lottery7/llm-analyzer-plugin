@@ -1,4 +1,4 @@
-package com.lotterydev.utils;
+package com.lotterydev.util;
 
 import com.github.dockerjava.api.DockerClient;
 import com.github.dockerjava.api.command.BuildImageResultCallback;

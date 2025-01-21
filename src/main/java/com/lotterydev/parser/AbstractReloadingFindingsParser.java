@@ -1,10 +1,10 @@
-package com.lotterydev.parsers;
+package com.lotterydev.parser;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-import com.lotterydev.schemas.Finding;
-import com.lotterydev.utils.Misc;
+import com.lotterydev.schema.Finding;
+import com.lotterydev.util.Misc;
 import lombok.RequiredArgsConstructor;
 import org.jetbrains.annotations.Nullable;
 

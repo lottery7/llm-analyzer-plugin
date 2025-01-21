@@ -1,4 +1,4 @@
-package com.lotterydev.schemas;
+package com.lotterydev.schema;
 
 import java.util.ArrayList;
 import java.util.List;

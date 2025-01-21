@@ -4,9 +4,9 @@ import com.intellij.openapi.components.Service;
 import com.lotterydev.analyzer.impl.CodeQLAnalyzer;
 import com.lotterydev.analyzer.impl.LLMAnalyzer;
 import com.lotterydev.analyzer.impl.SemgrepAnalyzer;
-import com.lotterydev.parsers.impl.CodeQLFindingsParser;
-import com.lotterydev.parsers.impl.LLMFindingsParser;
-import com.lotterydev.parsers.impl.SemgrepFindingsParser;
+import com.lotterydev.parser.impl.CodeQLFindingsParser;
+import com.lotterydev.parser.impl.LLMFindingsParser;
+import com.lotterydev.parser.impl.SemgrepFindingsParser;
 
 import java.util.List;
 

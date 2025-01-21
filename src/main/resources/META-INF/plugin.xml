@@ -25,13 +25,13 @@
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow id="Analysis Results"
-                    factoryClass="com.lotterydev.plugin.factories.ResultsToolWindowFactory"
+                    factoryClass="com.lotterydev.plugin.factory.ResultsToolWindowFactory"
                     anchor="bottom"
         />
     </extensions>
 
     <actions>
-        <!--        <action id="com.lotterydev.plugin.actions.AnalyzeCodeAction" class="com.lotterydev.plugin.actions.AnalyzeCodeAction"-->
+        <!--        <action id="com.lotterydev.plugin.action.AnalyzeCodeAction" class="com.lotterydev.plugin.action.AnalyzeCodeAction"-->
         <!--                text="Analyze Code with LLM"-->
         <!--                description="Static code analyzer which uses llm under the hood">-->
         <!--            <add-to-group group-id="ProjectViewPopupMenu" anchor="before" relative-to-action="AnalyzeMenu"/>-->
@@ -39,15 +39,15 @@
         <group id="AnalyzeCodeWithLLMGroup" text="Analyze Code" popup="true">
             <add-to-group group-id="ProjectViewPopupMenu" anchor="before" relative-to-action="AnalyzeMenu"/>
 
-            <action id="AnalyzeOption1" class="com.lotterydev.plugin.actions.AnalyzeCodeAction"
+            <action id="AnalyzeOption1" class="com.lotterydev.plugin.action.AnalyzeCodeAction"
                     text="Large Language Model"
                     description="Static code analysis with Large Language Model">
             </action>
-            <action id="AnalyzeOption2" class="com.lotterydev.plugin.actions.AnalyzeCodeAction"
+            <action id="AnalyzeOption2" class="com.lotterydev.plugin.action.AnalyzeCodeAction"
                     text="Semgrep"
                     description="Static code analysis with Semgrep">
             </action>
-            <action id="AnalyzeOption3" class="com.lotterydev.plugin.actions.AnalyzeCodeAction"
+            <action id="AnalyzeOption3" class="com.lotterydev.plugin.action.AnalyzeCodeAction"
                     text="CodeQL"
                     description="Static code analysis with CodeQL">
             </action>

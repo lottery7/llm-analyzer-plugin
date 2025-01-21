@@ -1,4 +1,4 @@
-package com.lotterydev.utils;
+package com.lotterydev.util;
 
 public class Counter {
     private long counter;

@@ -1,4 +1,4 @@
-package com.lotterydev.utils;
+package com.lotterydev.util;
 
 import java.io.InputStream;
 import java.util.Objects;

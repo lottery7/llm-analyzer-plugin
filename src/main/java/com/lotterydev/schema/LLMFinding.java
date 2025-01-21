@@ -1,4 +1,4 @@
-package com.lotterydev.schemas;
+package com.lotterydev.schema;
 
 import lombok.Builder;
 import lombok.Data;

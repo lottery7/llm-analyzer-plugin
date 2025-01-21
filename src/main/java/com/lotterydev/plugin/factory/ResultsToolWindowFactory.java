@@ -1,4 +1,4 @@
-package com.lotterydev.plugin.factories;
+package com.lotterydev.plugin.factory;
 
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.project.DumbAware;
@@ -7,7 +7,7 @@ import com.intellij.openapi.wm.ToolWindow;
 import com.intellij.openapi.wm.ToolWindowFactory;
 import com.intellij.ui.content.Content;
 import com.intellij.ui.content.ContentFactory;
-import com.lotterydev.plugin.components.ResultsComponent;
+import com.lotterydev.plugin.component.ResultsComponent;
 import org.jetbrains.annotations.NotNull;
 
 public class ResultsToolWindowFactory implements ToolWindowFactory, DumbAware {
