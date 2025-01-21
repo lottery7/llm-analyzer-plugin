@@ -1,11 +1,13 @@
 package com.lotterydev.analyzer.impl;
 
 import com.lotterydev.analyzer.StaticCodeAnalyzer;
+import com.lotterydev.parsers.FindingsParser;
 import com.lotterydev.utils.Misc;
 import com.lotterydev.utils.Resources;
 import com.lotterydev.utils.Settings;
 import com.theokanning.openai.completion.chat.*;
 import com.theokanning.openai.service.OpenAiService;
+import lombok.RequiredArgsConstructor;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -17,14 +19,14 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+@RequiredArgsConstructor
 public class LLMAnalyzer implements StaticCodeAnalyzer {
     private static final OpenAiService service = new OpenAiService(
             Settings.getApiKey(),
             Duration.of(Settings.getTimeoutSeconds(), ChronoUnit.SECONDS),
             Settings.getBaseUrl());
 
-    public LLMAnalyzer() {
-    }
+    private final FindingsParser parser;
 
     public static ChatCompletionResult getChatCompletion(List<ChatMessage> messages) {
         var request = ChatCompletionRequest.builder()
@@ -58,12 +60,27 @@ public class LLMAnalyzer implements StaticCodeAnalyzer {
 
     @Override
     public String getName() {
+        return "llm";
+    }
+
+    @Override
+    public String getPresentationName() {
         return "Large Language Model";
     }
 
     @Override
+    public String getResultsFileName() {
+        return "llm-results.json";
+    }
+
+    @Override
+    public FindingsParser getParser() {
+        return parser;
+    }
+
+    @Override
     public void analyzeFile(Path filePath, Path resultsRootPath) throws IOException {
-        Path resultsFilePath = resultsRootPath.resolve("llm-results.json");
+        Path resultsFilePath = resultsRootPath.resolve(getResultsFileName());
 
         ChatMessage systemMessage = new SystemMessage(getSystemPrompt());
         ChatMessage userMessage = new UserMessage(getUserPrompt(Misc.getCodeFromFile(filePath)));

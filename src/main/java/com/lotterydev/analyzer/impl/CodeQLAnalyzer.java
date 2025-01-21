@@ -1,17 +1,14 @@
 package com.lotterydev.analyzer.impl;
 
 import com.lotterydev.analyzer.AbstractDockerCLIAnalyzer;
+import com.lotterydev.parsers.FindingsParser;
+import lombok.RequiredArgsConstructor;
 
 import java.util.List;
 
+@RequiredArgsConstructor
 public class CodeQLAnalyzer extends AbstractDockerCLIAnalyzer {
-    public CodeQLAnalyzer() {
-    }
-
-    @Override
-    public String getName() {
-        return "CodeQL";
-    }
+    private final FindingsParser parser;
 
     @Override
     protected List<String> getCLICommand(String projectRoot, String resultsRoot) {
@@ -21,5 +18,25 @@ public class CodeQLAnalyzer extends AbstractDockerCLIAnalyzer {
     @Override
     protected String getImageTag() {
         return "codeql";
+    }
+
+    @Override
+    public String getName() {
+        return "codeql";
+    }
+
+    @Override
+    public String getPresentationName() {
+        return "CodeQL";
+    }
+
+    @Override
+    public String getResultsFileName() {
+        return "codeql-results.sarif";
+    }
+
+    @Override
+    public FindingsParser getParser() {
+        return parser;
     }
 }
