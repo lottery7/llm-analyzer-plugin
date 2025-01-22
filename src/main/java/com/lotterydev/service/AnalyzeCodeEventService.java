@@ -20,9 +20,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 @Service
-public final class AnalyzeCodeActionService {
-    public static AnalyzeCodeActionService getInstance() {
-        return ApplicationManager.getApplication().getService(AnalyzeCodeActionService.class);
+public final class AnalyzeCodeEventService {
+    public static AnalyzeCodeEventService getInstance() {
+        return ApplicationManager.getApplication().getService(AnalyzeCodeEventService.class);
     }
 
     public @NotNull Path getOneSelectedFilePath(@NotNull AnActionEvent event) {

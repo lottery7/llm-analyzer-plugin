@@ -1,12 +1,11 @@
 package com.lotterydev.ui;
 
-import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.ui.ComboBox;
 import com.intellij.ui.components.JBScrollPane;
 import com.lotterydev.analyzer.Analyzer;
 import com.lotterydev.model.ResultsTableModel;
-import com.lotterydev.service.AnalyzeCodeActionService;
+import com.lotterydev.service.AnalyzeCodeEventService;
 import com.lotterydev.service.AnalyzerService;
 import org.jetbrains.annotations.NotNull;
 
@@ -28,7 +27,7 @@ public class ResultsPanel extends JPanel {
 
         this.project = project;
 
-        AnalyzerService analyzerService = ApplicationManager.getApplication().getService(AnalyzerService.class);
+        AnalyzerService analyzerService = AnalyzerService.getInstance();
 
         selector = new ComboBox<>(analyzerService.getAllAnalyzersNames().toArray(new String[0]));
         selector.addActionListener(e -> {
@@ -48,15 +47,15 @@ public class ResultsPanel extends JPanel {
 
     @NotNull
     private ResultsTableModel getResultsModel(@NotNull Analyzer analyzer) {
-        var analyzeCodeActionService = ApplicationManager.getApplication().getService(AnalyzeCodeActionService.class);
+        var analyzeCodeActionService = AnalyzeCodeEventService.getInstance();
         Path resultsPath = analyzeCodeActionService.getResultsDir(project).resolve(analyzer.getResultsFileName());
         return new ResultsTableModel(analyzer.getParser().parse(resultsPath));
     }
 
     @NotNull
     private ResultsTableModel getCurrentResultsModel() {
-        var service = ApplicationManager.getApplication().getService(AnalyzerService.class);
-        Analyzer currentAnalyzer = service.getAnalyzerByName((String) selector.getSelectedItem());
+        var analyzerService = AnalyzerService.getInstance();
+        Analyzer currentAnalyzer = analyzerService.getAnalyzerByName((String) selector.getSelectedItem());
         return getResultsModel(currentAnalyzer);
     }
 
