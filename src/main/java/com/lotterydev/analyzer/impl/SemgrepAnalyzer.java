@@ -12,11 +12,6 @@ public class SemgrepAnalyzer extends AbstractDockerCLIAnalyzer {
 
     @Override
     public String getName() {
-        return "semgrep";
-    }
-
-    @Override
-    public String getPresentationName() {
         return "Semgrep";
     }
 

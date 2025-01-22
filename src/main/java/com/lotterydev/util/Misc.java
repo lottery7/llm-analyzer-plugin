@@ -6,11 +6,12 @@ import com.intellij.openapi.vfs.VirtualFile;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
 public class Misc {
-    public static String getCodeFromFile(Path filePath) throws IOException {
-        Counter lineCounter = new Counter();
+    public static String getEnumeratedCodeFromFile(Path filePath) throws IOException {
+        AtomicInteger lineCounter = new AtomicInteger();
         return Files.lines(filePath)
                 .map(line -> String.format("%d. %s", lineCounter.incrementAndGet(), line))
                 .collect(Collectors.joining("\n"));

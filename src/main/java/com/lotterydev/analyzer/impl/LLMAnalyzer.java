@@ -1,6 +1,6 @@
 package com.lotterydev.analyzer.impl;
 
-import com.lotterydev.analyzer.StaticCodeAnalyzer;
+import com.lotterydev.analyzer.Analyzer;
 import com.lotterydev.parser.FindingsParser;
 import com.lotterydev.util.Misc;
 import com.lotterydev.util.Resources;
@@ -20,7 +20,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 @RequiredArgsConstructor
-public class LLMAnalyzer implements StaticCodeAnalyzer {
+public class LLMAnalyzer implements Analyzer {
     private static final OpenAiService service = new OpenAiService(
             Settings.getApiKey(),
             Duration.of(Settings.getTimeoutSeconds(), ChronoUnit.SECONDS),
@@ -60,11 +60,6 @@ public class LLMAnalyzer implements StaticCodeAnalyzer {
 
     @Override
     public String getName() {
-        return "llm";
-    }
-
-    @Override
-    public String getPresentationName() {
         return "Large Language Model";
     }
 
@@ -83,7 +78,7 @@ public class LLMAnalyzer implements StaticCodeAnalyzer {
         Path resultsFilePath = resultsRootPath.resolve(getResultsFileName());
 
         ChatMessage systemMessage = new SystemMessage(getSystemPrompt());
-        ChatMessage userMessage = new UserMessage(getUserPrompt(Misc.getCodeFromFile(filePath)));
+        ChatMessage userMessage = new UserMessage(getUserPrompt(Misc.getEnumeratedCodeFromFile(filePath)));
 
         var chatResponse = getChatCompletion(List.of(systemMessage, userMessage));
 

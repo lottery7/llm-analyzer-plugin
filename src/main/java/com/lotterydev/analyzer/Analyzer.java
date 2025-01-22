@@ -4,10 +4,8 @@ import com.lotterydev.parser.FindingsParser;
 
 import java.nio.file.Path;
 
-public interface StaticCodeAnalyzer {
+public interface Analyzer {
     String getName();
-
-    String getPresentationName();
 
     String getResultsFileName();
 

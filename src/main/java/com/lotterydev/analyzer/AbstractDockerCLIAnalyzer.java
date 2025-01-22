@@ -11,7 +11,7 @@ import com.lotterydev.util.Docker;
 import java.nio.file.Path;
 import java.util.List;
 
-public abstract class AbstractDockerCLIAnalyzer implements StaticCodeAnalyzer {
+public abstract class AbstractDockerCLIAnalyzer implements Analyzer {
     protected abstract List<String> getCLICommand(String projectRoot, String resultsRoot);
 
     protected abstract String getImageTag();
@@ -35,7 +35,6 @@ public abstract class AbstractDockerCLIAnalyzer implements StaticCodeAnalyzer {
         try {
             container = Docker.dockerClient()
                     .createContainerCmd(getImageTag())
-                    .withWorkingDir("/project")  // TODO replace or remove
                     .withHostConfig(hostConfig)
                     .withCmd(getCLICommand(containerProjectRoot, containerResultsRoot))
                     .exec();

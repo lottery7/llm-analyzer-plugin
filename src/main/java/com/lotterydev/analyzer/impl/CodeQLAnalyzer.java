@@ -22,11 +22,6 @@ public class CodeQLAnalyzer extends AbstractDockerCLIAnalyzer {
 
     @Override
     public String getName() {
-        return "codeql";
-    }
-
-    @Override
-    public String getPresentationName() {
         return "CodeQL";
     }
 

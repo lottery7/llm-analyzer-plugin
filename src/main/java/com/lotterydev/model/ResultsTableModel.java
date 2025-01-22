@@ -1,4 +1,4 @@
-package com.lotterydev.plugin.component.models;
+package com.lotterydev.model;
 
 import com.lotterydev.schema.Finding;
 
