@@ -1,18 +1,31 @@
 package com.lotterydev.analyzer.impl;
 
-import com.lotterydev.analyzer.AbstractDockerCLIAnalyzer;
+import com.lotterydev.analyzer.DockerCLIAnalyzer;
 import com.lotterydev.parser.FindingsParser;
-import lombok.RequiredArgsConstructor;
+import com.lotterydev.parser.impl.SemgrepFindingsParser;
+import com.lotterydev.schema.AnalysisResults;
+import lombok.NoArgsConstructor;
 
+import java.nio.file.Path;
 import java.util.List;
 
-@RequiredArgsConstructor
-public class SemgrepAnalyzer extends AbstractDockerCLIAnalyzer {
-    private final FindingsParser parser;
+@NoArgsConstructor
+public class SemgrepAnalyzer extends DockerCLIAnalyzer {
+    private final FindingsParser parser = SemgrepFindingsParser.getInstance();
 
     @Override
-    public String getName() {
+    public String toString() {
         return "Semgrep";
+    }
+
+    @Override
+    protected AnalysisResults parseResults(Path resultsFilePath) {
+        return new AnalysisResults(toString(), null, parser.parse(resultsFilePath));
+    }
+
+    @Override
+    public String getRawResultsFileName() {
+        return "raw-semgrep-results.json";
     }
 
     @Override
@@ -21,13 +34,8 @@ public class SemgrepAnalyzer extends AbstractDockerCLIAnalyzer {
     }
 
     @Override
-    public FindingsParser getParser() {
-        return parser;
-    }
-
-    @Override
     protected List<String> getCLICommand(String projectRoot, String resultsRoot) {
-        String outputFilePath = String.format("%s/%s", resultsRoot, getResultsFileName());
+        String outputFilePath = String.format("%s/%s", resultsRoot, getRawResultsFileName());
 
         return List.of("semgrep", "--config", "auto", "--json",
                 projectRoot, String.format("--output=%s", outputFilePath));

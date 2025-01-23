@@ -1,15 +1,21 @@
 package com.lotterydev.model;
 
-import com.lotterydev.schema.Finding;
+import com.lotterydev.schema.AnalysisResults;
+import lombok.Getter;
 
 import javax.swing.table.DefaultTableModel;
-import java.util.List;
 
+@SuppressWarnings("LombokGetterMayBeUsed")
 public class ResultsTableModel extends DefaultTableModel {
     private static final String[] columnNames = {"Weakness", "Position", "Description"};
 
-    public ResultsTableModel(List<Finding> findings) {
-        String[][] tableData = findings.stream()
+    @Getter
+    private final AnalysisResults analysisResults;
+
+    public ResultsTableModel(AnalysisResults analysisResults) {
+        this.analysisResults = analysisResults;
+
+        String[][] tableData = analysisResults.getFindings().stream()
                 .map(f -> new String[]{
                         f.getRule(),
                         "Lines " + f.getStartLineNumber() + "-" + f.getEndLineNumber(),

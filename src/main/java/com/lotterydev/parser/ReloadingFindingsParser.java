@@ -5,7 +5,6 @@ import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.lotterydev.schema.Finding;
 import com.lotterydev.util.Misc;
-import lombok.RequiredArgsConstructor;
 import org.jetbrains.annotations.Nullable;
 
 import java.lang.reflect.Type;
@@ -13,8 +12,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
-@RequiredArgsConstructor
-public abstract class AbstractReloadingFindingsParser<T> implements FindingsParser {
+public abstract class ReloadingFindingsParser<T> implements FindingsParser {
+    private final Gson gson = new Gson();
+
     protected abstract JsonArray getResultsJsonArray(JsonObject json);
 
     protected abstract Type getAnalyzerListFindingsType();
@@ -27,7 +27,6 @@ public abstract class AbstractReloadingFindingsParser<T> implements FindingsPars
             Misc.reloadFileFromDisk(filePath);
             String rawJson = new String(Files.readAllBytes(filePath));
 
-            Gson gson = new Gson();
             JsonArray results = getResultsJsonArray(gson.fromJson(rawJson, JsonObject.class));
             List<T> analyzerFindings = gson.fromJson(results, getAnalyzerListFindingsType());
 

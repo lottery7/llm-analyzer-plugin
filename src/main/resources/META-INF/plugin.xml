@@ -1,28 +1,14 @@
-<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <!-- Unique identifier of the plugin. It should be FQN. It cannot be changed between the plugin versions. -->
     <id>com.lotterydev.llm-analyzer-plugin</id>
-
-    <!-- Public plugin name should be written in Title Case.
-         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-name -->
     <name>LLM Analyzer</name>
+    <vendor email="akimoveugeny.04@mail.ru" url="https://www.yourcompany.com">lotterydev</vendor>
 
-    <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="support@yourcompany.com" url="https://www.yourcompany.com">lotterydev</vendor>
-
-    <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
-         Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
-         Guidelines: https://plugins.jetbrains.com/docs/marketplace/plugin-overview-page.html#plugin-description -->
     <description><![CDATA[
     Perform code analysis with LLM. Or semgrep. Or pvs-studio, if you want it. Be sure to have docker installed.
   ]]></description>
 
-    <!-- Product and plugin compatibility requirements.
-         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html -->
     <depends>com.intellij.modules.platform</depends>
 
-    <!-- Extension points defined by the plugin.
-         Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow id="Analysis Results"
                     factoryClass="com.lotterydev.ui.ResultsToolWindowFactory"
@@ -30,29 +16,12 @@
         />
         <notificationGroup id="LLM Code Analysis Notification Group"
                            displayType="BALLOON"/>
+        <postStartupActivity implementation="com.lotterydev.action.DynamicActionInitializer"/>
     </extensions>
 
     <actions>
-        <!--        <action id="com.lotterydev.action.AnalyzeCodeAction" class="com.lotterydev.action.AnalyzeCodeAction"-->
-        <!--                text="Analyze Code with LLM"-->
-        <!--                description="Static code analyzer which uses llm under the hood">-->
-        <!--            <add-to-group group-id="ProjectViewPopupMenu" anchor="before" relative-to-action="AnalyzeMenu"/>-->
-        <!--        </action>-->
         <group id="AnalyzeCodeWithLLMGroup" text="Analyze Code" popup="true">
             <add-to-group group-id="ProjectViewPopupMenu" anchor="before" relative-to-action="AnalyzeMenu"/>
-
-            <action id="AnalyzeOption1" class="com.lotterydev.action.AnalyzeCodeAction"
-                    text="Large Language Model"
-                    description="Static code analysis with Large Language Model">
-            </action>
-            <action id="AnalyzeOption2" class="com.lotterydev.action.AnalyzeCodeAction"
-                    text="Semgrep"
-                    description="Static code analysis with Semgrep">
-            </action>
-            <action id="AnalyzeOption3" class="com.lotterydev.action.AnalyzeCodeAction"
-                    text="CodeQL"
-                    description="Static code analysis with CodeQL">
-            </action>
         </group>
     </actions>
 </idea-plugin>

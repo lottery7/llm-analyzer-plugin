@@ -1,13 +1,17 @@
 package com.lotterydev.schema;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import java.nio.file.Path;
+import java.util.ArrayList;
 import java.util.List;
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class AnalysisResults {
-    private final String tool;
-    private final Path filePath;
-    private final List<Finding> findings;
+    String tool;
+    String filePath;
+    List<Finding> findings = new ArrayList<>();
 }

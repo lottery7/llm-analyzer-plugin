@@ -3,7 +3,9 @@ package com.lotterydev.parser.impl;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
-import com.lotterydev.parser.AbstractReloadingFindingsParser;
+import com.intellij.openapi.application.ApplicationManager;
+import com.intellij.openapi.components.Service;
+import com.lotterydev.parser.ReloadingFindingsParser;
 import com.lotterydev.schema.Finding;
 import com.lotterydev.schema.LLMFinding;
 import org.jetbrains.annotations.Nullable;
@@ -12,7 +14,12 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
-public class LLMFindingsParser extends AbstractReloadingFindingsParser<LLMFinding> {
+@Service
+public final class LLMFindingsParser extends ReloadingFindingsParser<LLMFinding> {
+    public static LLMFindingsParser getInstance() {
+        return ApplicationManager.getApplication().getService(LLMFindingsParser.class);
+    }
+
     @Override
     protected JsonArray getResultsJsonArray(JsonObject json) {
         return json.getAsJsonArray("findings");

@@ -8,8 +8,10 @@ import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.progress.ProgressIndicator;
 import com.intellij.openapi.progress.Task;
 import com.lotterydev.service.AnalyzeCodeEventService;
+import lombok.extern.slf4j.Slf4j;
 import org.jetbrains.annotations.NotNull;
 
+@Slf4j
 public class AnalyzeFileTask extends Task.Backgroundable {
     private final AnalyzeCodeEventService analyzeCodeEventService;
     private final AnActionEvent event;
@@ -43,5 +45,7 @@ public class AnalyzeFileTask extends Task.Backgroundable {
                 NotificationType.ERROR
         );
         Notifications.Bus.notify(notification);
+
+        log.error("Plugin exception: {}", error.getMessage(), error);
     }
 }

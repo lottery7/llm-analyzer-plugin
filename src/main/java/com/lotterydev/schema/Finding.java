@@ -8,8 +8,8 @@ import lombok.Data;
 @Builder
 @AllArgsConstructor
 public class Finding {
-    private final String rule;
-    private final int startLineNumber;
-    private final int endLineNumber;
-    private final String description;
+    String rule;
+    int startLineNumber;
+    int endLineNumber;
+    String description;
 }

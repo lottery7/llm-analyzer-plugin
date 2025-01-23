@@ -3,6 +3,7 @@ package com.lotterydev.util;
 import com.intellij.openapi.vfs.LocalFileSystem;
 import com.intellij.openapi.vfs.VirtualFile;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -17,11 +18,10 @@ public class Misc {
                 .collect(Collectors.joining("\n"));
     }
 
-    public static void reloadFileFromDisk(Path filePath) {
-        VirtualFile virtualFile = LocalFileSystem.getInstance().findFileByNioFile(filePath);
+    public static void reloadFileFromDisk(Path filePath) throws FileNotFoundException {
+        VirtualFile virtualFile = LocalFileSystem.getInstance().refreshAndFindFileByNioFile(filePath);
         if (virtualFile == null) {
-            throw new RuntimeException(String.format("Cannot find \"%s\"", filePath));
+            throw new FileNotFoundException(String.format("Cannot find \"%s\"", filePath));
         }
-        virtualFile.refresh(false, false);
     }
 }

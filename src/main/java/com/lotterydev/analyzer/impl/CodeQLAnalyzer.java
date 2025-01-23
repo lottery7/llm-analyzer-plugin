@@ -1,14 +1,22 @@
 package com.lotterydev.analyzer.impl;
 
-import com.lotterydev.analyzer.AbstractDockerCLIAnalyzer;
+import com.lotterydev.analyzer.DockerCLIAnalyzer;
 import com.lotterydev.parser.FindingsParser;
-import lombok.RequiredArgsConstructor;
+import com.lotterydev.parser.impl.CodeQLFindingsParser;
+import com.lotterydev.schema.AnalysisResults;
+import lombok.NoArgsConstructor;
 
+import java.nio.file.Path;
 import java.util.List;
 
-@RequiredArgsConstructor
-public class CodeQLAnalyzer extends AbstractDockerCLIAnalyzer {
-    private final FindingsParser parser;
+@NoArgsConstructor
+public class CodeQLAnalyzer extends DockerCLIAnalyzer {
+    private final FindingsParser parser = CodeQLFindingsParser.getInstance();
+
+    @Override
+    public String toString() {
+        return "CodeQL";
+    }
 
     @Override
     protected List<String> getCLICommand(String projectRoot, String resultsRoot) {
@@ -21,17 +29,17 @@ public class CodeQLAnalyzer extends AbstractDockerCLIAnalyzer {
     }
 
     @Override
-    public String getName() {
-        return "CodeQL";
+    protected AnalysisResults parseResults(Path resultsFilePath) {
+        return new AnalysisResults(toString(), null, parser.parse(resultsFilePath));
     }
 
     @Override
-    public String getResultsFileName() {
+    public String getRawResultsFileName() {
         return "codeql-results.sarif";
     }
 
     @Override
-    public FindingsParser getParser() {
-        return parser;
+    public String getResultsFileName() {
+        return "codeql-results.json";
     }
 }

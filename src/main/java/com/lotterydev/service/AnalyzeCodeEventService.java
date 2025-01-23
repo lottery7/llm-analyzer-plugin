@@ -90,13 +90,14 @@ public final class AnalyzeCodeEventService {
             throw new ToolWindowNotFoundException(toolWindowName);
         }
 
-        Content content = toolWindow.getContentManager().getContent(0);
-        if (content == null) {
-            throw new InvalidToolWindowException();
-        }
+        toolWindow.show(() -> {
+            Content content = toolWindow.getContentManager().getContent(0);
+            if (content == null) {
+                throw new InvalidToolWindowException();
+            }
 
-        ResultsPanel resultsPanel = (ResultsPanel) content.getComponent();
-        resultsPanel.showResultsOf(analyzer);
-        toolWindow.show();
+            ResultsPanel resultsPanel = (ResultsPanel) content.getComponent();
+            resultsPanel.showResultsOf(analyzer);
+        });
     }
 }

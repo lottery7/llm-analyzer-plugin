@@ -1,15 +1,14 @@
 package com.lotterydev.analyzer;
 
-import com.lotterydev.parser.FindingsParser;
-
 import java.nio.file.Path;
 
-public interface Analyzer {
-    String getName();
+public abstract class Analyzer {
+    @Override
+    public abstract String toString();
 
-    String getResultsFileName();
+    public abstract String getRawResultsFileName();
 
-    FindingsParser getParser();
+    public abstract String getResultsFileName();
 
-    void analyzeFile(Path filePath, Path resultsRootPath) throws Exception;
+    public abstract void analyzeFile(Path filePath, Path resultsRootPath) throws Exception;
 }

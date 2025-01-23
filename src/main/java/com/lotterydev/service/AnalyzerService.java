@@ -7,9 +7,6 @@ import com.lotterydev.analyzer.impl.CodeQLAnalyzer;
 import com.lotterydev.analyzer.impl.LLMAnalyzer;
 import com.lotterydev.analyzer.impl.SemgrepAnalyzer;
 import com.lotterydev.exception.AnalyzerNotFoundException;
-import com.lotterydev.parser.impl.CodeQLFindingsParser;
-import com.lotterydev.parser.impl.LLMFindingsParser;
-import com.lotterydev.parser.impl.SemgrepFindingsParser;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.HashSet;
@@ -21,10 +18,7 @@ public final class AnalyzerService {
     private final List<Analyzer> analyzers;
 
     public AnalyzerService() {
-        analyzers = List.of(
-                new LLMAnalyzer(new LLMFindingsParser()),
-                new SemgrepAnalyzer(new SemgrepFindingsParser()),
-                new CodeQLAnalyzer(new CodeQLFindingsParser()));
+        analyzers = List.of(new LLMAnalyzer(), new SemgrepAnalyzer(), new CodeQLAnalyzer());
         assert checkAllNamesDifferent();
     }
 
@@ -35,7 +29,7 @@ public final class AnalyzerService {
     private boolean checkAllNamesDifferent() {
         Set<String> namesSet = new HashSet<>();
         for (var analyzer : analyzers) {
-            if (!namesSet.add(analyzer.getName())) {
+            if (!namesSet.add(analyzer.toString())) {
                 return false;
             }
         }
@@ -44,12 +38,12 @@ public final class AnalyzerService {
 
     public @NotNull Analyzer getAnalyzerByName(String name) {
         return analyzers.stream()
-                .filter(analyzer -> analyzer.getName().equals(name))
+                .filter(analyzer -> analyzer.toString().equals(name))
                 .findAny()
                 .orElseThrow(() -> new AnalyzerNotFoundException(name));
     }
 
     public List<String> getAllAnalyzersNames() {
-        return analyzers.stream().map(Analyzer::getName).toList();
+        return analyzers.stream().map(Analyzer::toString).toList();
     }
 }

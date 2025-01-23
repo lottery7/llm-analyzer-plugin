@@ -6,10 +6,10 @@ import lombok.Data;
 @Data
 @Builder
 public class LLMFinding {
-    private final int cwe;
-    private final int startLineNumber;
-    private final int endLineNumber;
-    private final String description;
+    int cwe;
+    int startLineNumber;
+    int endLineNumber;
+    String description;
 
     public Finding toFinding() {
 
