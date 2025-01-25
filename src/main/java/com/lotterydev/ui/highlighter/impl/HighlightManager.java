@@ -15,12 +15,16 @@ public class HighlightManager {
     }
 
     public void highlightLines(Project project, VirtualFile file, int startLine, int endLine) {
-        Editor editor = FileEditorManager.getInstance(project).openTextEditor(new OpenFileDescriptor(project, file), true);
-        if (editor != null) {
-            highlighter.removeHighlight(editor);
-            highlighter.highlight(editor, startLine, endLine);
-            highlighter.scrollToHighlight(editor);
+        Editor editor = FileEditorManager.getInstance(project)
+                .openTextEditor(new OpenFileDescriptor(project, file), true);
+
+        if (editor == null) {
+            return;
         }
+
+        highlighter.removeHighlight(editor);
+        highlighter.highlight(editor, startLine, endLine);
+        highlighter.scrollToHighlight(editor);
     }
 
 }
