@@ -7,8 +7,8 @@ import com.intellij.ui.table.JBTable;
 import com.lotterydev.model.ResultsTableModel;
 import com.lotterydev.schema.AnalysisResults;
 import com.lotterydev.ui.highlighter.Highlighter;
-import com.lotterydev.ui.highlighter.impl.HighlightManager;
 import com.lotterydev.ui.highlighter.impl.AnalysisResultsHighlighter;
+import com.lotterydev.ui.highlighter.impl.HighlightManager;
 import lombok.extern.slf4j.Slf4j;
 import org.jetbrains.annotations.NotNull;
 

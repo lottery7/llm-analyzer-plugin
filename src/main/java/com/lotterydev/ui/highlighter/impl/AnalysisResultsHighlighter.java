@@ -1,16 +1,20 @@
 package com.lotterydev.ui.highlighter.impl;
 
-import com.intellij.openapi.editor.Editor;
-import com.intellij.openapi.editor.LogicalPosition;
-import com.intellij.openapi.editor.ScrollType;
+import com.intellij.openapi.editor.*;
 import com.intellij.openapi.editor.markup.*;
 import com.intellij.ui.JBColor;
 import com.lotterydev.ui.highlighter.Highlighter;
+import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.Arrays;
 
+@RequiredArgsConstructor
 public class AnalysisResultsHighlighter implements Highlighter {
+    private static final Logger log = LoggerFactory.getLogger(AnalysisResultsHighlighter.class);
     private RangeHighlighter highlighter;
+    private Inlay<?> actionsInlay;
 
     @Override
     public void highlight(Editor editor, int startLine, int endLine) {
@@ -28,6 +32,15 @@ public class AnalysisResultsHighlighter implements Highlighter {
                 textAttributes,
                 HighlighterTargetArea.LINES_IN_RANGE
         );
+
+        EditorCustomElementRenderer renderer = new HighlighterActionsRenderer(
+                editor,
+                () -> {
+                    log.warn("Explain by LLM");
+                },
+                () -> removeHighlight(editor));
+        actionsInlay = editor.getInlayModel().addBlockElement(highlighter.getStartOffset(),
+                true, true, 0, renderer);
     }
 
     @Override
@@ -36,6 +49,10 @@ public class AnalysisResultsHighlighter implements Highlighter {
             if (Arrays.asList(editor.getMarkupModel().getAllHighlighters()).contains(highlighter)) {
                 editor.getMarkupModel().removeHighlighter(highlighter);
             }
+        }
+
+        if (actionsInlay != null && actionsInlay.isValid()) {
+            actionsInlay.dispose();
         }
     }
 
