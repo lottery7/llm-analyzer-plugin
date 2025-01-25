@@ -45,7 +45,7 @@ public class ResultsPanel extends JPanel {
             }
         });
 
-        table = new ResultsTable(getCurrentResultsModel());
+        table = new ResultsTable(project, getCurrentResultsModel());
         JScrollPane scrollPane = new JBScrollPane(table);
         scrollPane.setBorder(BorderFactory.createEmptyBorder());
 
@@ -57,15 +57,20 @@ public class ResultsPanel extends JPanel {
     private ResultsTableModel getResultsModel(@NotNull Analyzer analyzer) {
         var analyzeCodeActionService = AnalyzeCodeEventService.getInstance();
         Path resultsPath = analyzeCodeActionService.getResultsDir(project).resolve(analyzer.getResultsFileName());
-        AnalysisResults analysisResults = null;
+
+        AnalysisResults analysisResults;
+
         try {
             Misc.reloadFileFromDisk(resultsPath);
             analysisResults = gson.fromJson(Files.readString(resultsPath), AnalysisResults.class);
+
         } catch (FileNotFoundException e) {
             analysisResults = new AnalysisResults();
+
         } catch (IOException e) {
             throw new RuntimeException(e.getMessage());
         }
+
         return new ResultsTableModel(analysisResults);
     }
 

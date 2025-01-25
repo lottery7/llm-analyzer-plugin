@@ -1,20 +1,69 @@
 package com.lotterydev.ui;
 
+import com.intellij.openapi.project.Project;
+import com.intellij.openapi.vfs.LocalFileSystem;
+import com.intellij.openapi.vfs.VirtualFile;
 import com.intellij.ui.table.JBTable;
 import com.lotterydev.model.ResultsTableModel;
+import com.lotterydev.schema.AnalysisResults;
+import com.lotterydev.ui.highlighter.Highlighter;
+import com.lotterydev.ui.highlighter.impl.HighlightManager;
+import com.lotterydev.ui.highlighter.impl.AnalysisResultsHighlighter;
+import lombok.extern.slf4j.Slf4j;
 import org.jetbrains.annotations.NotNull;
 
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableModel;
 import java.awt.*;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
+@Slf4j
 public class ResultsTable extends JBTable {
-    public ResultsTable(ResultsTableModel tableModel) {
+    private final Project project;
+    private final HighlightManager highlightManager;
+
+    public ResultsTable(Project project, TableModel tableModel) {
         super();
+
+        this.project = project;
+
+        Highlighter highlighter = new AnalysisResultsHighlighter();
+        highlightManager = new HighlightManager(highlighter);
 
         setFillsViewportHeight(true);
         setAutoResizeMode(JBTable.AUTO_RESIZE_LAST_COLUMN);
         setModel(tableModel);
+
+        addMouseListener(new MouseAdapter() {
+            @Override
+            public void mouseClicked(MouseEvent e) {
+                tryHighlightLines();
+            }
+        });
+    }
+
+    private void tryHighlightLines() {
+        int[] selectedRows = getSelectedRows();
+        int selectedColumn = getSelectedColumn();
+
+        if (selectedRows.length != 1 || selectedColumn != 1) {
+            return;
+        }
+
+        int selectedRow = selectedRows[0];
+
+        if (getModel() instanceof ResultsTableModel resultsTableModel) {
+            AnalysisResults results = resultsTableModel.getAnalysisResults();
+
+            String path = results.getFilePath();
+            int lineStart = results.getFindings().get(selectedRow).getStartLineNumber();
+            int lineEnd = results.getFindings().get(selectedRow).getEndLineNumber();
+
+            VirtualFile file = LocalFileSystem.getInstance().findFileByPath(path);
+
+            highlightManager.highlightLines(project, file, lineStart, lineEnd);
+        }
     }
 
     private int calculateMaxWidth(int columnIndex) {
