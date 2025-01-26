@@ -1,4 +1,4 @@
-package com.lotterydev.ui;
+package com.lotterydev.ui.results;
 
 import com.google.gson.Gson;
 import com.intellij.openapi.project.Project;

@@ -1,4 +1,4 @@
-package com.lotterydev.ui;
+package com.lotterydev.ui.results;
 
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.vfs.LocalFileSystem;

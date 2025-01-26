@@ -1,4 +1,4 @@
-package com.lotterydev.ui;
+package com.lotterydev.ui.results;
 
 import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.project.DumbAware;

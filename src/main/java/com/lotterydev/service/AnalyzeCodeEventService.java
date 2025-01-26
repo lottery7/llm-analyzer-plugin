@@ -12,8 +12,8 @@ import com.intellij.project.ProjectKt;
 import com.intellij.ui.content.Content;
 import com.lotterydev.analyzer.Analyzer;
 import com.lotterydev.exception.*;
-import com.lotterydev.ui.ResultsPanel;
-import com.lotterydev.ui.ResultsToolWindowFactory;
+import com.lotterydev.ui.results.ResultsPanel;
+import com.lotterydev.ui.results.ResultsToolWindowFactory;
 import org.jetbrains.annotations.NotNull;
 
 import java.nio.file.Files;

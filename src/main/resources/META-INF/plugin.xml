@@ -11,7 +11,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow id="Analysis Results"
-                    factoryClass="com.lotterydev.ui.ResultsToolWindowFactory"
+                    factoryClass="com.lotterydev.ui.results.ResultsToolWindowFactory"
                     anchor="bottom"
         />
         <notificationGroup id="LLM Code Analysis Notification Group"
