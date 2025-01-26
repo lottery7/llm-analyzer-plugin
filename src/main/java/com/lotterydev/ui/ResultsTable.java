@@ -7,7 +7,9 @@ import com.intellij.ui.table.JBTable;
 import com.lotterydev.model.ResultsTableModel;
 import com.lotterydev.schema.AnalysisResults;
 import com.lotterydev.ui.highlighter.Highlighter;
+import com.lotterydev.ui.highlighter.HighlighterActionsRendererFactory;
 import com.lotterydev.ui.highlighter.impl.AnalysisResultsHighlighter;
+import com.lotterydev.ui.highlighter.impl.ExplainClearActionsRendererFactory;
 import com.lotterydev.ui.highlighter.impl.HighlightManager;
 import lombok.extern.slf4j.Slf4j;
 import org.jetbrains.annotations.NotNull;
@@ -22,13 +24,15 @@ import java.awt.event.MouseEvent;
 public class ResultsTable extends JBTable {
     private final Project project;
     private final HighlightManager highlightManager;
+    private final HighlighterActionsRendererFactory factory = new ExplainClearActionsRendererFactory(
+            () -> log.warn("Explain by LLM"));
 
     public ResultsTable(Project project, TableModel tableModel) {
         super();
 
         this.project = project;
 
-        Highlighter highlighter = new AnalysisResultsHighlighter();
+        Highlighter highlighter = new AnalysisResultsHighlighter(factory);
         highlightManager = new HighlightManager(highlighter);
 
         setFillsViewportHeight(true);

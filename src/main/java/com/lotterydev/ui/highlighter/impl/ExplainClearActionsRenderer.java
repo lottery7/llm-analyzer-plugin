@@ -20,7 +20,7 @@ import java.awt.*;
 import java.awt.event.MouseEvent;
 
 @Slf4j
-public class HighlighterActionsRenderer implements EditorCustomElementRenderer {
+public class ExplainClearActionsRenderer implements EditorCustomElementRenderer {
     private static final int MARGIN = 5;
 
     private final InlineButton explainButton;
@@ -28,7 +28,7 @@ public class HighlighterActionsRenderer implements EditorCustomElementRenderer {
     private final Editor editor;
     private final FontMetrics fontMetrics;
 
-    public HighlighterActionsRenderer(Editor editor, Runnable onExplain, Runnable onClear) {
+    public ExplainClearActionsRenderer(Editor editor, Runnable onExplain, Runnable onClear) {
         this.editor = editor;
         this.fontMetrics = editor.getContentComponent().getFontMetrics(editor.getColorsScheme().getFont(EditorFontType.PLAIN));
         this.explainButton = new HighlighterInlineButton("Explain", fontMetrics, onExplain);

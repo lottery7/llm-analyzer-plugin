@@ -4,6 +4,7 @@ import com.intellij.openapi.editor.*;
 import com.intellij.openapi.editor.markup.*;
 import com.intellij.ui.JBColor;
 import com.lotterydev.ui.highlighter.Highlighter;
+import com.lotterydev.ui.highlighter.HighlighterActionsRendererFactory;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,6 +14,9 @@ import java.util.Arrays;
 @RequiredArgsConstructor
 public class AnalysisResultsHighlighter implements Highlighter {
     private static final Logger log = LoggerFactory.getLogger(AnalysisResultsHighlighter.class);
+
+    private final HighlighterActionsRendererFactory elementRendererFactory;
+
     private RangeHighlighter highlighter;
     private Inlay<?> actionsInlay;
 
@@ -33,12 +37,8 @@ public class AnalysisResultsHighlighter implements Highlighter {
                 HighlighterTargetArea.LINES_IN_RANGE
         );
 
-        EditorCustomElementRenderer renderer = new HighlighterActionsRenderer(
-                editor,
-                () -> {
-                    log.warn("Explain by LLM");
-                },
-                () -> removeHighlight(editor));
+        EditorCustomElementRenderer renderer = elementRendererFactory.createRenderer(
+                editor, () -> removeHighlight(editor));
         actionsInlay = editor.getInlayModel().addBlockElement(highlighter.getStartOffset(),
                 true, true, 0, renderer);
     }
