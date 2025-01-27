@@ -2,6 +2,7 @@ package com.lotterydev.service.chat.impl;
 
 import com.lotterydev.service.chat.ChatHistoryManager;
 import com.lotterydev.service.chat.ChatService;
+import com.theokanning.openai.completion.chat.AssistantMessage;
 import com.theokanning.openai.completion.chat.ChatCompletionChunk;
 import com.theokanning.openai.completion.chat.ChatCompletionRequest;
 import com.theokanning.openai.completion.chat.ChatMessage;
@@ -52,6 +53,16 @@ public class OpenAiChatService implements ChatService {
                 .n(1)
                 .build();
 
-        return service.streamChatCompletion(chatCompletionRequest);
+        StringBuffer responseAcc = new StringBuffer();
+        return service.streamChatCompletion(chatCompletionRequest)
+                .doOnNext(chunk -> {
+                    if (chunk != null && chunk.getChoices() != null) {
+                        String chunkContent = chunk.getChoices().get(0).getMessage().getTextContent();
+                        if (chunkContent != null && !chunkContent.isEmpty()) {
+                            responseAcc.append(chunkContent);
+                        }
+                    }
+                })
+                .doOnComplete(() -> historyManager.addMessage(new AssistantMessage(responseAcc.toString())));
     }
 }
