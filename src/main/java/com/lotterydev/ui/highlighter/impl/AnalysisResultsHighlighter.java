@@ -6,15 +6,11 @@ import com.intellij.ui.JBColor;
 import com.lotterydev.ui.highlighter.Highlighter;
 import com.lotterydev.ui.highlighter.HighlighterActionsRendererFactory;
 import lombok.RequiredArgsConstructor;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.Arrays;
 
 @RequiredArgsConstructor
 public class AnalysisResultsHighlighter implements Highlighter {
-    private static final Logger log = LoggerFactory.getLogger(AnalysisResultsHighlighter.class);
-
     private final HighlighterActionsRendererFactory elementRendererFactory;
 
     private RangeHighlighter highlighter;
