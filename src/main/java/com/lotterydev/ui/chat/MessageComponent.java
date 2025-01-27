@@ -7,10 +7,11 @@ import javax.swing.*;
 import java.awt.*;
 
 public class MessageComponent extends JPanel {
+    private final JEditorPane messagePane;
 
-    public MessageComponent(String sender, String markdownText) {
+    public MessageComponent(Sender sender, String markdownText) {
         setLayout(new BorderLayout());
-        setBackground(sender.equals("User")
+        setBackground(sender.equals(Sender.USER)
                 ? UIManager.getColor("EditorPane.background").brighter()
                 : UIManager.getColor("EditorPane.background"));
 
@@ -19,19 +20,26 @@ public class MessageComponent extends JPanel {
                 BorderFactory.createLineBorder(getBackground(), 0)
         ));
 
-        JLabel senderLabel = new JLabel(sender);
+        JLabel senderLabel = new JLabel(sender.getValue());
         senderLabel.setFont(senderLabel.getFont().deriveFont(Font.BOLD));
         add(senderLabel, BorderLayout.NORTH);
 
-        JEditorPane messagePane = createMarkdownPane(markdownText);
+        messagePane = createMarkdownPane();
         add(messagePane, BorderLayout.CENTER);
+        setText(markdownText);
+        revalidate();
+        repaint();
     }
 
-    private JEditorPane createMarkdownPane(String markdownText) {
+    private JEditorPane createMarkdownPane() {
         JEditorPane editorPane = new JEditorPane();
         editorPane.setContentType("text/html");
         editorPane.setEditable(false);
         editorPane.setOpaque(false);
+        return editorPane;
+    }
+
+    public void setText(String markdownText) {
         Font font = JBFont.regular();
         assert font != null;
 
@@ -55,8 +63,22 @@ public class MessageComponent extends JPanel {
                 </html>
                 """.formatted(font.getFamily(), htmlText);
 
-        editorPane.setText(styledHtml);
+        messagePane.setText(styledHtml);
+    }
 
-        return editorPane;
+    public enum Sender {
+        USER("User"),
+        ASSISTANT("AI Assistant"),
+        SYSTEM("System");
+
+        private final String value;
+
+        Sender(String value) {
+            this.value = value;
+        }
+
+        String getValue() {
+            return value;
+        }
     }
 }

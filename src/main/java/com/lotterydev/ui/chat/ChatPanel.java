@@ -6,7 +6,6 @@ import com.intellij.ui.components.JBScrollPane;
 import com.intellij.ui.components.JBTextArea;
 import com.intellij.ui.components.panels.VerticalLayout;
 import com.lotterydev.service.chat.ChatService;
-import com.theokanning.openai.completion.chat.ChatMessage;
 import com.theokanning.openai.completion.chat.UserMessage;
 
 import javax.swing.*;
@@ -73,7 +72,7 @@ public class ChatPanel extends SimpleToolWindowPanel {
         inputField.setEditable(false);
         String text = inputField.getText().trim();
         if (!text.isEmpty()) {
-            addMessage(new MessageComponent("User", text));
+            addMessage(new MessageComponent(MessageComponent.Sender.USER, text));
             inputField.setText("");
             reply(text);
         }
@@ -81,15 +80,34 @@ public class ChatPanel extends SimpleToolWindowPanel {
 
     private void reply(String userInput) {
         SwingUtilities.invokeLater(() -> {
-            try {
-                ChatMessage response = chatService.sendMessage(new UserMessage(userInput));
-                addMessage(new MessageComponent("Assistant", response.getTextContent()));
-            } catch (Throwable e) {
-                addMessage(new MessageComponent("System",
-                        "An unexpected error occurred: " + e.getMessage()));
-            } finally {
-                inputField.setEditable(true);
-            }
+            MessageComponent message = new MessageComponent(
+                    MessageComponent.Sender.ASSISTANT, "**Thinking...**");
+            addMessage(message);
+
+            StringBuffer accContent = new StringBuffer();
+
+            chatService.sendMessageStream(new UserMessage(userInput)).subscribe(chunk -> {
+                        if (chunk != null && chunk.getChoices() != null) {
+                            String chunkContent = chunk.getChoices().get(0).getMessage().getTextContent();
+                            if (chunkContent != null && !chunkContent.isEmpty()) {
+                                accContent.append(chunkContent);
+                                message.setText(accContent.toString());
+                                message.repaint();
+                                scrollToEnd();
+                            }
+                        }
+                    },
+
+                    error -> {
+                        addMessage(new MessageComponent(
+                                MessageComponent.Sender.SYSTEM,
+                                "**An unexpected error occurred:** " + error.getMessage()));
+                        inputField.setEditable(true);
+                    },
+
+                    () -> {
+                        inputField.setEditable(true);
+                    });
         });
     }
 
@@ -97,6 +115,11 @@ public class ChatPanel extends SimpleToolWindowPanel {
         messagesPanel.add(message);
         messagesPanel.revalidate();
         messagesPanel.repaint();
+        scrollToEnd();
+    }
+
+    private void scrollToEnd() {
+        messagesPanel.revalidate();
         JScrollBar vertical = scrollPane.getVerticalScrollBar();
         vertical.setValue(vertical.getMaximum());
     }
