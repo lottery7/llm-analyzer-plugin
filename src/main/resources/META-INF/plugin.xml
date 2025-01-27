@@ -10,9 +10,14 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow id="Analysis Results"
+        <toolWindow id="AnalysisResults"
                     factoryClass="com.lotterydev.ui.results.ResultsToolWindowFactory"
                     anchor="bottom"
+        />
+        <toolWindow id="LLMChat"
+                    factoryClass="com.lotterydev.ui.chat.ChatToolWindowFactory"
+                    anchor="right"
+
         />
         <notificationGroup id="LLM Code Analysis Notification Group"
                            displayType="BALLOON"/>

@@ -1,11 +1,16 @@
 package com.lotterydev.ui.results;
 
+import com.intellij.openapi.application.ApplicationManager;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.vfs.LocalFileSystem;
 import com.intellij.openapi.vfs.VirtualFile;
+import com.intellij.openapi.wm.ToolWindow;
+import com.intellij.openapi.wm.ToolWindowManager;
 import com.intellij.ui.table.JBTable;
+import com.lotterydev.exception.ToolWindowNotFoundException;
 import com.lotterydev.model.ResultsTableModel;
 import com.lotterydev.schema.AnalysisResults;
+import com.lotterydev.ui.chat.ChatToolWindowFactory;
 import com.lotterydev.ui.highlighter.Highlighter;
 import com.lotterydev.ui.highlighter.HighlighterActionsRendererFactory;
 import com.lotterydev.ui.highlighter.impl.AnalysisResultsHighlighter;
@@ -24,13 +29,22 @@ import java.awt.event.MouseEvent;
 public class ResultsTable extends JBTable {
     private final Project project;
     private final HighlightManager highlightManager;
-    private final HighlighterActionsRendererFactory factory = new ExplainClearActionsRendererFactory(
-            () -> log.warn("Explain by LLM"));
+    private final HighlighterActionsRendererFactory factory;
 
     public ResultsTable(Project project, TableModel tableModel) {
         super();
 
         this.project = project;
+
+        factory = new ExplainClearActionsRendererFactory(
+                () -> ApplicationManager.getApplication().invokeLater(() -> {
+                    String toolWindowName = ChatToolWindowFactory.TOOL_WINDOW_NAME;
+                    ToolWindow toolWindow = ToolWindowManager.getInstance(project).getToolWindow(toolWindowName);
+                    if (toolWindow == null) {
+                        throw new ToolWindowNotFoundException(toolWindowName);
+                    }
+                    toolWindow.show(null);
+                }));
 
         Highlighter highlighter = new AnalysisResultsHighlighter(factory);
         highlightManager = new HighlightManager(highlighter);
