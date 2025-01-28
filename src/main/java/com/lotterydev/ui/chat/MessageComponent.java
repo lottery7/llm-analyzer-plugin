@@ -1,11 +1,14 @@
 package com.lotterydev.ui.chat;
 
 import com.intellij.markdown.utils.MarkdownToHtmlConverterKt;
+import com.intellij.ui.components.JBLabel;
 import com.intellij.util.ui.JBFont;
+import lombok.extern.slf4j.Slf4j;
 
 import javax.swing.*;
 import java.awt.*;
 
+@Slf4j
 public class MessageComponent extends JPanel {
     private final JEditorPane messagePane;
 
@@ -20,15 +23,13 @@ public class MessageComponent extends JPanel {
                 BorderFactory.createLineBorder(getBackground(), 0)
         ));
 
-        JLabel senderLabel = new JLabel(sender.getValue());
+        JLabel senderLabel = new JBLabel(sender.getValue());
         senderLabel.setFont(senderLabel.getFont().deriveFont(Font.BOLD));
         add(senderLabel, BorderLayout.NORTH);
 
         messagePane = createMarkdownPane();
         add(messagePane, BorderLayout.CENTER);
         setText(markdownText);
-        revalidate();
-        repaint();
     }
 
     private JEditorPane createMarkdownPane() {
@@ -40,20 +41,18 @@ public class MessageComponent extends JPanel {
     }
 
     public void setText(String markdownText) {
-        Font font = JBFont.regular();
-        assert font != null;
-
         String htmlText = MarkdownToHtmlConverterKt.convertMarkdownToHtml(markdownText);
         String styledHtml = """
+                <!DOCTYPE html>
                 <html>
                     <head>
                         <style>
                             body {
                                 font-family: '%s', sans-serif;
-                                word-wrap: break-word;
-                                word-break: break-word;
+                                overflow-wrap: anywhere;
+                                word-break: break-all;
                                 white-space: pre-wrap;
-                                max-width: 100%%;
+                                max-width: 80%%;
                             }
                         </style>
                     </head>
@@ -61,7 +60,7 @@ public class MessageComponent extends JPanel {
                         %s
                     </body>
                 </html>
-                """.formatted(font.getFamily(), htmlText);
+                """.formatted(JBFont.regular().getFamily(), htmlText);
 
         messagePane.setText(styledHtml);
     }
