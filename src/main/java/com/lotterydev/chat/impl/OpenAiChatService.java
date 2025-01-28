@@ -1,7 +1,7 @@
-package com.lotterydev.service.chat.impl;
+package com.lotterydev.chat.impl;
 
-import com.lotterydev.service.chat.ChatHistoryManager;
-import com.lotterydev.service.chat.ChatService;
+import com.lotterydev.chat.ChatHistoryManager;
+import com.lotterydev.chat.ChatService;
 import com.theokanning.openai.completion.chat.AssistantMessage;
 import com.theokanning.openai.completion.chat.ChatCompletionChunk;
 import com.theokanning.openai.completion.chat.ChatCompletionRequest;

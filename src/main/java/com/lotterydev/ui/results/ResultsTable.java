@@ -6,16 +6,21 @@ import com.intellij.openapi.vfs.LocalFileSystem;
 import com.intellij.openapi.vfs.VirtualFile;
 import com.intellij.openapi.wm.ToolWindow;
 import com.intellij.openapi.wm.ToolWindowManager;
+import com.intellij.ui.content.Content;
 import com.intellij.ui.table.JBTable;
+import com.lotterydev.exception.InvalidToolWindowException;
 import com.lotterydev.exception.ToolWindowNotFoundException;
 import com.lotterydev.model.ResultsTableModel;
 import com.lotterydev.schema.AnalysisResults;
+import com.lotterydev.schema.Finding;
+import com.lotterydev.ui.chat.ChatPanelFactory;
 import com.lotterydev.ui.chat.ChatToolWindowFactory;
 import com.lotterydev.ui.highlighter.Highlighter;
 import com.lotterydev.ui.highlighter.HighlighterActionsRendererFactory;
 import com.lotterydev.ui.highlighter.impl.AnalysisResultsHighlighter;
 import com.lotterydev.ui.highlighter.impl.ExplainClearActionsRendererFactory;
 import com.lotterydev.ui.highlighter.impl.HighlightManager;
+import com.lotterydev.util.Misc;
 import lombok.extern.slf4j.Slf4j;
 import org.jetbrains.annotations.NotNull;
 
@@ -24,6 +29,8 @@ import javax.swing.table.TableModel;
 import java.awt.*;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.io.IOException;
+import java.nio.file.Path;
 
 @Slf4j
 public class ResultsTable extends JBTable {
@@ -43,7 +50,7 @@ public class ResultsTable extends JBTable {
                     if (toolWindow == null) {
                         throw new ToolWindowNotFoundException(toolWindowName);
                     }
-                    toolWindow.show(null);
+                    toolWindow.show(() -> onChatToolWindowShow(toolWindow));
                 }));
 
         Highlighter highlighter = new AnalysisResultsHighlighter(factory);
@@ -61,15 +68,53 @@ public class ResultsTable extends JBTable {
         });
     }
 
-    private void tryHighlightLines() {
-        int[] selectedRows = getSelectedRows();
-        int selectedColumn = getSelectedColumn();
+    private void onChatToolWindowShow(ToolWindow toolWindow) {
+        Content content = toolWindow.getContentManager().getContent(0);
+        if (content == null) {
+            throw new InvalidToolWindowException();
+        }
 
-        if (selectedRows.length != 1 || selectedColumn != 1) {
+        int selectedRow = getSingleSelectedRow();
+        if (selectedRow < 0) {
             return;
         }
 
-        int selectedRow = selectedRows[0];
+        if (getModel() instanceof ResultsTableModel resultsTableModel) {
+            AnalysisResults results = resultsTableModel.getAnalysisResults();
+
+            String path = results.getFilePath();
+            Finding finding = results.getFindings().get(selectedRow);
+
+            try {
+                String format = """
+                        Explain weakness %s on lines from %d to %d in the following code:
+                        ```java
+                        %s
+                        ```
+                        """;
+                String code = Misc.getEnumeratedCodeFromFile(Path.of(path));
+
+                String prompt = String.format(format,
+                        finding.getRule(),
+                        finding.getStartLineNumber(),
+                        finding.getEndLineNumber(),
+                        code);
+
+
+                content.setComponent(new ChatPanelFactory().createChatPanelWithMessage(prompt));
+            } catch (IOException e) {
+                log.trace("Error on reading code: ", e);
+            }
+        }
+
+
+    }
+
+    private void tryHighlightLines() {
+        int selectedRow = getSingleSelectedRow();
+        if (selectedRow < 0) {
+            return;
+        }
 
         if (getModel() instanceof ResultsTableModel resultsTableModel) {
             AnalysisResults results = resultsTableModel.getAnalysisResults();
@@ -82,6 +127,17 @@ public class ResultsTable extends JBTable {
 
             highlightManager.highlightLines(project, file, lineStart, lineEnd);
         }
+    }
+
+    private int getSingleSelectedRow() {
+        int[] selectedRows = getSelectedRows();
+        int selectedColumn = getSelectedColumn();
+
+        if (selectedRows.length != 1 || selectedColumn != 1) {
+            return -1;
+        }
+
+        return selectedRows[0];
     }
 
     private int calculateMaxWidth(int columnIndex) {

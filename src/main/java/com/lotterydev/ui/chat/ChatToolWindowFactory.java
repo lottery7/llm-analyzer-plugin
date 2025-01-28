@@ -6,11 +6,6 @@ import com.intellij.openapi.wm.ToolWindow;
 import com.intellij.openapi.wm.ToolWindowFactory;
 import com.intellij.ui.content.Content;
 import com.intellij.ui.content.ContentFactory;
-import com.lotterydev.service.chat.ChatHistoryManager;
-import com.lotterydev.service.chat.ChatService;
-import com.lotterydev.service.chat.impl.InMemoryChatHistoryManager;
-import com.lotterydev.service.chat.impl.OpenAiChatService;
-import com.lotterydev.util.Settings;
 import org.jetbrains.annotations.NotNull;
 
 public class ChatToolWindowFactory implements ToolWindowFactory, DumbAware {
@@ -18,12 +13,7 @@ public class ChatToolWindowFactory implements ToolWindowFactory, DumbAware {
 
     @Override
     public void createToolWindowContent(@NotNull Project project, @NotNull ToolWindow toolWindow) {
-        ChatHistoryManager chatHistoryManager = new InMemoryChatHistoryManager();
-
-        ChatService chatService = new OpenAiChatService(
-                chatHistoryManager, Settings.getBaseUrl(), Settings.getApiKey(), Settings.getModel());
-
-        ChatPanel chatPanel = new ChatPanel(chatService);
+        ChatPanel chatPanel = new ChatPanelFactory().createChatPanel();
 
         ContentFactory contentFactory = ContentFactory.getInstance();
         Content content = contentFactory.createContent(chatPanel, "", false);

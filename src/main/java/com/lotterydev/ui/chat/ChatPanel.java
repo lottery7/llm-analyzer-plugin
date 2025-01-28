@@ -5,14 +5,16 @@ import com.intellij.ui.JBColor;
 import com.intellij.ui.components.JBScrollPane;
 import com.intellij.ui.components.JBTextArea;
 import com.intellij.ui.components.panels.VerticalLayout;
-import com.lotterydev.service.chat.ChatService;
+import com.lotterydev.chat.ChatService;
 import com.theokanning.openai.completion.chat.UserMessage;
+import lombok.extern.slf4j.Slf4j;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
+@Slf4j
 public class ChatPanel extends SimpleToolWindowPanel {
 
     private final ChatService chatService;
@@ -32,7 +34,6 @@ public class ChatPanel extends SimpleToolWindowPanel {
         scrollPane = new JBScrollPane(messagesPanel);
         scrollPane.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED);
         scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
-        scrollPane.setAutoscrolls(false);
 
         inputField = new JBTextArea();
         inputField.setToolTipText("Введите сообщение...");
@@ -66,6 +67,12 @@ public class ChatPanel extends SimpleToolWindowPanel {
         mainPanel.add(inputField, BorderLayout.SOUTH);
 
         setContent(mainPanel);
+    }
+
+    public ChatPanel(ChatService chatService, String firstMessage) {
+        this(chatService);
+        inputField.setText(firstMessage);
+        sendMessage();
     }
 
     private void sendMessage() {
@@ -105,9 +112,7 @@ public class ChatPanel extends SimpleToolWindowPanel {
                         inputField.setEditable(true);
                     },
 
-                    () -> {
-                        inputField.setEditable(true);
-                    });
+                    () -> inputField.setEditable(true));
         });
     }
 
@@ -119,8 +124,9 @@ public class ChatPanel extends SimpleToolWindowPanel {
     }
 
     private void scrollToEnd() {
-        messagesPanel.revalidate();
-        JScrollBar vertical = scrollPane.getVerticalScrollBar();
-        vertical.setValue(vertical.getMaximum());
+        SwingUtilities.invokeLater(() -> {
+            JScrollBar vertical = scrollPane.getVerticalScrollBar();
+            vertical.setValue(vertical.getMaximum());
+        });
     }
 }

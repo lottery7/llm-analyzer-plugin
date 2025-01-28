@@ -1,6 +1,6 @@
-package com.lotterydev.service.chat.impl;
+package com.lotterydev.chat.impl;
 
-import com.lotterydev.service.chat.ChatHistoryManager;
+import com.lotterydev.chat.ChatHistoryManager;
 import com.theokanning.openai.completion.chat.ChatMessage;
 
 import java.util.ArrayList;

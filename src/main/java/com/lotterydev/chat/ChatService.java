@@ -1,4 +1,4 @@
-package com.lotterydev.service.chat;
+package com.lotterydev.chat;
 
 import com.theokanning.openai.completion.chat.ChatCompletionChunk;
 import com.theokanning.openai.completion.chat.ChatMessage;
